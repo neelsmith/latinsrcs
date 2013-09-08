@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/data/dropbox/Dropbox/ns/byproject/latin-epig/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<collectionService xmlns="http://chs.harvard.edu/xmlns/cite">
+    <citeCollection canonicalId="ImageUrn" label="Label" urn="urn:cite:shot:epigimg">
+        <namespaceMapping abbr="shot" fullValue="http://shot.holycross.edu/datans/"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Illustrations of Latin inscriptions</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Megan Whitacre</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">A selection of inscriptions for use in teaching introductory Latin</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">A selection of inscriptions for use in teaching introductory Latin</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial \
+            3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <source type="file" value="illustrations.csv"></source>
+        <citeProperty name="ImageUrn" label="URN" type="citeurn"></citeProperty>
+        <citeProperty name="DateTaken" label="Date"  type="datetime"></citeProperty>
+        <citeProperty name="Location" label="Location" type="string"></citeProperty>
+        <citeProperty name="Notes" label="Notes" type="string"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+    </citeCollection>
+</collectionService>
