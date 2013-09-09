@@ -4,7 +4,7 @@
     <rdfNamespace
         abbr="cite"
         fullValue="http://www.homermultitext.org/cite/rdf/"/>
-    <index verb="cite:hasOnIt" inverse="cite:appearsOn">
+    <index verb="cite:illustrates" inverse="cite:illustratedBy">
         <source type="file" value="imgToTopic.csv"></source>
     </index>
 </indexInventory>
