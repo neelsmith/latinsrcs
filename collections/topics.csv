@@ -13,6 +13,7 @@ urn:cite:hclat:topic.ablsg2,"Ablative singular form, 2nd declension"
 urn:cite:hclat:topic.ablsg3,"Ablative singular form, 3rd declension"
 urn:cite:hclat:topic.ablsg4,"Ablative singular form, 4th declension"
 urn:cite:hclat:topic.ablsg5,"Ablative singular form, 5th declension"
+urn:cite:hclat:topic:abltime,Ablative of time when
 urn:cite:hclat:topic.accexclam,Accusative of exclamation
 urn:cite:hclat:topic.accpl1,"Accusative plural form, 1st declension"
 urn:cite:hclat:topic.accpl2,"Accusative plural form, 2nd declension"
@@ -27,6 +28,7 @@ urn:cite:hclat:topic.accsg5,"Accusative singular form, 5th declension"
 urn:cite:hclat:topic.accsgpro,Accusative singular form of a personal pronoun
 urn:cite:hclat:topic.adv,Adverb
 urn:cite:hclat:topic.compadj,Comparative adjective
+urn:cite:hclat:topic.compadv,Comparative adverb
 urn:cite:hclat:topic.date,Date
 urn:cite:hclat:topic.datplpro,Dative plural form of a personal pronoun
 urn:cite:hclat:topic.datref,Dative of reference
@@ -67,6 +69,8 @@ urn:cite:hclat:topic.impftactind4,"Imperfect active indicative form, 4th conjuga
 urn:cite:hclat:topic.impftactind5,"Imperfect active indicative form, 5th conjugation"
 urn:cite:hclat:topic.impftactindir,Imperfect active indicative form of an irregular verb
 urn:cite:hclat:topic.interrog,Interrogative
+urn:cite:hclat:topic.is,Form of the pronoun is/ea/id
+urn:cite:hclat:topic.loc,Locative
 urn:cite:hclat:topic.nompl1,"Nominative plural form, 1st declension"
 urn:cite:hclat:topic.nompl2,"Nominative plural form, 2nd declension"
 urn:cite:hclat:topic.nompl3,"Nominative plural form, 3rd declension"
@@ -76,6 +80,8 @@ urn:cite:hclat:topic.ntpl,Neuter plural
 urn:cite:hclat:topic.pftactind,Perfect active indicative
 urn:cite:hclat:topic.pftpasind,Perfect passive indicative
 urn:cite:hclat:topic.pftpaspart,Perfect passive participle
+urn:cite:hclat:topic.ppftactind,Pluperfect active indicative
+urn:cite:hclat:topic.prep,Prepositional phrase
 urn:cite:hclat:topic.presactimp1,"Present active imperative form, 1st conjugation"
 urn:cite:hclat:topic.presactimp2,"Present active imperative form, 2nd conjugation"
 urn:cite:hclat:topic.presactimp3,"Present active imperative form, 3rd conjugation"
@@ -103,6 +109,7 @@ urn:cite:hclat:topic.prespassub2,"Present passive subjunctive form, 2nd conjugat
 urn:cite:hclat:topic.prespassub3,"Present passive subjunctive form, 3rd conjugation"
 urn:cite:hclat:topic.prespassub4,"Present passive subjunctive form, 4th conjugation"
 urn:cite:hclat:topic.prespassub5,"Present passive subjunctive form, 5th conjugation"
+urn:cite:hclat:topic.purpose,Purpose clause
 urn:cite:hclat:topic.relpro,Relative pronoun
 urn:cite:hclat:topic.supadj,Superlative adjective
 urn:cite:hclat:topic.vocsg1,"Vocative singular form, 1st declension"
