@@ -4,6 +4,9 @@
     <rdfNamespace
         abbr="cite"
         fullValue="http://www.homermultitext.org/cite/rdf/"/>
+    
+    <rdfNamespace abbr="hmt" fullValue="http://www.homermultitext.org/hmt/rdf/"/>
+    
     <index verb="cite:illustrates" inverse="cite:illustratedBy">
         <source type="file" value="imgToTopic.csv"></source>
     </index>
@@ -19,5 +22,10 @@
 
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="imgToObject.csv"></source>
+    </index>
+    
+    
+    <index verb="hmt:isDefaultImage" inverse="hasDefaultImage">
+    <source type="file" value="preferredImg.csv"/>
     </index>
 </indexInventory>

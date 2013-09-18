@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite">
+
+<!--
     <citeCollection canonicalId="ImageUrn" label="Label" urn="urn:cite:shot:epigimg">
         <namespaceMapping abbr="shot" fullValue="http://shot.holycross.edu/datans/"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Illustrations of Latin inscriptions</title>
@@ -19,6 +21,7 @@
         <citeProperty name="Notes" label="Notes" type="string"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
     </citeCollection>
+-->
     
     
     <citeCollection canonicalId="Tag" label="Label" urn="urn:cite:hclat:topic">
