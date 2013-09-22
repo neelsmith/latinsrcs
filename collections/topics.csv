@@ -7,7 +7,6 @@ urn:cite:hclat:topic.ablpl2,"Ablative plural form, 2nd declension"
 urn:cite:hclat:topic.ablpl3,"Ablative plural form, 3rd declension"
 urn:cite:hclat:topic.ablpl4,"Ablative plural form, 4th declension"
 urn:cite:hclat:topic.ablpl5,"Ablative plural form, 5th declension"
-urn:cite:hclat:topic.ablplhic,Ablative plural form of hic/haec/hoc
 urn:cite:hclat:topic.ablsg1,"Ablative singular form, 1st declension"
 urn:cite:hclat:topic.ablsg2,"Ablative singular form, 2nd declension"
 urn:cite:hclat:topic.ablsg3,"Ablative singular form, 3rd declension"
@@ -62,6 +61,7 @@ urn:cite:hclat:topic.gensg3,"Genitive singular form, 3rd declension"
 urn:cite:hclat:topic.gensg4,"Genitive singular form, 4th declension"
 urn:cite:hclat:topic.gensg5,"Genitive singular form, 5th declension"
 urn:cite:hclat:topic.ger,Gerund/gerundive
+urn:cite:hclat:topic.hic,Form of hic/haec/hoc
 urn:cite:hclat:topic.impftactind1,"Imperfect active indicative form, 1st conjugation"
 urn:cite:hclat:topic.impftactind2,"Imperfect active indicative form, 2nd conjugation"
 urn:cite:hclat:topic.impftactind3,"Imperfect active indicative form, 3rd conjugation"
@@ -93,6 +93,7 @@ urn:cite:hclat:topic.presactind3,"Present active indicative form, 3rd conjugatio
 urn:cite:hclat:topic.presactind4,"Present active indicative form, 4th conjugation"
 urn:cite:hclat:topic.presactind5,"Present active indicative form, 5th conjugation"
 urn:cite:hclat:topic.presactindir,Present active indicative of an irregular verb
+urn:cite:hclat:topic.presactinfir,Present active infinitive form of an irregular verb
 urn:cite:hclat:topic.presactpart1,"Present active participle, 1st conjugation"
 urn:cite:hclat:topic.presactpart2,"Present active participle, 2nd conjugation"
 urn:cite:hclat:topic.presactpart3,"Present active participle, 3rd conjugation"
@@ -104,6 +105,7 @@ urn:cite:hclat:topic.prespasind2,"Present passive indicative form, 2nd conjugati
 urn:cite:hclat:topic.prespasind3,"Present passive indicative form, 3rd conjugation"
 urn:cite:hclat:topic.prespasind4,"Present passive indicative form, 4th conjugation"
 urn:cite:hclat:topic.prespasind5,"Present passive indicative form, 5th conjugation"
+urn:cite:hclat:topic.prespasinf3,"Present passive infinitive form, 3rd conjugation"
 urn:cite:hclat:topic.prespassub1,"Present passive subjunctive form, 1st conjugation"
 urn:cite:hclat:topic.prespassub2,"Present passive subjunctive form, 2nd conjugation"
 urn:cite:hclat:topic.prespassub3,"Present passive subjunctive form, 3rd conjugation"
@@ -111,6 +113,7 @@ urn:cite:hclat:topic.prespassub4,"Present passive subjunctive form, 4th conjugat
 urn:cite:hclat:topic.prespassub5,"Present passive subjunctive form, 5th conjugation"
 urn:cite:hclat:topic.purpose,Purpose clause
 urn:cite:hclat:topic.relpro,Relative pronoun
+urn:cite:hclat:topic.rfladj,Reflexive possessive adjective
 urn:cite:hclat:topic.supadj,Superlative adjective
 urn:cite:hclat:topic.vocsg1,"Vocative singular form, 1st declension"
 urn:cite:hclat:topic.vocsg2,"Vocative singular form, 2nd declension"
