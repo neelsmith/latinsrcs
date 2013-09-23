@@ -7,6 +7,12 @@
     
     <rdfNamespace abbr="hmt" fullValue="http://www.homermultitext.org/hmt/rdf/"/>
     
+    <rdfNamespace abbr="latepig" fullValue="http://shot.holycross.edu/latepig/rdf/"/>
+    
+    <index verb="latepig:isSubcategoryOf" inverse="latepig:hasSubcategory">
+        <source type="file" value="citableTopicsToCategories.csv"/>
+    </index>
+    
     <index verb="cite:illustrates" inverse="cite:illustratedBy">
         <source type="file" value="imgToTopic.csv"></source>
     </index>
@@ -28,4 +34,6 @@
     <index verb="hmt:isDefaultImage" inverse="hasDefaultImage">
     <source type="file" value="preferredImg.csv"/>
     </index>
+    
+    
 </indexInventory>
