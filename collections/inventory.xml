@@ -26,18 +26,38 @@
     
     <citeCollection canonicalId="Tag" label="Label" urn="urn:cite:hclat:topic">
         <namespaceMapping abbr="hclat" fullValue="http://shot.holycross.edu/datans/hclat/"></namespaceMapping>
-        <title xmlns="http://purl.org/dc/elements/1.1/">Grammatical topics</title>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Citable grammatical topics</title>
         <creator xmlns="http://purl.org/dc/elements/1.1/">Megan Whitacre</creator>
         <coverage xmlns="http://purl.org/dc/elements/1.1/">Grammatical topics planned for introductory Latin</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">Grammatical topics for organizing source material in teaching introductory Latin</description>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Speicific grammatical topics cited in source material</description>
         <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available
             under the terms of the Creative Commons Attribution-Non-Commercial \
             3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         
-        <source type="file" value="topics.csv"></source>
+        <source type="file" value="citabletopics.csv"></source>
         <citeProperty name="Tag" label="Tag" type="citeurn"></citeProperty>
      <citeProperty name="Label" label="Topic" type="string"></citeProperty>
+        <citeProperty name="Note" label="Note" type="string"></citeProperty>
+    </citeCollection>
+    
+    
+    
+    
+    <citeCollection canonicalId="Tag" label="Label" urn="urn:cite:hclat:topic">
+        <namespaceMapping abbr="hclat" fullValue="http://shot.holycross.edu/datans/hclat/"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Cateogories of grammatical topics</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Megan Whitacre</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Grammatical topics planned for introductory Latin</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Categories of grammatical topics encompassing more than one citable topic.</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial \
+            3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <source type="file" value="concepts.csv"></source>
+        <citeProperty name="Tag" label="Tag" type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="Topic" type="string"></citeProperty>
         <citeProperty name="Note" label="Note" type="string"></citeProperty>
     </citeCollection>
 </collectionService>
