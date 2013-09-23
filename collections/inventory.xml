@@ -38,5 +38,6 @@
         <source type="file" value="topics.csv"></source>
         <citeProperty name="Tag" label="Tag" type="citeurn"></citeProperty>
      <citeProperty name="Label" label="Topic" type="string"></citeProperty>
+        <citeProperty name="Note" label="Note" type="string"></citeProperty>
     </citeCollection>
 </collectionService>
