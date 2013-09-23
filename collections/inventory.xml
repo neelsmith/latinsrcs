@@ -44,7 +44,7 @@
     
     
     
-    <citeCollection canonicalId="Tag" label="Label" urn="urn:cite:hclat:topic">
+    <citeCollection canonicalId="Tag" label="Label" urn="urn:cite:hclat:category">
         <namespaceMapping abbr="hclat" fullValue="http://shot.holycross.edu/datans/hclat/"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Cateogories of grammatical topics</title>
         <creator xmlns="http://purl.org/dc/elements/1.1/">Megan Whitacre</creator>
