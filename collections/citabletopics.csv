@@ -26,7 +26,7 @@ urn:cite:hclat:topic.accsg4,"Accusative singular form, 4th declension","Ending "
 urn:cite:hclat:topic.accsg5,"Accusative singular form, 5th declension","Ending ""-em"""
 urn:cite:hclat:topic.accsgpro,Accusative singular form of a personal pronoun,"Accusative form of ""ego"" or ""tu"""
 urn:cite:hclat:topic.adv,Adverb,"Describes a verb, adjective, or adverb."
-urn:cite:hclat:topic.compadj,Comparative adjective,"Adjective form that expresses ""more"""
+urn:cite:hclat:topic.compadj,Comparative adjective,"Adjective form ""-ior-"" or ""-ius"" that expresses ""more"""
 urn:cite:hclat:topic.compadv,Comparative adverb,"Adverb form that expresses ""more"""
 urn:cite:hclat:topic.date,Date,"A specific date, which counts the days until the Ides, Kalends, or Nones of a month"
 urn:cite:hclat:topic.datplpro,Dative plural form of a personal pronoun,"Dative form of ""nos"" or ""vos"""
@@ -60,56 +60,56 @@ urn:cite:hclat:topic.gensg4,"Genitive singular form, 4th declension","Ending ""-
 urn:cite:hclat:topic.gensg5,"Genitive singular form, 5th declension","Ending ""-ei"""
 urn:cite:hclat:topic.gern,Gerund,"A verbal noun, like ""running"" or ""sitting"""
 urn:cite:hclat:topic.geradj,Gerundive,"Future passive participle, translates as ""about to be"""
-urn:cite:hclat:topic.hic,Form of hic/haec/hoc,
-urn:cite:hclat:topic.impftactind1,"Imperfect active indicative form, 1st conjugation",
-urn:cite:hclat:topic.impftactind2,"Imperfect active indicative form, 2nd conjugation",
-urn:cite:hclat:topic.impftactind3,"Imperfect active indicative form, 3rd conjugation",
-urn:cite:hclat:topic.impftactind4,"Imperfect active indicative form, 4th conjugation",
-urn:cite:hclat:topic.impftactindir,Imperfect active indicative form of an irregular verb,
-urn:cite:hclat:topic.interrog,Interrogative,
-urn:cite:hclat:topic.is,Form of the pronoun is/ea/id,
-urn:cite:hclat:topic.loc,Locative,
-urn:cite:hclat:topic.nompl1,"Nominative plural form, 1st declension",
-urn:cite:hclat:topic.nompl2,"Nominative plural form, 2nd declension",
-urn:cite:hclat:topic.nompl3,"Nominative plural form, 3rd declension",
-urn:cite:hclat:topic.nompl4,"Nominative plural form, 4th declension",
-urn:cite:hclat:topic.nompl5,"Nominative plural form, 5th declension",
-urn:cite:hclat:topic.ntpl,Neuter plural,
-urn:cite:hclat:topic.pftactind,Perfect active indicative,
-urn:cite:hclat:topic.pftpasind,Perfect passive indicative,
-urn:cite:hclat:topic.pftpaspart,Perfect passive participle,
-urn:cite:hclat:topic.ppftactind,Pluperfect active indicative,
-urn:cite:hclat:topic.prep,Prepositional phrase,
-urn:cite:hclat:topic.presactimp1,"Present active imperative form, 1st conjugation",
-urn:cite:hclat:topic.presactimp2,"Present active imperative form, 2nd conjugation",
-urn:cite:hclat:topic.presactimp3,"Present active imperative form, 3rd conjugation",
-urn:cite:hclat:topic.presactimp4,"Present active imperative form, 4th conjugation",
-urn:cite:hclat:topic.presactind1,"Present active indicative form, 1st conjugation",
-urn:cite:hclat:topic.presactind2,"Present active indicative form, 2nd conjugation",
-urn:cite:hclat:topic.presactind3,"Present active indicative form, 3rd conjugation",
-urn:cite:hclat:topic.presactind4,"Present active indicative form, 4th conjugation",
-urn:cite:hclat:topic.presactindir,Present active indicative of an irregular verb,
-urn:cite:hclat:topic.presactinfir,Present active infinitive form of an irregular verb,
-urn:cite:hclat:topic.presactpart1,"Present active participle, 1st conjugation",
-urn:cite:hclat:topic.presactpart2,"Present active participle, 2nd conjugation",
-urn:cite:hclat:topic.presactpart3,"Present active participle, 3rd conjugation",
-urn:cite:hclat:topic.presactpart4,"Present active participle, 4th conjugation",
-urn:cite:hclat:topic.presactsubir,Present active subjunctive of an irregular verb,
-urn:cite:hclat:topic.prespasind1,"Present passive indicative form, 1st conjugation",
-urn:cite:hclat:topic.prespasind2,"Present passive indicative form, 2nd conjugation",
-urn:cite:hclat:topic.prespasind3,"Present passive indicative form, 3rd conjugation",
-urn:cite:hclat:topic.prespasind4,"Present passive indicative form, 4th conjugation",
-urn:cite:hclat:topic.prespasinf3,"Present passive infinitive form, 3rd conjugation",
-urn:cite:hclat:topic.prespassub1,"Present passive subjunctive form, 1st conjugation",
-urn:cite:hclat:topic.prespassub2,"Present passive subjunctive form, 2nd conjugation",
-urn:cite:hclat:topic.prespassub3,"Present passive subjunctive form, 3rd conjugation",
-urn:cite:hclat:topic.prespassub4,"Present passive subjunctive form, 4th conjugation",
-urn:cite:hclat:topic.purpose,Purpose clause,
-urn:cite:hclat:topic.relpro,Relative pronoun,
-urn:cite:hclat:topic.rfladj,Reflexive possessive adjective,
-urn:cite:hclat:topic.supadj,Superlative adjective,
-urn:cite:hclat:topic.vocsg1,"Vocative singular form, 1st declension",
-urn:cite:hclat:topic.vocsg2,"Vocative singular form, 2nd declension",
-urn:cite:hclat:topic.vocsg3,"Vocative singular form, 3rd declension",
-urn:cite:hclat:topic.vocsg4,"Vocative singular form, 4th declension",
-urn:cite:hclat:topic.vocsg5,"Vocative singular form, 5th declension",
+urn:cite:hclat:topic.hic,Form of hic/haec/hoc,"Demonstrative pronoun meaning ""this""."
+urn:cite:hclat:topic.impftactind1,"Imperfect active indicative form, 1st conjugation","Translates as ""was"", ""used to"" or ""kept on""."
+urn:cite:hclat:topic.impftactind2,"Imperfect active indicative form, 2nd conjugation","Translates as ""was"", ""used to"" or ""kept on""."
+urn:cite:hclat:topic.impftactind3,"Imperfect active indicative form, 3rd conjugation","Translates as ""was"", ""used to"" or ""kept on""."
+urn:cite:hclat:topic.impftactind4,"Imperfect active indicative form, 4th conjugation","Translates as ""was"", ""used to"" or ""kept on""."
+urn:cite:hclat:topic.impftactindir,Imperfect active indicative form of an irregular verb,"Translates as ""was"", ""used to"" or ""kept on""."
+urn:cite:hclat:topic.interrog,Interrogative,A word that introduces a question.
+urn:cite:hclat:topic.is,Form of the pronoun is/ea/id,"Pronoun meaning ""he"", ""she"", or ""it""."
+urn:cite:hclat:topic.loc,Locative,"Expresses being in or at a place.  Used with cities, towns, and small islands."
+urn:cite:hclat:topic.nompl1,"Nominative plural form, 1st declension","Ending ""-ae"""
+urn:cite:hclat:topic.nompl2,"Nominative plural form, 2nd declension","Ending ""-i"""
+urn:cite:hclat:topic.nompl3,"Nominative plural form, 3rd declension","Ending ""-es"""
+urn:cite:hclat:topic.nompl4,"Nominative plural form, 4th declension","Ending ""-us"""
+urn:cite:hclat:topic.nompl5,"Nominative plural form, 5th declension","Ending ""-es"""
+urn:cite:hclat:topic.ntpl,Neuter plural,"Ending ""-a"".  Both the nominative and accusative are the same."
+urn:cite:hclat:topic.pftactind,Perfect active indicative,"Translates as ""did"".  Completed past action."
+urn:cite:hclat:topic.pftpasind,Perfect passive indicative,"Translates as ""did"".  Completed past action."
+urn:cite:hclat:topic.pftpaspart,Perfect passive participle,"Translates as ""having been done""."
+urn:cite:hclat:topic.ppftactind,Pluperfect active indicative,"Translates as ""had""."
+urn:cite:hclat:topic.prep,Prepositional phrase,"A preposition and an object (in the accusative, ablative, or genitive case)"
+urn:cite:hclat:topic.presactimp1,"Present active imperative form, 1st conjugation",Command
+urn:cite:hclat:topic.presactimp2,"Present active imperative form, 2nd conjugation",Command
+urn:cite:hclat:topic.presactimp3,"Present active imperative form, 3rd conjugation",Command
+urn:cite:hclat:topic.presactimp4,"Present active imperative form, 4th conjugation",Command
+urn:cite:hclat:topic.presactind1,"Present active indicative form, 1st conjugation","Translates as ""is""."
+urn:cite:hclat:topic.presactind2,"Present active indicative form, 2nd conjugation","Translates as ""is""."
+urn:cite:hclat:topic.presactind3,"Present active indicative form, 3rd conjugation","Translates as ""is""."
+urn:cite:hclat:topic.presactind4,"Present active indicative form, 4th conjugation","Translates as ""is""."
+urn:cite:hclat:topic.presactindir,Present active indicative of an irregular verb,"Translates as ""is""."
+urn:cite:hclat:topic.presactinfir,Present active infinitive form of an irregular verb,"A verbal noun, like ""to run"" or ""to sit"". Translates as ""to""."
+urn:cite:hclat:topic.presactpart1,"Present active participle, 1st conjugation","A verbal adjective with a present sense, like ""the running man""."
+urn:cite:hclat:topic.presactpart2,"Present active participle, 2nd conjugation","A verbal adjective with a present sense, like ""the running man""."
+urn:cite:hclat:topic.presactpart3,"Present active participle, 3rd conjugation","A verbal adjective with a present sense, like ""the running man""."
+urn:cite:hclat:topic.presactpart4,"Present active participle, 4th conjugation","A verbal adjective with a present sense, like ""the running man""."
+urn:cite:hclat:topic.presactsubir,Present active subjunctive of an irregular verb,Irregular verb in the subjunctive mood.  Translation depends on use.
+urn:cite:hclat:topic.prespasind1,"Present passive indicative form, 1st conjugation","Translates as ""is being""."
+urn:cite:hclat:topic.prespasind2,"Present passive indicative form, 2nd conjugation","Translates as ""is being""."
+urn:cite:hclat:topic.prespasind3,"Present passive indicative form, 3rd conjugation","Translates as ""is being""."
+urn:cite:hclat:topic.prespasind4,"Present passive indicative form, 4th conjugation","Translates as ""is being""."
+urn:cite:hclat:topic.prespasinf3,"Present passive infinitive form, 3rd conjugation","A verbal noun in the passive, like ""to be loved"".  Translates as ""to be""."
+urn:cite:hclat:topic.prespassub1,"Present passive subjunctive form, 1st conjugation",Present verb in the subjunctive mood.  Translation depends on use.
+urn:cite:hclat:topic.prespassub2,"Present passive subjunctive form, 2nd conjugation",Present verb in the subjunctive mood.  Translation depends on use.
+urn:cite:hclat:topic.prespassub3,"Present passive subjunctive form, 3rd conjugation",Present verb in the subjunctive mood.  Translation depends on use.
+urn:cite:hclat:topic.prespassub4,"Present passive subjunctive form, 4th conjugation",Present verb in the subjunctive mood.  Translation depends on use.
+urn:cite:hclat:topic.purpose,Purpose clause,"A subjunctive clause introduced by ""ut"" or ""ne"".  Expresses purpose and translates as ""so that""."
+urn:cite:hclat:topic.relpro,Relative pronoun,"A form of qui/quae/quod meaning ""which""."
+urn:cite:hclat:topic.rfladj,Reflexive possessive adjective,A form of suus/sua/suum showing posession.  The case and gender depends on the noun it is describing (the thing being possessed).  The meaning refers to the subject of the sentence (the person doing the possessing).
+urn:cite:hclat:topic.supadj,Superlative adjective,"Adjective form ""-issimus/a/um"" that expresses ""most""."
+urn:cite:hclat:topic.vocsg1,"Vocative singular form, 1st declension",Direct address.  Ending is the same as the nominative.
+urn:cite:hclat:topic.vocsg2,"Vocative singular form, 2nd declension","Direct address.  Ending ""-e""."
+urn:cite:hclat:topic.vocsg3,"Vocative singular form, 3rd declension",Direct address.  Ending is the same as the nominative.
+urn:cite:hclat:topic.vocsg4,"Vocative singular form, 4th declension",Direct address.  Ending is the same as the nominative.
+urn:cite:hclat:topic.vocsg5,"Vocative singular form, 5th declension",Direct address.  Ending is the same as the nominative.
