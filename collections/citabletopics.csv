@@ -1,64 +1,65 @@
 Tag,Label,Note
-urn:cite:hclat:topic.ablaccomp,Ablative of accompaniment,
-urn:cite:hclat:topic.ablag,Ablative of agent,
-urn:cite:hclat:topic.ablman,Ablative of manner,
-urn:cite:hclat:topic.ablpl1,"Ablative plural form, 1st declension",
-urn:cite:hclat:topic.ablpl2,"Ablative plural form, 2nd declension",
-urn:cite:hclat:topic.ablpl3,"Ablative plural form, 3rd declension",
-urn:cite:hclat:topic.ablpl4,"Ablative plural form, 4th declension",
-urn:cite:hclat:topic.ablpl5,"Ablative plural form, 5th declension",
-urn:cite:hclat:topic.ablsg1,"Ablative singular form, 1st declension",
-urn:cite:hclat:topic.ablsg2,"Ablative singular form, 2nd declension",
-urn:cite:hclat:topic.ablsg3,"Ablative singular form, 3rd declension",
-urn:cite:hclat:topic.ablsg4,"Ablative singular form, 4th declension",
-urn:cite:hclat:topic.ablsg5,"Ablative singular form, 5th declension",
-urn:cite:hclat:topic:abltime,Ablative of time when,
-urn:cite:hclat:topic.accexclam,Accusative of exclamation,
-urn:cite:hclat:topic.accpl1,"Accusative plural form, 1st declension",
-urn:cite:hclat:topic.accpl2,"Accusative plural form, 2nd declension",
-urn:cite:hclat:topic.accpl3,"Accusative plural form, 3rd declension",
-urn:cite:hclat:topic.accpl4,"Accusative plural form, 4th declension",
-urn:cite:hclat:topic.accpl5,"Accusative plural form, 5th declension",
-urn:cite:hclat:topic.accsg1,"Accusative singular form, 1st declension",
-urn:cite:hclat:topic.accsg2,"Accusative singular form, 2nd declension",
-urn:cite:hclat:topic.accsg3,"Accusative singular form, 3rd declension",
-urn:cite:hclat:topic.accsg4,"Accusative singular form, 4th declension",
-urn:cite:hclat:topic.accsg5,"Accusative singular form, 5th declension",
-urn:cite:hclat:topic.accsgpro,Accusative singular form of a personal pronoun,
-urn:cite:hclat:topic.adv,Adverb,
-urn:cite:hclat:topic.compadj,Comparative adjective,
-urn:cite:hclat:topic.compadv,Comparative adverb,
-urn:cite:hclat:topic.date,Date,
-urn:cite:hclat:topic.datplpro,Dative plural form of a personal pronoun,
-urn:cite:hclat:topic.datref,Dative of reference,
-urn:cite:hclat:topic.datsg1,"Dative singular form, 1st declension",
-urn:cite:hclat:topic.datsg2,"Dative singular form, 2nd declension",
-urn:cite:hclat:topic.datsg3,"Dative singular form, 3rd declension",
-urn:cite:hclat:topic.datsg4,"Dative singular form, 4th declension",
-urn:cite:hclat:topic.datsg5,"Dative singular form, 5th declension",
-urn:cite:hclat:topic.datsgpro,Dative singular form of a personal pronoun,
-urn:cite:hclat:topic.depon,Deponent verb,
-urn:cite:hclat:topic.futactind1,"Future active indicative form, 1st conjugation",
-urn:cite:hclat:topic.futactind2,"Future active indicative form, 2nd conjugation",
-urn:cite:hclat:topic.futactind3,"Future active indicative form, 3rd conjugation",
-urn:cite:hclat:topic.futactind4,"Future active indicative form, 4th conjugation",
-urn:cite:hclat:topic.futactindir,Future active indicative form of an irregular verb,
-urn:cite:hclat:topic.futactpart1,"Future active participle, 1st conjugation",
-urn:cite:hclat:topic.futactpart2,"Future active participle, 2nd conjugation",
-urn:cite:hclat:topic.futactpart3,"Future active participle, 3rd conjugation",
-urn:cite:hclat:topic.futactpart4,"Future active participle, 4th conjugation",
-urn:cite:hclat:topic.genpart,Partitive genitive,
-urn:cite:hclat:topic.genpl1,"Genitive plural form, 1st declension",
-urn:cite:hclat:topic.genpl2,"Genitive plural form, 2nd declension",
-urn:cite:hclat:topic.genpl3,"Genitive plural form, 3rd declension",
-urn:cite:hclat:topic.genpl4,"Genitive plural form, 4th declension",
-urn:cite:hclat:topic.genpl5,"Genitive plural form, 5th declension",
-urn:cite:hclat:topic.gensg1,"Genitive singular form, 1st declension",
-urn:cite:hclat:topic.gensg2,"Genitive singular form, 2nd declension",
-urn:cite:hclat:topic.gensg3,"Genitive singular form, 3rd declension",
-urn:cite:hclat:topic.gensg4,"Genitive singular form, 4th declension",
-urn:cite:hclat:topic.gensg5,"Genitive singular form, 5th declension",
-urn:cite:hclat:topic.ger,Gerund/gerundive,
+urn:cite:hclat:topic.ablaccomp,Ablative of accompaniment,"Expresses ""with whom"".  Uses the preposition ""cum""."
+urn:cite:hclat:topic.ablag,Ablative of agent,"Expresses ""by whom"" in a passive construction.  Uses the preposition ""a"" or ""ab""."
+urn:cite:hclat:topic.ablman,Ablative of manner,"Expresses ""in what way"" something was done.  Sometimes uses the preposition ""cum""."
+urn:cite:hclat:topic.ablpl1,"Ablative plural form, 1st declension","Ending ""-is"""
+urn:cite:hclat:topic.ablpl2,"Ablative plural form, 2nd declension","Ending ""-is"""
+urn:cite:hclat:topic.ablpl3,"Ablative plural form, 3rd declension","Ending ""-ibus"""
+urn:cite:hclat:topic.ablpl4,"Ablative plural form, 4th declension","Ending ""-ibus"""
+urn:cite:hclat:topic.ablpl5,"Ablative plural form, 5th declension","Ending ""-ebus"""
+urn:cite:hclat:topic.ablsg1,"Ablative singular form, 1st declension","Ending ""-a"""
+urn:cite:hclat:topic.ablsg2,"Ablative singular form, 2nd declension","Ending ""-o"""
+urn:cite:hclat:topic.ablsg3,"Ablative singular form, 3rd declension","Ending ""-e"" or ""-i"""
+urn:cite:hclat:topic.ablsg4,"Ablative singular form, 4th declension","Ending ""-u"""
+urn:cite:hclat:topic.ablsg5,"Ablative singular form, 5th declension","Ending ""-e"""
+urn:cite:hclat:topic:abltime,Ablative of time when,Expresses the time within which the action is performed.
+urn:cite:hclat:topic.accexclam,Accusative of exclamation,Expresses something shouted or something said with strong emotion.
+urn:cite:hclat:topic.accpl1,"Accusative plural form, 1st declension","Ending ""-as"""
+urn:cite:hclat:topic.accpl2,"Accusative plural form, 2nd declension","Ending ""-os"""
+urn:cite:hclat:topic.accpl3,"Accusative plural form, 3rd declension","Ending ""-es"" or ""-is"""
+urn:cite:hclat:topic.accpl4,"Accusative plural form, 4th declension","Ending ""-us"""
+urn:cite:hclat:topic.accpl5,"Accusative plural form, 5th declension","Ending ""-es"""
+urn:cite:hclat:topic.accsg1,"Accusative singular form, 1st declension","Ending ""-am"""
+urn:cite:hclat:topic.accsg2,"Accusative singular form, 2nd declension","Ending ""-um"""
+urn:cite:hclat:topic.accsg3,"Accusative singular form, 3rd declension","Ending ""-em"""
+urn:cite:hclat:topic.accsg4,"Accusative singular form, 4th declension","Ending ""-um"""
+urn:cite:hclat:topic.accsg5,"Accusative singular form, 5th declension","Ending ""-em"""
+urn:cite:hclat:topic.accsgpro,Accusative singular form of a personal pronoun,"Accusative form of ""ego"" or ""tu"""
+urn:cite:hclat:topic.adv,Adverb,"Describes a verb, adjective, or adverb."
+urn:cite:hclat:topic.compadj,Comparative adjective,"Adjective form that expresses ""more"""
+urn:cite:hclat:topic.compadv,Comparative adverb,"Adverb form that expresses ""more"""
+urn:cite:hclat:topic.date,Date,"A specific date, which counts the days until the Ides, Kalends, or Nones of a month"
+urn:cite:hclat:topic.datplpro,Dative plural form of a personal pronoun,"Dative form of ""nos"" or ""vos"""
+urn:cite:hclat:topic.datref,Dative of reference,Expresses for whom or what an action is performed.
+urn:cite:hclat:topic.datsg1,"Dative singular form, 1st declension","Ending ""-ae"""
+urn:cite:hclat:topic.datsg2,"Dative singular form, 2nd declension","Ending ""-o"""
+urn:cite:hclat:topic.datsg3,"Dative singular form, 3rd declension","Ending ""-i"""
+urn:cite:hclat:topic.datsg4,"Dative singular form, 4th declension","Ending ""-ui"""
+urn:cite:hclat:topic.datsg5,"Dative singular form, 5th declension","Ending ""-ei"""
+urn:cite:hclat:topic.datsgpro,Dative singular form of a personal pronoun,"Dative form of ""ego"" or ""tu"""
+urn:cite:hclat:topic.depon,Deponent verb,A verb conjugated in the passive but with active meanings.
+urn:cite:hclat:topic.futactind1,"Future active indicative form, 1st conjugation","Translates as ""will"""
+urn:cite:hclat:topic.futactind2,"Future active indicative form, 2nd conjugation","Translates as ""will"""
+urn:cite:hclat:topic.futactind3,"Future active indicative form, 3rd conjugation","Translates as ""will"""
+urn:cite:hclat:topic.futactind4,"Future active indicative form, 4th conjugation","Translates as ""will"""
+urn:cite:hclat:topic.futactindir,Future active indicative form of an irregular verb,"Translates as ""will"""
+urn:cite:hclat:topic.futactpart1,"Future active participle, 1st conjugation","Translates as ""about to"""
+urn:cite:hclat:topic.futactpart2,"Future active participle, 2nd conjugation","Translates as ""about to"""
+urn:cite:hclat:topic.futactpart3,"Future active participle, 3rd conjugation","Translates as ""about to"""
+urn:cite:hclat:topic.futactpart4,"Future active participle, 4th conjugation","Translates as ""about to"""
+urn:cite:hclat:topic.genpart,Partitive genitive,"Expresses part of a whole, or ""enough of"", ""more of"" or ""full of"" something."
+urn:cite:hclat:topic.genpl1,"Genitive plural form, 1st declension","Ending ""-arum"""
+urn:cite:hclat:topic.genpl2,"Genitive plural form, 2nd declension","Ending ""-orum"""
+urn:cite:hclat:topic.genpl3,"Genitive plural form, 3rd declension","Ending ""-um"""
+urn:cite:hclat:topic.genpl4,"Genitive plural form, 4th declension","Ending ""-uum"""
+urn:cite:hclat:topic.genpl5,"Genitive plural form, 5th declension","Ending ""-erum"""
+urn:cite:hclat:topic.gensg1,"Genitive singular form, 1st declension","Ending ""-ae"""
+urn:cite:hclat:topic.gensg2,"Genitive singular form, 2nd declension","Ending ""-i"""
+urn:cite:hclat:topic.gensg3,"Genitive singular form, 3rd declension","Ending ""-is"""
+urn:cite:hclat:topic.gensg4,"Genitive singular form, 4th declension","Ending ""-us"""
+urn:cite:hclat:topic.gensg5,"Genitive singular form, 5th declension","Ending ""-ei"""
+urn:cite:hclat:topic.gern,Gerund,"A verbal noun, like ""running"" or ""sitting"""
+urn:cite:hclat:topic.geradj,Gerundive,"Future passive participle, translates as ""about to be"""
 urn:cite:hclat:topic.hic,Form of hic/haec/hoc,
 urn:cite:hclat:topic.impftactind1,"Imperfect active indicative form, 1st conjugation",
 urn:cite:hclat:topic.impftactind2,"Imperfect active indicative form, 2nd conjugation",
