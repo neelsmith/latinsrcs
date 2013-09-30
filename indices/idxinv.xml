@@ -16,11 +16,11 @@
     <index verb="cite:illustrates" inverse="cite:illustratedBy">
         <source type="file" value="imgToTopic.csv"></source>
     </index>
-
+<!--
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="newTopicsToImage.csv"></source>
     </index>
-
+-->
 
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="imgToSite.csv"></source>
