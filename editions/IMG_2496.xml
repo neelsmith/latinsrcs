@@ -19,31 +19,70 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line"><abbr>IMP</abbr><expan>IMPERATOR</expan> C<supplied resp="Delphi Archaeological Museum">AES</supplied>AR
-               D<supplied resp="Delphi Archaeological Museum">IVI VESP</supplied><persName n="pers1"
-               >ASIANI</persName>
-            <supplied resp="Delphi Archeological Museum"><abbr>F</abbr><expan>FILIUS</expan>
-               D</supplied><persName n="pers2">OMITIAN</persName><supplied
-               resp="Delphi Archaeological Museum">US</supplied></ab>
-         <ab n="2" type="line"><abbr>AUG</abbr><expan>AUGUSTUS</expan>
-            <supplied resp="Delphi Archaeological Museum">GERMA</supplied>NIC<supplied
-               resp="Delphi Arhcaeological Museum">US <abbr>PONT</abbr><expan>PONTIFEX</expan>
-               <abbr>MAXIM</abbr><expan>MAXIMUS</expan></supplied>
-            <abbr>TR<supplied resp="Delphi Archaeological Museum"
-               >IB</supplied></abbr><expan>TRIBUNICIA</expan>
-            <abbr><supplied resp="Delphi Archaeological Museum"
-               >POT</supplied>EST</abbr><expan>POTESTATE</expan>
+         <ab n="1" type="line"><choice>
+               <abbr>IMP</abbr>
+               <expan>IMPERATOR</expan>
+            </choice>
+            <w>C<supplied resp="Delphi Archaeological Museum">AES</supplied>AR</w>
+            <w>D<supplied resp="Delphi Archaeological Museum">IVI</supplied></w>
+            <persName n="pers1"><w><supplied resp="Delphi Archaeological Museum">VESP</supplied>
+                  ASIANI</w></persName>
+            <supplied resp="Delphi Archaeological Museum"><choice>
+                  <abbr>F</abbr>
+                  <expan>FILIUS</expan>
+               </choice>
+            </supplied>
+            <persName n="pers2"><w><supplied resp="Delphi Archaeological Museum"
+                     >D</supplied>OMITIAN<supplied resp="Delphi Archaeological Museum"
+                  >US</supplied></w></persName></ab>
+         <ab n="2" type="line"><persName n="pers2"><choice>
+                  <abbr>AUG</abbr>
+                  <expan>AUGUSTUS</expan>
+               </choice></persName>
+            <persName n="pers2"><w><supplied resp="Delphi Archaeological Museum"
+                     >GERMA</supplied>NIC<supplied resp="Delphi Arhcaeological Museum"
+                  >US</supplied></w></persName>
+            <supplied resp="Delphi Archaeological Museum"><choice>
+                  <abbr>PONT</abbr>
+                  <expan>PONTIFEX</expan>
+               </choice>
+               <choice>
+                  <abbr>MAXIM</abbr>
+                  <expan>MAXIMUS</expan>
+               </choice></supplied>
+            <choice>
+               <abbr><w>TR<supplied resp="Delphi Archaeological Museum">IB</supplied></w></abbr>
+               <expan>TRIBUNICIA</expan>
+            </choice>
+            <choice>
+               <abbr><w><supplied resp="Delphi Archaeological Museum">POT</supplied>EST</w></abbr>
+               <expan>POTESTATE</expan>
+            </choice>
             <num>III</num>
-            <abbr>P P</abbr><expan>PATER PATRIAE</expan>
-            <abbr>IMP</abbr><expan>IMPERATOR</expan>
+            <choice>
+               <abbr>P P</abbr>
+               <expan>PATER PATRIAE</expan>
+            </choice>
+            <choice>
+               <abbr>IMP</abbr>
+               <expan>IMPERATOR</expan>
+            </choice>
             <num>VII</num>
-            <abbr>COS</abbr><expan>CONSUL</expan>
+            <choice>
+               <abbr>COS</abbr>
+               <expan>CONSUL</expan>
+            </choice>
             <num>X</num>
-            <supplied resp="Delphi Archaeological Museum"><abbr>DES</abbr><expan>DESIGNATUS</expan>
+            <supplied resp="Delphi Archaeological Museum"><choice>
+                  <abbr>DES</abbr>
+                  <expan>DESIGNATUS</expan>
+               </choice>
                <num>XI</num></supplied></ab>
-         <ab n="3" type="line"><supplied resp="Delphi Archaeological Museum">TEMPLU</supplied>M
-               AP<supplied resp="Delphi Archaeological Museum">OLLINIS SUA I</supplied>NPENSA
-            REFECIT</ab>
+         <ab n="3" type="line"><w><supplied resp="Delphi Archaeological Museum"
+               >TEMPLU</supplied>M</w>
+            <w>AP<supplied resp="Delphi Archaeological Museum">OLLINIS</supplied></w>
+            <supplied resp="Delphi Archaeological Museum">SUA</supplied>
+            <w><supplied resp="Delphi Archaeological Museum">I</supplied>NPENSA</w> REFECIT</ab>
       </body>
    </text>
 </TEI>

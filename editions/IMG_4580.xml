@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IMG_4580</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line"><persName n="pers15">URBANUS</persName>
+            <num>VIII</num>
+            <choice>
+               <abbr>PONT</abbr>
+               <expan>PONTIFEX</expan>
+            </choice>
+            <choice>
+               <abbr>MAX</abbr>
+               <expan>MAXIMUS</expan>
+            </choice></ab>
+         <ab n="2" type="line">GEMINAS HASCE INSCRIPTIONES</ab>
+         <ab n="3" type="line">QUAE OLIMAS <persName n="pers16">LEONE</persName>
+            <num>IV</num></ab>
+         <ab n="4" type="line">IN LEONIANAE URBIS MUNIMENTIS</ab>
+         <ab n="5" type="line">POSITAE FUERANT</ab>
+         <ab n="6" type="line">EX OBSCURIORIBUS LOCIS</ab>
+         <ab n="7" type="line">HUC TRANSTULIT</ab>
+         <ab n="8" type="line">ANNO SALUTIS <num>MDCXXXIV</num></ab>
+         <ab n="9" type="line"><choice>
+               <abbr>PONT</abbr>
+               <expan>PONTIFEX</expan>
+            </choice>
+            <num>XII</num></ab>
+      </body>
+   </text>
+</TEI>

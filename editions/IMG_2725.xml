@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>IMG_2314</title>
+            <title>IMG_2725</title>
             <editor>Megan Whitacre</editor>
          </titleStmt>
          <publicationStmt>
@@ -20,26 +20,29 @@
    <text>
       <body>
          <ab n="1" type="line"><choice>
-               <abbr>D</abbr>
-               <expan/>
+               <abbr>T</abbr>
+               <expan><persName n="pers11">TITI</persName></expan>
             </choice>
             <choice>
-               <abbr>O</abbr>
-               <expan/>
+               <abbr>FL</abbr>
+               <expan>FILIUS</expan>
+            </choice>
+            <persName n="pers12">POSTUMIUS</persName></ab>
+         <ab n="2" type="line"><persName n="pers12">VARUS</persName>
+            <choice>
+               <abbr>V C</abbr>
+               <expan>VIR CLARISSIMUS</expan>
             </choice>
             <choice>
-               <abbr>M</abbr>
-               <expan/>
+               <abbr>LEG</abbr>
+               <expan>LEGATUS</expan>
             </choice></ab>
-         <ab n="2" type="line"><placeName n="pl22">METHONEM</placeName> COMMUNIRI</ab>
-         <ab n="3" type="line">VALLIS MOENUS ET PROPUGNACULIS TERRA MARIO</ab>
-         <ab n="4" type="line">MANDAVIT SENATUS</ab>
-         <ab n="4" type="line">ANTONIO LAURETANO PRO GNALI ARMO IN FELOPO</ab>
-         <ab n="5" type="line">QUI TANTI OPERIS CURAM SUSTINENS</ab>
-         <ab n="6" type="line">AD URBIS ET REGNI TU TAMEN</ab>
-         <ab n="7" type="line">FORTIORA MUNIMENTA EREXIT ET <w>CLAU<supplied resp="MW"
-                  >SIT</supplied></w></ab>
-         <ab n="8" type="line">ANNO SALUTIS <num>MDCCXIV</num></ab>
+         <ab n="3" type="line"><choice>
+               <abbr>TEMPL</abbr>
+               <expan>TEMPLUM</expan>
+            </choice>
+            <persName n="pers13">DIANAE</persName></ab>
+         <ab n="4" type="line">RESTITUIT</ab>
       </body>
    </text>
 </TEI>

@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>IMG_2501</title>
+            <title>IMG_2723</title>
             <editor>Megan Whitacre</editor>
          </titleStmt>
          <publicationStmt>
@@ -19,20 +19,23 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line"><persName n="pers3"><choice>
+         <ab n="1" type="line">CAESARES <persName n="pers9"><choice>
                   <abbr>L</abbr>
                   <expan>LUCIUS</expan>
-               </choice> AEMILIUS</persName>
-            <persName n="pers4"><choice>
-                  <abbr>L</abbr>
-                  <expan>LUCII</expan>
                </choice></persName>
-            <choice>
-               <abbr>F</abbr>
-               <expan>FILIUS</expan>
-            </choice> INPERATOR DE REGE <placeName type="ethnic" n="pl23"
-                  ><w><unclear>P</unclear>ERSE</w></placeName>
-            <placeName type="ethnic" n="pl24">MACEDONIBUSQUE</placeName> CEPET</ab>
+            <persName n="pers10"><choice>
+                  <abbr>SEPTI</abbr>
+                  <expan>SEPTIMIUS</expan>
+               </choice></persName></ab>
+         <ab n="2" type="line"><choice>
+               <abbr>AUG</abbr>
+               <expan>AUGUSTUS</expan>
+            </choice> ET <persName n="pers10"><choice>
+                  <abbr>P</abbr>
+                  <expan>PUBLIUS</expan>
+               </choice></persName>
+            <persName n="pers11">SEPTIMIUS</persName></ab>
+         <ab n="3" type="line">CORRUPTUM</ab>
       </body>
    </text>
 </TEI>
