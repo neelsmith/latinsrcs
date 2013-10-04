@@ -1,5 +1,6 @@
-Person,Identifier
+Person,Note,Identifier
 ,
-Vespasian,pers1
-Domitian (Augustus Germanicus),pers2
+Vespasian,,pers1
+Domitian,(Augustus Germanicus),pers2
 Lucius Aemilius,pers3
+Lucius,father of Lucius Aemilius,pers4
