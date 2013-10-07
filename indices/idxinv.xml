@@ -33,7 +33,7 @@
     </index>
     
     
-    <index verb="hmt:isDefaultImage" inverse="hasDefaultImage">
+    <index verb="hmt:isDefaultImage" inverse="hmt:hasDefaultImage">
     <source type="file" value="preferredImg.csv"/>
     </index>
     
