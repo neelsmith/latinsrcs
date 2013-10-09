@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IMG_2723</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line">CAESARES <persName n="pers9"><choice>
+                  <abbr>L</abbr>
+                  <expan>LUCIUS</expan>
+               </choice></persName>
+            <persName n="pers10"><choice>
+                  <abbr>SEPTI</abbr>
+                  <expan>SEPTIMIUS</expan>
+               </choice></persName></ab>
+         <ab n="2" type="line"><choice>
+               <abbr>AUG</abbr>
+               <expan>AUGUSTUS</expan>
+            </choice> ET <persName n="pers10"><choice>
+                  <abbr>P</abbr>
+                  <expan>PUBLIUS</expan>
+               </choice></persName>
+            <persName n="pers11">SEPTIMIUS</persName></ab>
+         <ab n="3" type="line">CORRUPTUM</ab>
+      </body>
+   </text>
+</TEI>

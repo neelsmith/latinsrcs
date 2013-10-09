@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IMG_2496</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line"><choice>
+               <abbr>IMP</abbr>
+               <expan>IMPERATOR</expan>
+            </choice>
+            <w>C<supplied resp="Delphi Archaeological Museum">AES</supplied>AR</w>
+            <w>D<supplied resp="Delphi Archaeological Museum">IVI</supplied></w>
+            <persName n="pers1"><w><supplied resp="Delphi Archaeological Museum">VESP</supplied>
+                  ASIANI</w></persName>
+            <supplied resp="Delphi Archaeological Museum"><choice>
+                  <abbr>F</abbr>
+                  <expan>FILIUS</expan>
+               </choice>
+            </supplied>
+            <persName n="pers2"><w><supplied resp="Delphi Archaeological Museum"
+                     >D</supplied>OMITIAN<supplied resp="Delphi Archaeological Museum"
+                  >US</supplied></w></persName></ab>
+         <ab n="2" type="line"><persName n="pers2"><choice>
+                  <abbr>AUG</abbr>
+                  <expan>AUGUSTUS</expan>
+               </choice></persName>
+            <persName n="pers2"><w><supplied resp="Delphi Archaeological Museum"
+                     >GERMA</supplied>NIC<supplied resp="Delphi Arhcaeological Museum"
+                  >US</supplied></w></persName>
+            <supplied resp="Delphi Archaeological Museum"><choice>
+                  <abbr>PONT</abbr>
+                  <expan>PONTIFEX</expan>
+               </choice>
+               <choice>
+                  <abbr>MAXIM</abbr>
+                  <expan>MAXIMUS</expan>
+               </choice></supplied>
+            <choice>
+               <abbr><w>TR<supplied resp="Delphi Archaeological Museum">IB</supplied></w></abbr>
+               <expan>TRIBUNICIA</expan>
+            </choice>
+            <choice>
+               <abbr><w><supplied resp="Delphi Archaeological Museum">POT</supplied>EST</w></abbr>
+               <expan>POTESTATE</expan>
+            </choice>
+            <num>III</num>
+            <choice>
+               <abbr>P P</abbr>
+               <expan>PATER PATRIAE</expan>
+            </choice>
+            <choice>
+               <abbr>IMP</abbr>
+               <expan>IMPERATOR</expan>
+            </choice>
+            <num>VII</num>
+            <choice>
+               <abbr>COS</abbr>
+               <expan>CONSUL</expan>
+            </choice>
+            <num>X</num>
+            <supplied resp="Delphi Archaeological Museum"><choice>
+                  <abbr>DES</abbr>
+                  <expan>DESIGNATUS</expan>
+               </choice>
+               <num>XI</num></supplied></ab>
+         <ab n="3" type="line"><w><supplied resp="Delphi Archaeological Museum"
+               >TEMPLU</supplied>M</w>
+            <w>AP<supplied resp="Delphi Archaeological Museum">OLLINIS</supplied></w>
+            <supplied resp="Delphi Archaeological Museum">SUA</supplied>
+            <w><supplied resp="Delphi Archaeological Museum">I</supplied>NPENSA</w> REFECIT</ab>
+      </body>
+   </text>
+</TEI>
