@@ -48,7 +48,7 @@
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
-                        <citation label="section" xpath="/tei:p[@n = '?']" scope="/tei:TEI/tei:text/tei:body"></citation>
+                        <citation label="section" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body"></citation>
                     </citationMapping>
                 </online>
           </edition>
