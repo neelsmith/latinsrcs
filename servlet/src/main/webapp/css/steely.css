@@ -1,0 +1,71 @@
+@charset "iso-8859-1";
+/*
+Name: Steely (W3C Core style)
+Version: 0.01
+Author: Rijk van Geijtenbeek
+Description: W3C core style sheet 'Steely'. 
+  This is a minimized version that takes Opera's UA default styles into account.
+*/
+
+body {margin: 1.58em; padding: 0; line-height: 1.58;}
+caption, td, th {line-height: 1.33em;}
+th {text-align: left;}
+em {font-style: normal; font-weight: bold;}
+strong {font-style: italic; font-weight: bold;}
+em strong, strong em {text-transform: uppercase;
+ font-style: normal; font-weight: bolder;}
+caption {font-weight: bold;}
+del {text-decoration: line-through;}
+address {font-style: normal; letter-spacing: 0.1em; margin: 1.58em 0;}
+acronym {font-variant: small-caps; letter-spacing: 0.1em;}
+table, td, tr {border-style: none;}
+a:link, a:visited, a:active, a:hover {text-decoration: none;}
+small {font-size: .92em;}
+big, dt, legend {font-size: 1.17em;}
+pre {font-family: 'Monotype.com', Courier New, monospace;
+ line-height: 1.25em;}
+ol li {list-style-type: decimal;}
+ol ol li {list-style-type: lower-alpha;}
+ol ol ol li {list-style-type: lower-roman;}
+h1, h2, h3, h4, h5, h6 {line-height: 1.33em; margin-bottom: .33em;}
+h1 {font-size: 2em; margin-top: 1.33em;}
+h2 {font-size: 1.75em; margin-top: 1.75em;}
+h3 {font-size: 1.58em; margin-top: 1.58em;}
+h4 {font-size: 1.33em; margin-top: 1.33em;}
+h5 {font-size: 1.17em; margin-top: 1.17em;}
+h6 {font-size: 1em; margin-top: 1em;}
+hr {height: .1em;}
+dd {margin-bottom: .75em;}
+p, div > p:first-child, body > p:first-child, td > p:first-child, 
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p, div + p, 
+blockquote, fieldset, form, ul, ol, dl, dir, menu, pre, hr {
+  margin: .75em 0;}
+blockquote, dd {margin-left: 1.58em; padding-left: 0;}
+li {margin-left: 3.16em; padding-left: 0;}
+ul ul, ol ol, li address, li dl, li ol, li p, li ul, li dir, 
+li hr, li menu, li pre, li h1, li h2, li h3, li h4, li h5, 
+li h6, dd address, dd dl, dd ol, dd p, dd ul, dd dir, dd hr, 
+dd menu, dd pre, dd h1, dd h2, dd h3, dd h4, dd h5, dd h6,  
+form address, form dl, form ol, form p, form ul, form dir, 
+form hr, form menu, form pre, form h1, form h2, form h3, 
+form h4, form h5, form h6 {margin-top: 0; margin-bottom: 0;}
+
+
+
+body {font-family: Verdana, Myriad Web, Syntax, sans-serif;
+ color: black; background: white; margin-right: 1ex;}
+h1, h2, h3, h4, h5, h6, dt, legend, tfoot, thead  {
+ font-family: Tahoma, Verdana, Myriad Web, Syntax, sans-serif;
+ color: #036; background: white;}
+h1, h2 {font-weight: 500;}
+h3, h4, h5, dt, legend {font-weight: 600;}
+h6 {font-weight: 700;}
+hr {visibility: hidden; color: #036; background: #036;}
+del {color: black; background: #f66;}
+ins {color: black; background: yellow;}
+caption, col, colgroup, table, tbody, td, tr {
+ border-color: black; border-style: none;}
+a,a:link {font-weight: bold; color: #f30; background: white;}
+a:visited {font-weight: bold; color: #996; background: white;}
+a:active {font-weight: bold; color: #f30; background: #ff0;}
+a:hover {color: #f30; background: #ff0;}

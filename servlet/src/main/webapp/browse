@@ -1,0 +1,83 @@
+/** 
+
+*/
+
+
+import groovyx.net.http.*
+import groovyx.net.http.HttpResponseException
+import static groovyx.net.http.ContentType.*
+import static groovyx.net.http.Method.*
+
+String sparql = "@sparqls@"
+
+
+String prefix = "prefix cts: <http://www.homermultitext.org/cts/rdf/>\nprefix cite: <http://www.homermultitext.org/cite/rdf/>\nprefix hmt: <http://www.homermultitext.org/hmt/rdf/>\nprefix citedata: <http://www.homermultitext.org/hmt/citedata/>\nprefix dcterms: <http://purl.org/dc/terms/>\nprefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nprefix  xsd: <http://www.w3.org/2001/XMLSchema#>\nprefix olo: <http://purl.org/ontology/olo/core#>"
+
+
+
+/**
+* Submits an encoded query to the configured SPARQL endpoint,
+* and returns the reply.
+* @param acceptType MIME type to specify for reply.
+* @param query SPARQL query to submit.
+* @returns SPARQL reply, as a String.
+*/
+String getSparqlReply(String acceptType, String query) {
+    String replyString
+    def encodedQuery = URLEncoder.encode(query)
+    def q = "@sparqls@query?query=${encodedQuery}"
+    if (acceptType == "application/json") {
+        q +="&output=json"
+    }
+
+    def http = new HTTPBuilder(q)
+    http.request( Method.GET, ContentType.TEXT ) { req ->
+        headers.Accept = acceptType
+        response.success = { resp, reader ->
+            replyString = reader.text
+        }
+    }
+    return replyString
+}
+
+String getQuery() {
+String reply = """
+select ?category ?topic ?catlabel ?topiclabel (count(?img) as ?images) where {
+?topic <http://www.w3.org/2000/01/rdf-schema#subClassOf>      ?category .
+?category <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?catlabel .
+?topic <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?topiclabel .
+?topic <http://www.homermultitext.org/cite/rdf/illustratedBy> ?img .
+}
+GROUP BY ?category ?topic ?catlabel ?topiclabel
+ORDER BY ?catlabel ?topiclabel
+"""
+
+return reply
+}
+
+
+
+
+html.html {
+    head {
+        title("Latin sources")
+        link(type : "text/css", rel : "stylesheet", href : "css/normalize.css", title : "CSS stylesheet")
+        link(type : "text/css", rel : "stylesheet", href : "css/steely.css", title : "CSS stylesheet")
+    }
+    
+    body {
+    	header {
+            link(href : "http://folio.furman.edu/images/swiss.css", rel : "stylesheet", type : "text/css")
+    	
+            nav (role : "navigation") {
+                a(href : '@homeUrl@', "Home")
+            }
+            h1("Categories and topics")
+    	}
+    	
+    	article {
+        }
+
+        footer("")
+    }
+}

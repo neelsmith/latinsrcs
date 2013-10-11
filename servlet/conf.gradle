@@ -1,0 +1,5 @@
+
+project.ext {
+    sparqls  = "http://localhost:3030/ds/"
+    homeUrl = "http://localhost:8080/servlet/"
+}
