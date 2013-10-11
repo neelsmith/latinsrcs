@@ -57,6 +57,28 @@ def slurper = new groovy.json.JsonSlurper()
 String queryString = getQuery()
 def parsedReply = slurper.parseText(getSparqlReply("application/json", queryString))
 
+def categoryLabels = [:]
+def topicLabels = [:]
+def categoryTopicMap = [:]
+def imageCount = [:]
+parsedReply.results.bindings.each { b ->
+    categoryLabels[b.category.value] =  b.catlabel.value
+
+    topicLabels[b.topic.value] =  b.topiclabel.value
+    imageCount[b.topic.value] = b.images.value
+    def topicsList 
+    if (categoryTopicMap[b.category.value]) {
+        topicsList = categoryTopicMap[b.category.value]
+        topicsList.add(b.topic.value)
+    } else {
+        topicsList = [b.topic.value]
+    }
+    categoryTopicMap[b.category.value] = topicsList
+}
+
+
+
+
 html.html {
     head {
         title("Latin sources")
@@ -75,12 +97,23 @@ html.html {
     	}
     	
     	article {
-            String currCategory = ""
+
             ul {
-                parsedReply.results.bindings.each { b -> 
-                    li { 
-                        mkp.yield  "${b.topiclabel.value}: "
-                        a (href : "ills?topic=${b.topic.value}","${b.images.value} images")
+                categoryTopicMap.keySet().each { cat ->
+                    li {
+                        mkp.yield "${categoryLabels[cat]}"
+                        ul {
+                            categoryTopicMap[cat].each { topic ->
+                                li {
+                                    mkp.yield "${topicLabels[topic]}"
+                                    if (imageCount[topic] == "1") {
+                                        a (href : "ills?topic=${topic}&label=${topicLabels[topic]}","1 image")
+                                    } else {
+                                        a (href : "ills?topic=${topic}&label=${topicLabels[topic]}","${imageCount[topic]} images")
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }

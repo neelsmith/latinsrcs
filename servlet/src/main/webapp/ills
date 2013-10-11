@@ -49,6 +49,7 @@ return reply
 
 // Add error checking on required parameter...
 String urn = params.topic
+String topicLabel = params.label
 
 def slurper = new groovy.json.JsonSlurper()
 String queryString = getQuery(urn)
@@ -68,7 +69,7 @@ html.html {
             nav (role : "navigation") {
                 a(href : '@homeUrl@', "Home")
             }
-            h1("Illustrations: ${params.topic}")
+            h1("Illustrations: ${topicLabel}")
     	}
     	
     	article {
@@ -77,7 +78,7 @@ html.html {
                 parsedReply.results.bindings.each { b -> 
                     String imgUrn = b.o.value
                     li { 
-                        a (href : "@images@?request=GetImagePlus&urn=${imgUrn}" ){
+                        a (href : "@images@?request=GetIIPMooViewer&urn=${imgUrn}" ){
                             img (src : "@images@?request=GetBinaryImage&urn=${imgUrn}&w=600")
                         }
                     }

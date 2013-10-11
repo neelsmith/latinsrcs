@@ -14,7 +14,7 @@ html.html {
     	
     	article {
             p {
-                a (href : "browse", "Browse topics")
+                a (href : "browse", "Browse grammatical categories and topics")
             }
         }
     }
