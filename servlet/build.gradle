@@ -40,7 +40,7 @@ dependencies {
 
 
 war {
-    filter(ReplaceTokens, tokens: [homeUrl: homeUrl, sparqls: sparqls])
+    filter(ReplaceTokens, tokens: [homeUrl: homeUrl, sparqls: sparqls, images : images])
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime

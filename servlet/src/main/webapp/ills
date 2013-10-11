@@ -36,25 +36,22 @@ String getSparqlReply(String acceptType, String query) {
     return replyString
 }
 
-String getQuery() {
+String getQuery(String urn) {
 String reply = """
-select ?category ?topic ?catlabel ?topiclabel (count(?img) as ?images) where {
-?topic <http://www.w3.org/2000/01/rdf-schema#subClassOf>      ?category .
-?category <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?catlabel .
-?topic <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?topiclabel .
-?topic <http://www.homermultitext.org/cite/rdf/illustratedBy> ?img .
+SELECT ?o WHERE {
+?s <http://www.homermultitext.org/cite/rdf/illustratedBy>  ?o .
+FILTER (str(?s) = "${urn}")
 }
-GROUP BY ?category ?topic ?catlabel ?topiclabel
-ORDER BY ?catlabel ?topiclabel
 """
 
 return reply
 }
 
-
+// Add error checking on required parameter...
+String urn = params.topic
 
 def slurper = new groovy.json.JsonSlurper()
-String queryString = getQuery()
+String queryString = getQuery(urn)
 def parsedReply = slurper.parseText(getSparqlReply("application/json", queryString))
 
 html.html {
@@ -71,21 +68,29 @@ html.html {
             nav (role : "navigation") {
                 a(href : '@homeUrl@', "Home")
             }
-            h1("Categories and topics")
+            h1("Illustrations: ${params.topic}")
     	}
     	
     	article {
             String currCategory = ""
             ul {
                 parsedReply.results.bindings.each { b -> 
+                    String imgUrn = b.o.value
                     li { 
-                        mkp.yield  "${b.topiclabel.value}: "
-                        a (href : "ills?topic=${b.topic.value}","${b.images.value} images")
+                        a (href : "@images@?request=GetImagePlus&urn=${imgUrn}" ){
+                            img (src : "@images@?request=GetBinaryImage&urn=${imgUrn}&w=600")
+                        }
                     }
                 }
             }
         }
 
+	// citekit magic:
+        /*
+	ul (id: "citekit-sources") {
+            li (class : "citekit-source cite-image citekit-default", id : "defaultimage", "@images@" )
+	}
+*/
         footer("")
     }
 }
