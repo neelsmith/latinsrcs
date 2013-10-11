@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 20</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line"><persName n="pers36">CORELLIAE</persName>
+            <persName n="pers37"><choice>
+                  <abbr>C</abbr>
+                  <expan>GAII</expan>
+               </choice></persName>
+            <choice>
+               <abbr>F</abbr>
+               <expan>FILIAE</expan>
+            </choice> GALLAE PAPIANAE</ab>
+         <ab n="2" type="line">UXORI <persName n="pers38"><choice>
+                  <abbr>C</abbr>
+                  <expan>GAII</expan>
+               </choice></persName> CORELLI <choice>
+               <abbr>N</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>F</abbr>
+               <expan>FILIO</expan>
+            </choice>
+            <choice>
+               <abbr>FAB</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="3" type="line">QUAE TESTAMENTO DEDIT COLONIAE</ab>
+         <ab n="4" type="line">MENTURNENSI IIS <num>C</num> ET MUNICIPIO CASINI IIS
+            <num>C</num></ab>
+         <ab n="5" type="line">ITA UTI <num>VII</num> IDUS <choice>
+               <abbr>MART</abbr>
+               <expan>MARTIAS</expan>
+            </choice> NATALI SUO</ab>
+         <ab n="6" type="line">QUOD ANNIS CRUSTULUM ET MULSUM DETUR</ab>
+         <ab n="7" type="line">EX TESTAMENTO FIERI IUSSIT IIS <num>C</num></ab>
+      </body>
+   </text>
+</TEI>
