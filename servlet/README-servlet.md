@@ -18,9 +18,7 @@ This servlet queries a SPARQL endpoint about the RDF graph that can be built fro
 
 ## Configuration ##
 
-- Make a copy of the file `conf.gradle-dist` named 
-
-A configuration file defines run-time properties identifying URLs for the SPARQL endpoint and the servlet's home URL.  The file is identified either by the `conf` project property or by default uses `conf.gradle`.  You can therefore either make a copy of the file `conf.gradle-dist` named `conf.gradle` with appropriate values, or pass the name of a configuration file on the command line when building or running the project (see below), e.g.,
+A configuration file defines run-time properties such as URLs for the SPARQL endpoint and the servlet's home URL.  The file is identified either by the `conf` project property or by default uses `conf.gradle`.  If the values in `conf.gradle` are not what you want to use, you can therefore pass the name of a different configuration file on the command line when building or running the project (see below), e.g.,
 
     gradle -Pconf=FILENAME war
 

@@ -1,0 +1,10 @@
+/* Appropriate configuration values for installing service
+* on U. Houston test site.
+*/
+project.ext {
+    sparqls  = "http://beta.hpcc.uh.edu:3080/ds/"
+    homeUrl = "http://beta.hpcc.uh.edu/tomcat/latinsources/"
+
+    // Citable image service:
+    images = "http://beta.hpcc.uh.edu/tomcat/latepig/images"
+}
