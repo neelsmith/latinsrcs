@@ -24,6 +24,11 @@
 
     <servlet-mapping>
         <servlet-name>GroovyServlet</servlet-name>
+        <url-pattern>/cats</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GroovyServlet</servlet-name>
         <url-pattern>/ills</url-pattern>
     </servlet-mapping>
 
