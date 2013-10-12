@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 13</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line"><persName n="pers18">CLEMENTI NONO</persName>
+            <choice>
+               <abbr>PONT</abbr>
+               <expan>PONTIFICI</expan>
+            </choice>
+            <choice>
+               <abbr>OPT</abbr>
+               <expan>OPTIMO</expan>
+            </choice>
+            <choice>
+               <abbr>MAX</abbr>
+               <expan>MAXIMO</expan>
+            </choice></ab>
+         <ab n="2" type="line">AELIO PONTI AD <choice>
+               <abbr>S</abbr>
+               <expan>SANTI</expan>
+            </choice> ANGELI ARCEM</ab>
+         <ab n="3" type="line">ANGELORUM STATUIS</ab>
+         <ab n="4" type="line">REDEMPTIONIS MYSTERIA PRAEI ERH</ab>
+         <ab n="5" type="line">EXCULTO ET EXORNATO</ab>
+         <ab n="6" type="line">QUOD SINE LIV TITULO ET INSIGNIBUS</ab>
+         <ab n="7" type="line">OPUS ABSOLVI</ab>
+         <ab n="8" type="line">EX ANIMI MODERATIONE MANDAVERAT</ab>
+         <ab n="9" type="line"><persName n="pers19">CLEMENS <num>X</num></persName>
+            <choice>
+               <abbr>PONT</abbr>
+               <expan>PONTIFEX</expan>
+            </choice>
+            <choice>
+               <abbr>MAX</abbr>
+               <expan>MAXIMUS</expan>
+            </choice></ab>
+         <ab n="10" type="line">UT BENEFICENTISSIMI PRINCIPIS</ab>
+         <ab n="11" type="line">MEMORIA <w>EXTA<gap/>T</w></ab>
+         <ab n="12" type="line">POSUIT ANNO <num>MDCLXXII</num></ab>
+      </body>
+   </text>
+</TEI>
