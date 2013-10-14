@@ -144,6 +144,14 @@ urn:cite:hclat:topic.nompl2,urn:cite:hclat:category.decl2
 urn:cite:hclat:topic.nompl3,urn:cite:hclat:category.decl3
 urn:cite:hclat:topic.nompl4,urn:cite:hclat:category.decl4
 urn:cite:hclat:topic.nompl5,urn:cite:hclat:category.decl5
+urn:cite:hclat:topic.nomsg1,urn:cite:hclat:category.nominative
+urn:cite:hclat:topic.nomsg2,urn:cite:hclat:category.nominative
+urn:cite:hclat:topic.nomsg3,urn:cite:hclat:category.nominative
+urn:cite:hclat:topic.nomsg4,urn:cite:hclat:category.nominative
+urn:cite:hclat:topic.nomsg1,urn:cite:hclat:category.decl1
+urn:cite:hclat:topic.nomsg2,urn:cite:hclat:category.decl2
+urn:cite:hclat:topic.nomsg3,urn:cite:hclat:category.decl3
+urn:cite:hclat:topic.nomsg4,urn:cite:hclat:category.decl4
 urn:cite:hclat:topic.pftactind,urn:cite:hclat:category.perfect
 urn:cite:hclat:topic.pftactind,urn:cite:hclat:category.active
 urn:cite:hclat:topic.pftactind,urn:cite:hclat:category.indicative
