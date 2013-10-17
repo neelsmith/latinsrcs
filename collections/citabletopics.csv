@@ -28,6 +28,7 @@ urn:cite:hclat:topic.accsgpro,Accusative singular form of a personal pronoun,Acc
 urn:cite:hclat:topic.adv,Adverb,"Describes a verb, adjective, or adverb."
 urn:cite:hclat:topic.compadj,Comparative adjective,Adjective form '-ior-' or '-ius' that expresses 'more'
 urn:cite:hclat:topic.compadv,Comparative adverb,Adverb form that expresses 'more'
+urn:cite:hclat:topic.cum,Cum clause,A subordinate clause introduced by 'cum' that describes a time or circumstance.
 urn:cite:hclat:topic.date,Date,"A specific date, which counts the days until the Ides, Kalends, or Nones of a month"
 urn:cite:hclat:topic.datplpro,Dative plural form of a personal pronoun,Dative form of 'nos' or 'vos'
 urn:cite:hclat:topic.datref,Dative of reference,Expresses for whom or what an action is performed.
@@ -114,6 +115,7 @@ urn:cite:hclat:topic.prespassub4,"Present passive subjunctive form, 4th conjugat
 urn:cite:hclat:topic.purpose,Purpose clause,A subjunctive clause introduced by 'ut' or 'ne'.  Expresses purpose and translates as 'so that'.
 urn:cite:hclat:topic.relpro,Relative pronoun,A form of qui/quae/quod meaning 'which'.
 urn:cite:hclat:topic.rfladj,Reflexive possessive adjective,A form of suus/sua/suum showing posession.  The case and gender depends on the noun it is describing (the thing being possessed).  The meaning refers to the subject of the sentence (the person doing the possessing).
+urn:cite:hclat:topic.rflpro,Reflexive pronoun,A pronoun that refers back to the subject of the sentence.  The forms are sui/sibi/se/se.
 urn:cite:hclat:topic.supadj,Superlative adjective,Adjective form '-issimus/a/um' that expresses 'most'.
 urn:cite:hclat:topic.vocsg1,"Vocative singular form, 1st declension",Direct address.  Ending is the same as the nominative.
 urn:cite:hclat:topic.vocsg2,"Vocative singular form, 2nd declension",Direct address.  Ending '-e'.
