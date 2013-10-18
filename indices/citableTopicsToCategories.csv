@@ -38,6 +38,7 @@ urn:cite:hclat:topic.accsgpro,urn:cite:hclat:category.accusative
 urn:cite:hclat:topic.adv,urn:cite:hclat:category.adverb
 urn:cite:hclat:topic.compadv,urn:cite:hclat:category.adverb
 urn:cite:hclat:topic.compadj,urn:cite:hclat:category.adjective
+urn:cite:hclat:topic.cum,urn:cite:hclat:category.clause
 urn:cite:hclat:topic.datplpro,urn:cite:hclat:category.dative
 urn:cite:hclat:topic.datplpro,urn:cite:hclat:category.pronoun
 urn:cite:hclat:topic.datref,urn:cite:hclat:category.dative
@@ -260,7 +261,9 @@ urn:cite:hclat:topic.prespassub1,urn:cite:hclat:category.conj1
 urn:cite:hclat:topic.prespassub2,urn:cite:hclat:category.conj2
 urn:cite:hclat:topic.prespassub3,urn:cite:hclat:category.conj3
 urn:cite:hclat:topic.prespassub4,urn:cite:hclat:category.conj4
+urn:cite:hclat:topic.purpose,urn:cite:hclat:category.clause
 urn:cite:hclat:topic.relpro,urn:cite:hclat:category.pronoun
+urn:cite:hclat:topic.result,urn:cite:hclat:category.clause
 urn:cite:hclat:topic.rflpro,urn:cite:hclat:category.pronoun
 urn:cite:hclat:topic.supadj,urn:cite:hclat:category.adjective
 urn:cite:hclat:topic.vocsg1,urn:cite:hclat:category.decl1

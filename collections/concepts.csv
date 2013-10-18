@@ -9,10 +9,10 @@ urn:cite:hclat:category.accusative,Accusative,"The object of a verb.  The accusa
 urn:cite:hclat:category.adverb,Adverb,"Describes a verb, adjective, or adverb.  Appears in three degrees:  positive, comparative (more), and superlative (most)."
 urn:cite:hclat:category.adjective,Adjective,"Describes a noun, or can stand alone in the place of a noun.  Appears in three degrees:  positive, comparative (more), and superlative (most).  There are two declensions of adjective, 1st/2nd and 3rd declension.  The 1st/2nd declension  has the same endings as the first and second declensions of nouns.  The 3rd declension has the same endings as the third declension of nouns, with some variations."
 urn:cite:hclat:category.dative,Dative,"Can usually be translated as 'to' or 'for'.  The indirect object of a sentence.  Other uses include: (1) reference, (2) purpose, (3) agent (by whom), (4) possession, and more."
-urn:cite:hclat:category.conj1,First conjugation,"Category of verbs that have '-o' in the first person the infinitive ending '-are'."
-urn:cite:hclat:category.conj2,Second conjugation,"Category of verbs that have '-eo' in the first person and the infinitive ending '-ere'."
-urn:cite:hclat:category.conj3,Third conjugation,"Category of verbs that have '-o' or '-io' in the first person and the infinitive ending '-ere'."
-urn:cite:hclat:category.conj4,Fourth conjugation,"Category of verbs that have '-io' in the first person and  the infinitive ending '-ire'."
+urn:cite:hclat:category.conj1,First conjugation,Category of verbs that have '-o' in the first person the infinitive ending '-are'.
+urn:cite:hclat:category.conj2,Second conjugation,Category of verbs that have '-eo' in the first person and the infinitive ending '-ere'.
+urn:cite:hclat:category.conj3,Third conjugation,Category of verbs that have '-o' or '-io' in the first person and the infinitive ending '-ere'.
+urn:cite:hclat:category.conj4,Fourth conjugation,Category of verbs that have '-io' in the first person and  the infinitive ending '-ire'.
 urn:cite:hclat:category.irregular,Irregular verb,"A verb that does not fit into any other conjugation, such as 'sum', 'volo', 'malo', or 'fero'."
 urn:cite:hclat:category.participle,Participle,"A verbal adjective.  It has a tense and a voice, like verbs, but it describes a noun, like an adjective.  "
 urn:cite:hclat:category.future,Future tense,Expresses an action that will happen.
@@ -30,3 +30,4 @@ urn:cite:hclat:category.imperative,Imperative mood,A command.
 urn:cite:hclat:category.subjunctive,Subjunctive mood,"Expresses something that might have happened, that could happen, or that would happen.  Verbs in the indicative are ambiguous and do not express something more hypothetical than factual.  Their translation depends on how they are used."
 urn:cite:hclat:category.infinitive,Infinitive,"The 'to' form of a verb, like 'to run' or 'to sit'.  It has a tense and a voice, but it works a lot like a noun.  For example, 'I like to run' means the same as 'I like running'.  'To run' and 'running' are both direct objects, and would both be translated with the infinitive in Latin."
 urn:cite:hclat:category.vocative,Vocative,Used for calling someone or talking to someone.  Direct address.
+urn:cite:hclat:category.clause,Subjunctive clause,A dependent form of the subjunctive.
