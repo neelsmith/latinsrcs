@@ -68,6 +68,10 @@ urn:cite:hclat:topic.impftactind2,"Imperfect active indicative form, 2nd conjuga
 urn:cite:hclat:topic.impftactind3,"Imperfect active indicative form, 3rd conjugation","Translates as 'was', 'used to' or 'kept on'."
 urn:cite:hclat:topic.impftactind4,"Imperfect active indicative form, 4th conjugation","Translates as 'was', 'used to' or 'kept on'."
 urn:cite:hclat:topic.impftactindir,Imperfect active indicative form of an irregular verb,"Translates as 'was', 'used to' or 'kept on'."
+urn:cite:hclat:topic.impftactsub1,"Imperfect active subjunctive form, 1st conjugation",Translation depends on use.  Incomplete past action.
+urn:cite:hclat:topic.impftactsub2,"Imperfect active subjunctive form, 2nd conjugation",Translation depends on use.  Incomplete past action.
+urn:cite:hclat:topic.impftactsub3,"Imperfect active subjunctive form, 3rd conjugation",Translation depends on use.  Incomplete past action.
+urn:cite:hclat:topic.impftactsub4,"Imperfect active subjunctive form, 4th conjugation",Translation depends on use.  Incomplete past action.
 urn:cite:hclat:topic.ipse,Form of the pronoun ipse/ipsa/ipsum,Pronoun meaning '-self'.  Used to intensify so noun.
 urn:cite:hclat:topic.interrog,Interrogative,A word that introduces a question.
 urn:cite:hclat:topic.is,Form of the pronoun is/ea/id,"Pronoun meaning 'he', 'she', or 'it'."
@@ -84,6 +88,7 @@ urn:cite:hclat:topic.nomsg4,"Nominative singular form, 4th declension",Ending '-
 urn:cite:hclat:topic.ntpl,Neuter plural,Ending '-a'.  Both the nominative and accusative are the same.
 urn:cite:hclat:topic.num,Numeral,"An ordinal number, written out (such as 'unus', 'duo', 'tres', etc.)"
 urn:cite:hclat:topic.pftactind,Perfect active indicative,Translates as 'did'.  Completed past action.
+urn:cite:hclat:topic.pftactsub,Perfect active subjunctive,Translation depends on use.  Completed past action.
 urn:cite:hclat:topic.pftpasind,Perfect passive indicative,Translates as 'did'.  Completed past action.
 urn:cite:hclat:topic.pftpaspart,Perfect passive participle,Translates as 'having been done'.
 urn:cite:hclat:topic.ppftactind,Pluperfect active indicative,Translates as 'had'.
@@ -97,11 +102,17 @@ urn:cite:hclat:topic.presactind2,"Present active indicative form, 2nd conjugatio
 urn:cite:hclat:topic.presactind3,"Present active indicative form, 3rd conjugation",Translates as 'is'.
 urn:cite:hclat:topic.presactind4,"Present active indicative form, 4th conjugation",Translates as 'is'.
 urn:cite:hclat:topic.presactindir,Present active indicative of an irregular verb,Translates as 'is'.
+urn:cite:hclat:topic.presactinf1,"Present active infinitive, 1st conjugation","A verbal noun, like 'to run' or 'to sit'. Translates as 'to'."
+urn:cite:hclat:topic.presactinf3,"Present active infinitive, 3rd conjugation","A verbal noun, like 'to run' or 'to sit'. Translates as 'to'."
 urn:cite:hclat:topic.presactinfir,Present active infinitive form of an irregular verb,"A verbal noun, like 'to run' or 'to sit'. Translates as 'to'."
 urn:cite:hclat:topic.presactpart1,"Present active participle, 1st conjugation","A verbal adjective with a present sense, like 'the running man'."
 urn:cite:hclat:topic.presactpart2,"Present active participle, 2nd conjugation","A verbal adjective with a present sense, like 'the running man'."
 urn:cite:hclat:topic.presactpart3,"Present active participle, 3rd conjugation","A verbal adjective with a present sense, like 'the running man'."
 urn:cite:hclat:topic.presactpart4,"Present active participle, 4th conjugation","A verbal adjective with a present sense, like 'the running man'."
+urn:cite:hclat:topic.presactsub1,"Present active subjunctive form, 1st conjugation",Present verb in the subjunctive mood.  Translation depends on use.
+urn:cite:hclat:topic.presactsub2,"Present active subjunctive form, 2nd conjugation",Present verb in the subjunctive mood.  Translation depends on use.
+urn:cite:hclat:topic.presactsub3,"Present active subjunctive form, 3rd conjugation",Present verb in the subjunctive mood.  Translation depends on use.
+urn:cite:hclat:topic.presactsub4,"Present active subjunctive form, 4th conjugation",Present verb in the subjunctive mood.  Translation depends on use.
 urn:cite:hclat:topic.presactsubir,Present active subjunctive of an irregular verb,Irregular verb in the subjunctive mood.  Translation depends on use.
 urn:cite:hclat:topic.prespasind1,"Present passive indicative form, 1st conjugation",Translates as 'is being'.
 urn:cite:hclat:topic.prespasind2,"Present passive indicative form, 2nd conjugation",Translates as 'is being'.
