@@ -3,10 +3,10 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+  <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Document 21</title>
+            <title>Document 26</title>
             <editor>Megan Whitacre</editor>
          </titleStmt>
          <publicationStmt>
@@ -16,13 +16,10 @@
             <p>Directly edited from photograph of artifact</p>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
-   <text>
+  </teiHeader>
+  <text>
       <body>
-         <ab n="1" type="line">AEDIVI <persName n="pers39">CLAUDI</persName>
-            <gap/>B</ab>
-         <ab n="2" type="line">CUS ACCENSI DIVI <persName n="pers39">CLAUDI</persName></ab>
-         <ab n="3" type="line"><w><supplied resp="MW">AU</supplied>GUSTALES</w></ab>
+         <ab n="1" type="line">CASTRA DEI SUNT HAEC</ab>
       </body>
-   </text>
+  </text>
 </TEI>
