@@ -27,11 +27,11 @@
             <persName n="pers44">CULTELLUS</persName>
             <choice>
                <abbr>PRAEF</abbr>
-               <expan/>
+               <expan>PRAEFECTUS</expan>
             </choice>
             <choice>
                <abbr>FABR</abbr>
-               <expan/>
+               <expan>FABRUM</expan>
             </choice></ab>
          <ab n="2" type="line">DIVI <persName n="pers39">CLAUDI</persName> IUSSU CAESARIS DEDICAVIT</ab>
       </body>

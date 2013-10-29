@@ -26,8 +26,8 @@
                <abbr>APP</abbr>
                <expan>APPIO</expan>
             </choice></persName> SUETRIO SABINO <choice>
-               <abbr>CU</abbr>
-               <expan/>
+               <abbr>C V</abbr>
+               <expan>CLARISSIMO VIRO</expan>
             </choice>
             <choice>
                <abbr>COS</abbr>
@@ -35,34 +35,34 @@
             </choice> ORDINARIO PONTIFICI</ab>
          <ab n="2" type="line"><gap/> AUGURI COMITIA <choice>
                <abbr>AUG</abbr>
-               <expan>AUGUSTO</expan>
+               <expan>AUGUSTI</expan>
             </choice>
             <choice>
                <abbr>N</abbr>
-               <expan/>
+               <expan>NEPOTI</expan>
             </choice> ELECTO AD CORRIGENDUM STATUM ITALIAE</ab>
          <ab n="3" type="line"><gap/> ALIMENTORUM IUDICI EX DELEGATU PRINCIPUM IN PROVINCIA</ab>
          <ab n="4" type="line"><gap/> DALMATIA ITEM PANNONIA INFERIORE <choice>
                <abbr>LEG</abbr>
-               <expan/>
+               <expan>LEGATO</expan>
             </choice>
             <choice>
                <abbr>AUG</abbr>
-               <expan/>
+               <expan>AUGUSTO</expan>
             </choice>
             <choice>
                <abbr>PR PR</abbr>
-               <expan/>
+               <expan>PRAEFECTO PRAETORIO</expan>
             </choice> PROVINCIAE</ab>
          <ab n="5" type="line"><gap/> PRAEPOSITO VEXILLARIS GERMANICAE EXPEDITIONIS LEGATO</ab>
          <ab n="6" type="line"><gap/>
             <choice>
                <abbr>LEG</abbr>
-               <expan/>
+               <expan>LEGATUS</expan>
             </choice>
             <num>XXII</num> PRIMIGENIAE <choice>
-               <abbr>P F</abbr>
-               <expan/>
+               <abbr>PIAE FIDELIS</abbr>
+               <expan></expan>
             </choice> IURIDICOPERAE MILIAM ET LIGURIAM CURATOR</ab>
          <ab n="7" type="line"><gap/>VIAE LATINAE LEGATO <choice>
                <abbr>PROV</abbr>
@@ -71,7 +71,7 @@
          <ab n="8" type="line"><gap/>
             <choice>
                <abbr>TRIB</abbr>
-               <expan/>
+               <expan>TRIBUNUS</expan>
             </choice>
             <choice>
                <abbr>BL</abbr>
@@ -83,7 +83,7 @@
             </choice>
             <choice>
                <abbr>O</abbr>
-               <expan/>
+               <expan>OPTIMUS</expan>
             </choice>
             <choice>
                <abbr>CAND</abbr>
