@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 35</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>GENIO</ab>
+         <ab>FAMILIAE MONETAL</ab>
+         <ab><persName n="pers51">DEMETRIUS</persName> CAESARIS <choice>
+               <abbr>N</abbr>
+               <expan>NEPOS</expan>
+            </choice></ab>
+         <ab><persName n="pers52"><choice>
+                  <abbr>SER</abbr>
+                  <expan>SERVIUS</expan>
+               </choice></persName>
+            <persName n="pers52">EPAPHRODITIANUS</persName>
+            <choice>
+               <abbr>DISP</abbr>
+               <expan/>
+            </choice></ab>
+         <ab><choice>
+               <abbr>D D</abbr>
+               <expan>DONUM DEDIT</expan>
+            </choice></ab>
+      </body>
+   </text>
+</TEI>

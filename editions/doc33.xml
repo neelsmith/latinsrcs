@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 33</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line">RAGONIO VINCENTIP CELSO C</ab>
+         <ab n="2" type="line">A PRIMO AETATIS INTR SITU IN ACTU</ab>
+         <ab n="3" type="line">PUBLICO EIDELI EXERCITATIONE VERSATO</ab>
+         <ab n="4" type="line">CUIUS PRIMAE VITA SOFFICIOS EDIS URBANAE</ab>
+         <ab n="5" type="line">ADVOCATIONIS EX EPCITO FIDEM <unclear/> GENIO</ab>
+         <ab n="6" type="line">PRUDENTIAE MISCUIT LIBERTATEM TANTI <unclear/> MOD <unclear/></ab>
+         <ab n="7" type="line">PIUS INDUSTRIANISI ILLE CONTRA OVEM SUSCEDERAT</ab>
+         <ab n="8" type="line">FORMIDERET CUIUS ACCESSI SAETATI SAMPLISSIMI</ab>
+         <ab n="9" type="line">HONORIS ET OVIS OLET SENIOR IB PROVENIR POENA</ab>
+         <ab n="10" type="line">M<unclear/> PROMERUIT NAM REXIT ANNO NARIAM POTIS</ab>
+         <ab n="11" type="line">TATEM E BIS ET <unclear/> NAE EA<unclear/> EO VITA EVIIN</ab>
+         <ab n="12" type="line"><unclear/> AN<unclear/> HOLITICANIS<unclear/> INTRASSENT PARENTEM</ab>
+         <ab n="13" type="line">PLERU<unclear/> MAGIS HIS OVAM VOI CEMPRAW<unclear/></ab>
+         <ab n="14" type="line">VINCET IAM FACTUM EST UT MENS ORES</ab>
+         <ab n="15" type="line"><unclear/> VETUS EVITCUM CANDICARIIS DIV<unclear/></ab>
+         <ab n="16" type="line">IUSTAMEN VOTI CON POTES ABIREMUS<unclear/></ab>
+         <ab n="17" type="line">CORPUS ET BENEFICIOSE ET VICTORI CRAI <unclear/></ab>
+         <ab n="18" type="line">A DECT<unclear/> NAM UT HOC ESSET INDICIO <unclear/></ab>
+         <ab n="19" type="line">MAGISTRATU STATUAM PATRO <unclear/></ab>
+         <ab n="20" type="line">POTESTI MONIUM GRATULATIONIS</ab>
+         <ab n="21" type="line"><unclear/> NONA DUIATIONE PRIVATOS ET <unclear/></ab>
+         <ab n="22" type="line"><unclear/>TIO ETO VIETER ED DATUR</ab>
+      </body>
+   </text>
+</TEI>
