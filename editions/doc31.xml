@@ -19,16 +19,16 @@
    </teiHeader>
    <text>
       <body>
-         <ab><persName n="pers47">IURIUS</persName> <persName n="pers47">MAECLUS</persName></ab>
-         <ab><persName n="pers47">GRACCHUS</persName> <choice>
+         <ab n="1" type="line"><persName n="pers47">IURIUS</persName> <persName n="pers47">MAECLUS</persName></ab>
+         <ab n="2" type="line"><persName n="pers47">GRACCHUS</persName> <choice>
                <abbr>V C</abbr>
                <expan/>
             </choice></ab>
-         <ab>CORRECTORIA</ab>
-         <ab>MINIAE <unclear>PICE</unclear></ab>
-         <ab><unclear></unclear></ab>
-         <ab>THERMARUM</ab>
-         <ab>DEDICAVIT</ab>
+         <ab n="3" type="line">CORRECTORIA</ab>
+         <ab n="4" type="line">MINIAE <unclear>PICE</unclear></ab>
+         <ab n="5" type="line"><unclear></unclear></ab>
+         <ab n="6" type="line">THERMARUM</ab>
+         <ab n="7" type="line">DEDICAVIT</ab>
       </body>
    </text>
 </TEI>
