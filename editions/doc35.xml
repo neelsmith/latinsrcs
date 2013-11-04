@@ -19,13 +19,13 @@
    </teiHeader>
    <text>
       <body>
-         <ab>GENIO</ab>
-         <ab>FAMILIAE MONETAL</ab>
-         <ab><persName n="pers51">DEMETRIUS</persName> CAESARIS <choice>
+         <ab n="1" type="line">GENIO</ab>
+         <ab n="2" type="line">FAMILIAE MONETAL</ab>
+         <ab n="3" type="line"><persName n="pers51">DEMETRIUS</persName> CAESARIS <choice>
                <abbr>N</abbr>
                <expan>NEPOS</expan>
             </choice></ab>
-         <ab><persName n="pers52"><choice>
+         <ab n="4" type="line"><persName n="pers52"><choice>
                   <abbr>SER</abbr>
                   <expan>SERVIUS</expan>
                </choice></persName>
@@ -34,7 +34,7 @@
                <abbr>DISP</abbr>
                <expan/>
             </choice></ab>
-         <ab><choice>
+         <ab n="5" type="line"><choice>
                <abbr>D D</abbr>
                <expan>DONUM DEDIT</expan>
             </choice></ab>

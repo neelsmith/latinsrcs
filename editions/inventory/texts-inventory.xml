@@ -865,6 +865,114 @@
             
         </work>
     </textgroup>
+    
+    <textgroup
+        urn="urn:cts:latepig:inscriptions">
+        <groupname
+            xml:lang="eng">Latin inscriptions</groupname>
+        <work
+            urn="urn:cts:latepig:inscriptions.doc32"
+            xml:lang="lat">
+            <title
+                xml:lang="eng">Document 32</title>
+            
+            <edition urn="urn:cts:latepig:inscriptions.doc32.hclat" >
+                <label xml:lang="eng">HCLAT</label>
+                <description xml:lang="eng">Inscription pictured on IMG_5309</description>
+                
+                <online docname="doc32.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body"></citation>
+                    </citationMapping>
+                </online>
+            </edition>
+            
+        </work>
+    </textgroup>
+    
+    <textgroup
+        urn="urn:cts:latepig:inscriptions">
+        <groupname
+            xml:lang="eng">Latin inscriptions</groupname>
+        <work
+            urn="urn:cts:latepig:inscriptions.doc33"
+            xml:lang="lat">
+            <title
+                xml:lang="eng">Document 33</title>
+            
+            <edition urn="urn:cts:latepig:inscriptions.doc33.hclat" >
+                <label xml:lang="eng">HCLAT</label>
+                <description xml:lang="eng">Inscription pictured on IMG_5311</description>
+                
+                <online docname="doc33.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body"></citation>
+                    </citationMapping>
+                </online>
+            </edition>
+            
+        </work>
+    </textgroup>
+    
+    <textgroup
+        urn="urn:cts:latepig:inscriptions">
+        <groupname
+            xml:lang="eng">Latin inscriptions</groupname>
+        <work
+            urn="urn:cts:latepig:inscriptions.doc34"
+            xml:lang="lat">
+            <title
+                xml:lang="eng">Document 34</title>
+            
+            <edition urn="urn:cts:latepig:inscriptions.doc34.hclat" >
+                <label xml:lang="eng">HCLAT</label>
+                <description xml:lang="eng">Inscription pictured on IMG_5312</description>
+                
+                <online docname="doc34.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body"></citation>
+                    </citationMapping>
+                </online>
+            </edition>
+            
+        </work>
+    </textgroup>
+    
+    <textgroup
+        urn="urn:cts:latepig:inscriptions">
+        <groupname
+            xml:lang="eng">Latin inscriptions</groupname>
+        <work
+            urn="urn:cts:latepig:inscriptions.doc35"
+            xml:lang="lat">
+            <title
+                xml:lang="eng">Document 35</title>
+            
+            <edition urn="urn:cts:latepig:inscriptions.doc35.hclat" >
+                <label xml:lang="eng">HCLAT</label>
+                <description xml:lang="eng">Inscription pictured on IMG_5314</description>
+                
+                <online docname="doc35.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body"></citation>
+                    </citationMapping>
+                </online>
+            </edition>
+            
+        </work>
+    </textgroup>
     <!--
     <textgroup
         projid="latinLit:stoa0159">
