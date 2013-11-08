@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 36</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line">IN HIS <w>PRAED<supplied resp="MW">I</supplied>S</w></ab>
+         <ab n="2" type="line">INSULA SERTORIANA</ab>
+         <ab n="3" type="line">BOLO ESSE <choice>
+               <abbr>AUR</abbr>
+               <expan>AURELIO</expan>
+            </choice> CYRIACETIS</ab>
+         <ab n="4" type="line">EILIE MEAE CINACULA <choice>
+               <abbr>N</abbr>
+               <expan/>
+            </choice>
+            <num>VI</num>
+            <w>TAB<supplied resp="MW">E</supplied>RNAS</w></ab>
+         <ab n="5" type="line"><choice>
+               <abbr>N</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>X</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>I</abbr>
+               <expan/>
+            </choice> ET REPOSSONE SUBISCALIBI</ab>
+         <ab n="6" type="line">FELICITER</ab>
+      </body>
+   </text>
+</TEI>
