@@ -23,6 +23,11 @@
     <index verb="cite:illustrates" inverse="cite:illustratedBy">
         <source type="file" value="imgToEdition.csv"></source>
     </index>
+
+
+    <index verb="cite:hasInIt" inverse="cite:occursIn">
+        <source type="file" value="passageToToken.csv"></source>
+    </index>
     
 <!--
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
