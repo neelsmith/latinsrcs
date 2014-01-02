@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 43</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line"><persName n="pers59"><choice>
+         	<abbr>Q</abbr>
+         	<expan>QUINTO</expan>
+         	</choice></persName> <persName n="pers59">PETRONIO</persName> 
+         	<persName n="pers60"><choice>
+         		<abbr>Q</abbr>
+         		<expan>QUINTI</expan>
+         		</choice></persName> <choice>
+         			<abbr>F</abbr>
+         			<expan>FILIO</expan>
+         			</choice></ab> 
+         <ab n="2" type="line">MELIORI</ab> 
+         <ab n="3" type="line"><choice>
+         	<abbr>PROC</abbr>
+         	<expan>PROCURATORI</expan>
+         	</choice> <choice>
+         		<abbr>ANN</abbr>
+         		<expan>ANNIS</expan>
+         		</choice> ADIUTORI CURATORIS</ab> 
+         <ab n="4" type="line">ALUEI TIBERIS ET CLOACARUM</ab> 
+         <ab n="5" type="line">CURATORI REI <choice>
+         	<abbr>PUBL</abbr>
+         	<expan>PUBLICI</expan></choice> SAENESIUM</ab> 
+         <ab n="6" type="line">PRAETORI ET <choice>
+         	<abbr>RUR</abbr>
+         	<expan/></choice> <num>XV</num> POPULORUM</ab> 
+         <ab n="7" type="line">BIS <choice>
+         	<abbr>TRIB</abbr>
+         	<expan>TRINBUNO</expan>
+         	</choice> <choice>
+         		<abbr>MIL</abbr>
+         		<expan>MILITUM</expan>
+         		</choice> <choice>
+         			<abbr>LEG</abbr>
+         			<expan>LEGATO</expan></choice> <num>III</num> GALLICAE <choice>
+         				<abbr>SC</abbr>
+         				<expan>SENATUS CONSULTO</expan>
+         				<choice></ab> 
+         <ab n="8" type="line"><choice>
+         	<abbr>Q</abbr>
+         	<expan>QUAESTORI</expan>
+         	</choice> <num>VI<num> PRIMO PRINCIPI <choice>
+         		<abbr>PRAET</abbr>
+         		<expan>PRAETORI</expan></choice> <choice>
+         			<abbr>LAV</abbr>
+         			<expan/></choice></ab>
+         <ab n="9" type="line"><choice>
+         	<abbr>LAVIN</abbr>
+         	<expan/></choice> <num>IIII</num> VIRO <choice>
+         		<abbr>Q Q</abbr>
+         		<expan>QUINQUENNALI</expan>
+         		</choice> <placeName n="pl29">FAESULIS</placeName></ab> 
+         <ab n="10" type="line"><choice>
+         	<abbr>PONTIF</abbr>
+         	<expan>PONTIFICI</expan></choice> 
+         	<placeName n="pl29">FAESULIS</placeName> ET 
+         	<placeName n="pl30">FLORENTIA</placeName></ab> 
+         <ab n="11" type="line">CORPUS <choice>
+         	<abbr>MESOR</abbr>
+         	<expan/></choice> <choice>
+         		<abbr>FRUM</abbr>
+         		<expan>FRUMENTO</expan></choice> <placeName n="pl14"><choice>
+         			<abbr>OST</abbr>
+         			<expan>OSTIENSI</expan>
+         			</choice></placeName></ab>
+         <ab n="12" type="line"><choice><abbr>L D D D P</abbr>
+         	<expan/></choice></ab>
+      </body>
+   </text>
+</TEI>

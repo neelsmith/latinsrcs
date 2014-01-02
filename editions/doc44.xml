@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 44</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line"><supplied><choice>
+         	<abbr>IMP</abbr>
+         	<expan>IMPERATOR</expan></choice> <choice>
+         		<abbr>CAES</abbr>
+         		<expan>CAESAR</expan>
+         		</choice> DIVI 
+         		<persName n="pers22">MARCI ANTONINI PII</persName> FILIUS</supplied></ab> 
+         <ab n="2" type="line"><supplied>DIVI 
+         	<persName n="pers61">COMMODI</persName> FRATER DIVI 
+         	<persName n="pers23">ANTONINI PII</persName></supplied></ab>
+         <ab n="3" type="line"><supplied>NEPOS DIVI <persName n="pers58">HADRIANI</persName> <choice>
+         	<abbr>PRONEP</abbr>
+         	<expan>PRONEPOS</expan>
+         	</choice> DIVI <persName n="pers6">TRAIANI</persName></supplied></ab> 
+         <ab n="4" type="line"><supplied>PARTHICI ABNEPOS</supplied> DIVI 
+         	<persName n="pers5">NERVAE</persName> <supplied>ADNEPOS</supplied></ab> 
+         <ab n="5" type="line"><choice>
+         	<abbr>L</abbr>
+         	<expan/></choice> <supplied><persName n="pers28">SEPTIMIUS SEVERUS</persName> PIUS </supplied>PERTINAX <choice>
+         		<abbr>AUG</abbr>
+         		<expan>AUGUSTUS</expan></choice></ab>
+         <ab n="6" type="line"><supplied>ARABICUS ADIAPENICUS</supplied> <choice>
+         	<abbr>P P</abbr>
+         	<expan>PATER PATRIAE</expan></choice> <supplied><choice>
+         		<abbr>PONTIF</abbr>
+         		<expan>PONTIFEX</expan>
+         		</choice> <choice>
+         			<abbr>MAX</abbr>
+         			<expan>MAXIMUS</expan>
+         			</choice></supplied></ab>
+         <ab n="7" type="line"><supplied><choice>
+         	<abbr>TRIBUNIC</abbr>
+         	<expan>TRIBUNICIA</expan>
+         	</choice> <choice>
+         		<abbr>POTEST</abbr>
+         		<expan>POTESTAS</expan>
+         		</choice> <num>IIII</num></supplied> <choice>
+         			<abbr>IMP</abbr>
+         			<expan>IMPERATOR</expan>
+         			</choice> <num>VIII</num> <choice>
+         				<abbr>COS</abbr>
+         				<expan>CONSUL</expan>
+         				</choice> <num>II</num> ET</ab>
+         <ab n="8" type="line"><persName n="pers30"><w><supplied>MARCU</supplied>S</w> AURELIUS ANTONINUS CAESAR</persName></ab> 
+         <ab n="9" type="line">DEDICAVERUNT</ab>
+      </body>
+   </text>
+</TEI>
