@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 59</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line">EUMACHIA <persName n="pers76"><choice>
+         	<abbr>L</abbr>
+         	<expan>LUCII</expan>
+         	</choice></persName> <choice>
+         		<abbr>F</abbr>
+         		<expan>FILIUS</expan>
+         		</choice> <choice>
+         			<abbr>SACERD</abbr>
+         			<expan>SACERDOS</expan>
+         			</choice> <choice>
+         				<abbr>PUBL</abbr>
+         				<expan>PUBLICI</expan>
+         				</choice> NOMINE SUO ET</ab> 
+         <ab n="2" type="line"><persName n="pers77"><choice>
+         	<abbr>M</abbr>
+         	<expan>MARCI</expan>
+         	</choice> NUMISTRI FRONTONIS</persName> FILI CHALCIDICUM CRYPTAM PORTICUS CONCORDIAE</ab> 
+         <ab n="3" type="line">AUGUSTA PIETATIS SUA PEQUNIA FECIT EADEMQUE DEDICAVIT</ab>
+      </body>
+   </text>
+</TEI>

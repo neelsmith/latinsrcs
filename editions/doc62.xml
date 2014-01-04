@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 62</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line"><persName n="pers81"><choice>
+         	<abbr>M</abbr>
+         	<expan>MARCUS</expan>
+         	</choice> VENNIUS RUFUS</persName> <choice>
+         		<abbr>SEVIR</abbr>
+         		<expan></expan></ab>
+         <ab n="2" type="line">SIBI ET</ab> 
+         <ab n="3" type="line"><persName n="pers82"><choice>
+         	<abbr>M</abbr>
+         	<expan>MARCO</expan>
+         	</choice> VENNIO DEMETRIO</persName> PATRI</ab> 
+         <ab n="4" type="line"><persName n="pers83">VENNIAE RUFAE</persName> MATRI</ab> 
+         <ab n="5" type="line"><persName n="pers84">VALERIAE URBANAE</persName> UXORI</ab> 
+         <ab n="6" type="line"><persName n="pers85">FUFIAE CHILAE</persName> CONCUBINAE</ab>
+      </body>
+   </text>
+</TEI>

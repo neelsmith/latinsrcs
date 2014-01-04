@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 63</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line">CIUL C F CL ALEXANDRO</ab>
+         <ab n="2" type="line">STOI ARC CLASSI P MISEN PV</ab>
+         <ab n="3" type="line">ADAMPLIATO</ab>
+         <ab n="4" type="line">IUDICIS DIVI ALEXANDRI AUG</ab>
+         <ab n="5" type="line">CETERORUMQ PRINCIP PRAET</ab>
+         <ab n="6" type="line">RELIQ CLASS PRAET T MISENI T</ab>
+         <ab n="7" type="line">RAVENN PP VV EXPEDITIONI</ab>
+         <ab n="8" type="line">ORIENTALI AD LEGIN ORDIN</ab>
+         <ab n="9" type="line">DECUR SPLENDIDISS CIVITAT</ab>
+         <ab n="10" type="line">MISITEMQ SPENDIDIS COL</ab>
+         <ab n="11" type="line">ANTIOCHIENS ET SPLENDIDIS</ab>
+         <ab n="12" type="line">COLMALLO TAR PATRON QUO</ab>
+         <ab n="13" type="line">QUE CITITATI CHII HOMINI VERI</ab>
+         <ab n="14" type="line">CUNDISS CIVI APRILIS VET AUGG</ab>
+         <ab n="15" type="line">L C AB AUGEI SERAPIONE TRIB P<unclear></unclear></ab>
+      </body>
+   </text>
+</TEI>

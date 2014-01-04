@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 61</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line"><persName n="pers79"><choice>
+         	<abbr>N</abbr>
+         	<expan>NONUS</expan> POPIDIUS</persName> <persName n="pers80"><choice>
+         		<abbr>N</abbr>
+         		<expan>NONI</expan></choice></persName> <choice>
+         			<abbr>F</abbr>
+         			<expan>FILIUS</expan>
+         			</choice> <persName n="pers79">CELSINUS</persName></ab> 
+         <ab n="2" type="line">AEDEM <persName n="pers65">ISIDIS</persName> TERRAE MOTU CONLAPSAM</ab> 
+         <ab n="3" type="line">AFUNDAMENTO <choice>
+         	<abbr>P</abbr>
+         	<expan></expan>
+         	</choice> <choice>
+         		<abbr>S</abbr>
+         		<expan></expan>
+         		</choice> RESTITUIT HUNC DECURIONES OBLIBERA LITATEM</ab> 
+         <ab n="4" type="line">CUM ESSET ANNORUM SEXS ORDINI SUO GRATIS ADLEGERUNT</ab>
+      </body>
+   </text>
+</TEI>
