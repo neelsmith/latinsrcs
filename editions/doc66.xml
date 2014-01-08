@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 66</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line">L BURBULEI L F QUI R</ab>
+         <ab n="2" type="line">OPTATO LIGARIANO</ab>
+         <ab n="3" type="line">COS SODAL AUG LEG IMPERAT</ab>
+         <ab n="4" type="line">ANTONINI AUG PII PRO PR PROV</ab>
+         <ab n="5" type="line">SYRIAEIN QUO HONOR DECESSIT LEG</ab>
+         <ab n="6" type="line">EIUSDEM ET DIVI HADRIANI PROPR PROV</ab>
+         <ab n="7" type="line">CAPPAD GUR OPERIP CORQ PUBL PRAEF</ab>
+         <ab n="8" type="line">AER ARSATUR N PROCOS SICIL LOC ISTE</ab>
+         <ab n="9" type="line">SYRIAEL LEGAT LEG XV L F L FIRM CUR REIP</ab>
+         <ab n="10" type="line">NARBONITEM ANCONITA NORITEM</ab>
+         <ab n="11" type="line">TAT ET CIN CURAT VIAR CLODIAE CASSIAE</ab>
+         <ab n="12" type="line">CINNAE PRAED P L Q PONTI ET BITHYN</ab>
+         <ab n="13" type="line">TRIB LATI C L LEG IX HISPAN III VIR KADIT</ab>
+         <ab n="14" type="line">PATR COL</ab>
+         <ab n="15" type="line">RASIN LA PIETAS NUTR FILIAR EIUS</ab>
+         <ab n="16" type="line">P P L D D D</ab>
+      </body>
+   </text>
+</TEI>

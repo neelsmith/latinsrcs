@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 67</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line">CAIPURNIAE I E</ab>
+         <ab n="2" type="line">SEVERAE FEMINA</ab>
+         <ab n="3" type="line">RARISSIMAE QUE</ab>
+         <ab n="4" type="line">VIXIT ANN XXIII</ab>
+         <ab n="5" type="line">M IIII VIRIA PRIMA</ab>
+         <ab n="6" type="line">MATER INFELICIS</ab>
+         <ab n="7" type="line">SIMA QUE SUPRA FM</ab>
+         <ab n="8" type="line">VIBIT FECIT FILIAR</ab>
+         <ab n="9" type="line">INCONPARABILI</ab>
+         <ab n="10" type="line">CUIUS FAMA PIETA S</ab>
+         <ab n="11" type="line">VIBIT IN AETERNM</ab>
+      </body>
+   </text>
+</TEI>

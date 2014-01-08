@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 73</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab n="1" type="line">T FL AVITO</ab>
+         <ab n="2" type="line">FORENSI II</ab>
+         <ab n="3" type="line">VIR ITER QQ OMNIB</ab>
+         <ab n="4" type="line">MUNERIB FUNCTO HIC</ab>
+         <ab n="5" type="line">IDEM AD LAVACRUM BAL</ab>
+         <ab n="6" type="line">NEAR PUBLICAR LIGNI</ab>
+         <ab n="7" type="line">DURI VEHES N CCCC EN</ab>
+         <ab n="8" type="line">THECAE NOMINE IN PER</ab>
+         <ab n="9" type="line">PETUUM OBTULIT ITA</ab>
+         <ab n="10" type="line">TAMEN UT MAGISTRATUUS</ab>
+         <ab n="11" type="line">QUOD ANNIS SUCCESSORIB</ab>
+         <ab n="12" type="line">SUIS TRADANT FILIO</ab>
+         <ab n="13" type="line">T FL AVITI V E PATRON COL</ab>
+         <ab n="14" type="line">ORDO ET POPUL MISENAT</ab>
+      </body>
+   </text>
+</TEI>
