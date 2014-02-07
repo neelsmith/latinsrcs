@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 104</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <ab n="1">IMP CAES FL CONSTANTINO MAXIMO</ab>
+         <ab n="2">P F AUGUSTO S P Q R</ab>
+         <ab n="3">QUOD INSTINCTU DIVINITATIS MENTIS</ab> 
+         <ab n="4">MAGNITUDINE CUM EXERCITU SUO</ab> 
+         <ab n="5">TAM DE TYRANNO QUAM DE OMNI EIUS</ab> 
+         <ab n="6">FACTIONE UNO TEMPORE IUSTIS</ab> 
+         <ab n="7">REM PUBLICAM ULTUS EST ARMIS</ab> 
+         <ab n="8">ARCUM TRIUMPHIS INSIGNEM DICAVIT</ab>
+      </body>
+  </text>
+</TEI>

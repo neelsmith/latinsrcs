@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 87</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <ab n="1">CAES L SEPTIMIO EVEROPIO PERTINACI AUG A BIC ADIABENIC PARTH MAX FORTISSIMO  FELICISSIMO</ab>
+         <ab n="2">PONTIF MAX TRIB POTEST XII IMP XI COS III PATRI PATRIAE ET</ab>
+         <ab n="3">IMP CAES M AURELIO ANTONINO PIO FELICI AUG TRIB POTEST VII COS III P P PROCOS FORTISSIMO FELICISSIMOQUE PRINCIPI ET</ab>
+         <ab n="4">IULIAE AUG MATRI AUG N ET CASTRORUM ET SENATUS ET PATRIAE ET IMP CAES M AURELI ANTONINI PII FELICIS AUG</ab>
+         <ab n="5">PARTHICI MAXIMI BRITTANNICI MAXIMI</ab>
+         <ab n="6">ARGENTARI ET NEGOTIANTES BOARI HUIUS <unclear></unclear> DEVOTI NUMINI EORUM</ab>
+      </body>
+  </text>
+</TEI>

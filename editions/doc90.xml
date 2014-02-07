@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document 90</title>
+            <editor>Megan Whitacre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Directly edited from photograph of artifact</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <ab n="1">PAR MERITUM QUICUMQUE LEGIS COGNOSCE DUORUM</ab>
+         <ab n="2">QUIS DAMASUS RECTOR TITULOS POST PRAEMIA REDDIT</ab>
+         <ab n="3">IUDAICUS POPULUS STEPHANUM MELIORA PONENTEM</ab>
+         <ab n="4">PERCULERAT SAXIS TULERAT QUI EX HOSTE TROPAEUM</ab>
+         <ab n="5">MARTYRIUM PRIMUS RAPUIT LEVITA FIDELIS</ab>
+         <ab n="6">TARSIGIUM SANCTUM CHRISTI SACRAMENTA GERENTEM</ab>
+         <ab n="7">CUM MALE SANA MANUS PETERET VULGARE PROFANIS</ab>
+         <ab n="8">IPSE ANIMAM POTIUS VOLVIT DIMITTERE CAESUS</ab>
+         <ab n="9">PRODERE QUAM CANIBUS RABIDIS COELESTIA MEMBRA</ab>
+      </body>
+  </text>
+</TEI>
