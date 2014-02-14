@@ -19,21 +19,147 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">CIUL C F CL ALEXANDRO</ab>
-         <ab n="2" type="line">STOI ARC CLASSI P MISEN PV</ab>
+         <ab n="1" type="line"><choice>
+               <abbr>CIUL</abbr>
+               <expan/>
+            </choice>
+            <persName n="pers87"><choice>
+                  <abbr>C</abbr>
+                  <expan>GAII</expan>
+               </choice></persName>
+            <choice>
+               <abbr>F</abbr>
+               <expan>FILIO</expan>
+            </choice>
+            <persName n="pers88"><choice>
+                  <abbr>CL</abbr>
+                  <expan>CLAUDIO</expan>
+               </choice></persName>
+            <persName n="pers88">ALEXANDRO</persName></ab>
+         <ab n="2" type="line">STOI <choice>
+               <abbr>ARC</abbr>
+               <expan/>
+            </choice> CLASSI <choice>
+               <abbr>P</abbr>
+               <expan>PUBLII</expan>
+            </choice>
+            <choice>
+               <abbr>MISEN</abbr>
+               <expan>MISENI</expan>
+            </choice>
+            <choice>
+               <abbr>PV</abbr>
+               <expan/>
+            </choice></ab>
          <ab n="3" type="line">ADAMPLIATO</ab>
-         <ab n="4" type="line">IUDICIS DIVI ALEXANDRI AUG</ab>
-         <ab n="5" type="line">CETERORUMQ PRINCIP PRAET</ab>
-         <ab n="6" type="line">RELIQ CLASS PRAET T MISENI T</ab>
-         <ab n="7" type="line">RAVENN PP VV EXPEDITIONI</ab>
-         <ab n="8" type="line">ORIENTALI AD LEGIN ORDIN</ab>
-         <ab n="9" type="line">DECUR SPLENDIDISS CIVITAT</ab>
-         <ab n="10" type="line">MISITEMQ SPENDIDIS COL</ab>
+         <ab n="4" type="line">IUDICIS DIVI ALEXANDRI <choice>
+               <abbr>AUG</abbr>
+               <expan>AUGUSTI</expan>
+            </choice></ab>
+         <ab n="5" type="line"><choice>
+               <abbr>CETERORUMQ</abbr>
+               <expan>CETERORUMQUE</expan>
+            </choice>
+            <choice>
+               <abbr>PRINCIP</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>PRAET</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="6" type="line"><choice>
+               <abbr>RELIQ</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>CLASS</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>PRAET</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>T</abbr>
+               <expan/>
+            </choice> MISENI <choice>
+               <abbr>T</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="7" type="line"><choice>
+               <abbr>RAVENN</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>PP</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>VV</abbr>
+               <expan/>
+            </choice> EXPEDITIONI</ab>
+         <ab n="8" type="line">ORIENTALI AD <choice>
+               <abbr>LEGIN</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>ORDIN</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="9" type="line"><choice>
+               <abbr>DECUR</abbr>
+               <expan>DECURIONIBUS</expan>
+            </choice>
+            <choice>
+               <abbr>SPLENDIDISS</abbr>
+               <expan>SPLENDISSIMIS</expan>
+            </choice>
+            <choice>
+               <abbr>CIVITAT</abbr>
+               <expan>CIVITATI</expan>
+            </choice></ab>
+         <ab n="10" type="line"><choice>
+               <abbr>MISITEMQ</abbr>
+               <expan>MISITEMQUE</expan>
+            </choice> SPENDIDIS <choice>
+               <abbr>COL</abbr>
+               <expan>CONSULIBUS</expan>
+            </choice></ab>
          <ab n="11" type="line">ANTIOCHIENS ET SPLENDIDIS</ab>
-         <ab n="12" type="line">COLMALLO TAR PATRON QUO</ab>
-         <ab n="13" type="line">QUE CITITATI CHII HOMINI VERI</ab>
-         <ab n="14" type="line">CUNDISS CIVI APRILIS VET AUGG</ab>
-         <ab n="15" type="line">L C AB AUGEI SERAPIONE TRIB P<unclear></unclear></ab>
+         <ab n="12" type="line">COLMALLO <choice>
+               <abbr>TAR</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>PATRON</abbr>
+               <expan/>
+            </choice>
+            <w part="I">QUO</w></ab>
+         <ab n="13" type="line"><w part="F">QUE</w> CITITATI CHII HOMINI <w part="I">VERI</w></ab>
+         <ab n="14" type="line"><w part="F">CUNDISS</w> CIVI APRILIS <choice>
+               <abbr>VET</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>AUGG</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="15" type="line"><choice>
+               <abbr>L</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>C</abbr>
+               <expan/>
+            </choice> AB AUGEI SERAPIONE <choice>
+               <abbr>TRIB</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>P</abbr>
+               <expan/>
+            </choice><unclear/></ab>
       </body>
    </text>
 </TEI>

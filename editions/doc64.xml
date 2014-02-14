@@ -22,13 +22,13 @@
          <ab n="1" type="line"><persName n="pers86">ANNIAE</persName></ab> 
          <ab n="2" type="line"><persName n="pers86">AGRIPPINAE</persName></ab> 
          <ab n="3" type="line">UXORI</ab> 
-         <ab n="4" type="line">CIVILI <choice>
+         <ab n="4" type="line">CIVILI <persName n="pers89"><choice>
          	<abbr>APOLLON</abbr>
-         	<expan>APOLLONIS</expan></choice></ab> 
+         	<expan>APOLLONIS</expan></choice></persName></ab> 
          <ab n="5" type="line"><choice>
          	<abbr>DECUR</abbr>
          	<expan></expan>
-         	</choice> ROMAE</ab> 
+         	</choice> <persName n="pl26">ROMAE</persName></ab> 
          <ab n="6" type="line"><choice>
          	<abbr>TRIB</abbr>
          	<expan>TRIBUNUS</expan>
@@ -48,8 +48,8 @@
 	         			</choice></ab> 
          <ab n="9" type="line">TRIDUI <choice>
          	<abbr>HERED</abbr>
-         	<expan></expan></ab> 
-         <ab n="10" type="line"><choice><abbr>L D D D</abbr><expan></expan></ab>
+         	<expan></expan></choice></ab> 
+         <ab n="10" type="line"><choice><abbr>L D D D</abbr><expan></expan></choice></ab>
       </body>
    </text>
 </TEI>

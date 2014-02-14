@@ -19,22 +19,217 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">L BURBULEI L F QUI R</ab>
+         <ab n="1" type="line"><choice>
+               <abbr>L</abbr>
+               <expan/>
+            </choice> BURBULEI <choice>
+               <abbr>L</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>F</abbr>
+               <expan/>
+            </choice> QUI <choice>
+               <abbr>R</abbr>
+               <expan/>
+            </choice></ab>
          <ab n="2" type="line">OPTATO LIGARIANO</ab>
-         <ab n="3" type="line">COS SODAL AUG LEG IMPERAT</ab>
-         <ab n="4" type="line">ANTONINI AUG PII PRO PR PROV</ab>
-         <ab n="5" type="line">SYRIAEIN QUO HONOR DECESSIT LEG</ab>
-         <ab n="6" type="line">EIUSDEM ET DIVI HADRIANI PROPR PROV</ab>
-         <ab n="7" type="line">CAPPAD GUR OPERIP CORQ PUBL PRAEF</ab>
-         <ab n="8" type="line">AER ARSATUR N PROCOS SICIL LOC ISTE</ab>
-         <ab n="9" type="line">SYRIAEL LEGAT LEG XV L F L FIRM CUR REIP</ab>
+         <ab n="3" type="line"><choice>
+               <abbr>COS</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>SODAL</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>AUG</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>LEG</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>IMPERAT</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="4" type="line">ANTONINI <choice>
+               <abbr>AUG</abbr>
+               <expan/>
+            </choice> PII PRO <choice>
+               <abbr>PR</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>PROV</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="5" type="line">SYRIAEIN QUO HONOR DECESSIT <choice>
+               <abbr>LEG</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="6" type="line">EIUSDEM ET DIVI HADRIANI <choice>
+               <abbr>PROPR</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>PROV</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="7" type="line"><choice>
+               <abbr>CAPPAD</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>GUR</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>OPERIP</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>CORQ</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>PUBL</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>PRAEF</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="8" type="line"><choice>
+               <abbr>AER</abbr>
+               <expan/>
+            </choice> ARSATUR <choice>
+               <abbr>N</abbr>
+               <expan/>
+            </choice> PROCOS <choice>
+               <abbr>SICIL</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>LOC</abbr>
+               <expan/>
+            </choice> ISTE</ab>
+         <ab n="9" type="line"><choice>
+               <abbr>SYRIAEL</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>LEGAT</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>LEG</abbr>
+               <expan/>
+            </choice>
+            <num>XV</num>
+            <choice>
+               <abbr>L</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>F</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>L</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>FIRM</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>CUR</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>REIP</abbr>
+               <expan/>
+            </choice></ab>
          <ab n="10" type="line">NARBONITEM ANCONITA NORITEM</ab>
-         <ab n="11" type="line">TAT ET CIN CURAT VIAR CLODIAE CASSIAE</ab>
-         <ab n="12" type="line">CINNAE PRAED P L Q PONTI ET BITHYN</ab>
-         <ab n="13" type="line">TRIB LATI C L LEG IX HISPAN III VIR KADIT</ab>
-         <ab n="14" type="line">PATR COL</ab>
-         <ab n="15" type="line">RASIN LA PIETAS NUTR FILIAR EIUS</ab>
-         <ab n="16" type="line">P P L D D D</ab>
+         <ab n="11" type="line"><choice>
+               <abbr>TAT</abbr>
+               <expan/>
+            </choice> ET <choice>
+               <abbr>CIN</abbr>
+               <expan/>
+            </choice> CURAT <choice>
+               <abbr>VIAR</abbr>
+               <expan>VIARUM</expan>
+            </choice> CLODIAE CASSIAE</ab>
+         <ab n="12" type="line">CINNAE <choice>
+               <abbr>PRAED</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>P</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>L</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>Q</abbr>
+               <expan/>
+            </choice> PONTI ET <choice>
+               <abbr>BITHYN</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="13" type="line"><choice>
+               <abbr>TRIB</abbr>
+               <expan/>
+            </choice> LATI <choice>
+               <abbr>C</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>L</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>LEG</abbr>
+               <expan/>
+            </choice>
+            <num>IX</num>
+            <choice>
+               <abbr>HISPAN</abbr>
+               <expan/>
+            </choice>
+            <num>III</num> VIR KADIT</ab>
+         <ab n="14" type="line"><choice>
+               <abbr>PATR</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>COL</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="15" type="line"><choice>
+               <abbr>RASIN</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>LA</abbr>
+               <expan/>
+            </choice> PIETAS <choice>
+               <abbr>NUTR</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>FILIAR</abbr>
+               <expan/>
+            </choice> EIUS</ab>
+         <ab n="16" type="line"><choice>
+               <abbr>P P L D D D</abbr>
+               <expan/>
+            </choice></ab>
       </body>
    </text>
 </TEI>
