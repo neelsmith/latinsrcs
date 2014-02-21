@@ -19,17 +19,84 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">M AURELIO</ab>
-         <ab n="2" type="line">ANTONINO</ab>
+         <ab n="1" type="line"><persName n="pers30"><choice>
+                  <abbr>M</abbr>
+                  <expan>MARCO</expan>
+               </choice> AURELIO</persName></ab>
+         <ab n="2" type="line"><persName n="pers30">ANTONINO</persName></ab>
          <ab n="3" type="line">CAESARI</ab>
-         <ab n="4" type="line">IMP CAESARIS</ab>
-         <ab n="5" type="line">L SEPTIMI SEVERI</ab>
+         <ab n="4" type="line"><choice>
+               <abbr>IMP</abbr>
+               <expan>IMPERATORIS</expan>
+            </choice> CAESARIS</ab>
+         <ab n="5" type="line"><persName n="pers28"><choice>
+                  <abbr>L</abbr>
+                  <expan>LUCII</expan>
+               </choice> SEPTIMI SEVERI</persName></ab>
          <ab n="6" type="line">PII PERTINACIS</ab>
-         <ab n="7" type="line">AUG ARAB ADIAB</ab>
-         <ab n="8" type="line">P P PONT MAX TRIB</ab>
-         <ab n="9" type="line">POT IIII IMP VIII COS</ab>
-         <ab n="10" type="line">II PROCOS FILIO</ab>
-         <ab n="11" type="line">COL FL AUG PUTEOL</ab>
+         <ab n="7" type="line"><choice>
+               <abbr>AUG</abbr>
+               <expan>AUGUSTI</expan>
+            </choice>
+            <choice>
+               <abbr>ARAB</abbr>
+               <expan>ARABICI</expan>
+            </choice>
+            <choice>
+               <abbr>ADIAB</abbr>
+               <expan>ADIABENICI</expan>
+            </choice></ab>
+         <ab n="8" type="line"><choice>
+               <abbr>P P</abbr>
+               <expan>PATRI PATRIAE</expan>
+            </choice>
+            <choice>
+               <abbr>PONT MAX</abbr>
+               <expan>PONTIFICI MAXIMO</expan>
+            </choice>
+            <choice>
+               <abbr>TRIB</abbr>
+               <expan>TRIBUNICIAE</expan>
+            </choice></ab>
+         <ab n="9" type="line"><choice>
+               <abbr>POT</abbr>
+               <expan>POTESTATI</expan>
+            </choice>
+            <num>IIII</num>
+            <choice>
+               <abbr>IMP</abbr>
+               <expan>IMPERATORI</expan>
+            </choice>
+            <num>VIII</num>
+            <choice>
+               <abbr>COS</abbr>
+               <expan>CONSULI</expan>
+            </choice></ab>
+         <ab n="10" type="line"><num>II</num>
+            <choice>
+               <abbr>PROCOS</abbr>
+               <expan>PROCONSULI</expan>
+            </choice> FILIO</ab>
+         <ab n="11" type="line"><choice>
+               <abbr>COL</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>FL</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>AUG</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>PUT</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>EOL</abbr>
+               <expan/>
+            </choice></ab>
       </body>
    </text>
 </TEI>

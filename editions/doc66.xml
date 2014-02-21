@@ -21,85 +21,82 @@
       <body>
          <ab n="1" type="line"><choice>
                <abbr>L</abbr>
-               <expan/>
-            </choice> BURBULEI <choice>
+               <expan>LUCIO</expan>
+            </choice> BURBULEIO <choice>
                <abbr>L</abbr>
-               <expan/>
+               <expan>LUCII</expan>
             </choice>
             <choice>
                <abbr>F</abbr>
-               <expan/>
-            </choice> QUI <choice>
-               <abbr>R</abbr>
+               <expan>FILIO</expan>
+            </choice>
+            <choice>
+               <abbr>QUIR</abbr>
                <expan/>
             </choice></ab>
          <ab n="2" type="line">OPTATO LIGARIANO</ab>
          <ab n="3" type="line"><choice>
                <abbr>COS</abbr>
-               <expan/>
+               <expan>CONSULI</expan>
             </choice>
             <choice>
                <abbr>SODAL</abbr>
-               <expan/>
+               <expan>SODALI</expan>
             </choice>
             <choice>
                <abbr>AUG</abbr>
-               <expan/>
+               <expan>AUGUSTO</expan>
             </choice>
             <choice>
                <abbr>LEG</abbr>
-               <expan/>
+               <expan>LEGATO</expan>
             </choice>
             <choice>
                <abbr>IMPERAT</abbr>
-               <expan/>
+               <expan>IMPERATORI</expan>
             </choice></ab>
          <ab n="4" type="line">ANTONINI <choice>
                <abbr>AUG</abbr>
-               <expan/>
-            </choice> PII PRO <choice>
-               <abbr>PR</abbr>
-               <expan/>
+               <expan>AUGUSTI</expan>
+            </choice> PII <choice>
+               <abbr>PRO PR</abbr>
+               <expan>PRO PRAETORE</expan>
             </choice>
             <choice>
                <abbr>PROV</abbr>
-               <expan/>
+               <expan>PROVINCIAE</expan>
             </choice></ab>
          <ab n="5" type="line">SYRIAEIN QUO HONOR DECESSIT <choice>
                <abbr>LEG</abbr>
-               <expan/>
+               <expan>LEGATO</expan>
             </choice></ab>
          <ab n="6" type="line">EIUSDEM ET DIVI HADRIANI <choice>
-               <abbr>PROPR</abbr>
-               <expan/>
+               <abbr>PRO PR</abbr>
+               <expan>PRO PRAETORE</expan>
             </choice>
             <choice>
                <abbr>PROV</abbr>
-               <expan/>
+               <expan>PROVINCIAE</expan>
             </choice></ab>
          <ab n="7" type="line"><choice>
                <abbr>CAPPAD</abbr>
                <expan/>
             </choice>
             <choice>
-               <abbr>GUR</abbr>
+               <abbr>GUROPER</abbr>
                <expan/>
             </choice>
             <choice>
-               <abbr>OPERIP</abbr>
-               <expan/>
-            </choice>
-            <choice>
-               <abbr>CORQ</abbr>
-               <expan/>
+               <abbr>LOCORQ</abbr>
+               <expan>LOCORUMQUE</expan>
             </choice>
             <choice>
                <abbr>PUBL</abbr>
-               <expan/>
+               <expan>PUBLICO</expan>
             </choice>
             <choice>
                <abbr>PRAEF</abbr>
-               <expan/>
+               <expan>PRAEFECTO</expan>
             </choice></ab>
          <ab n="8" type="line"><choice>
                <abbr>AER</abbr>
@@ -107,25 +104,22 @@
             </choice> ARSATUR <choice>
                <abbr>N</abbr>
                <expan/>
-            </choice> PROCOS <choice>
+            </choice> <choice><abbr>PROCOS</abbr><expan>PROCONSUL</expan></choice> <choice>
                <abbr>SICIL</abbr>
-               <expan/>
+               <expan>SICILIAE</expan>
             </choice>
             <choice>
                <abbr>LOC</abbr>
                <expan/>
             </choice> ISTE</ab>
-         <ab n="9" type="line"><choice>
-               <abbr>SYRIAEL</abbr>
-               <expan/>
-            </choice>
+         <ab n="9" type="line">SYRIAE
             <choice>
                <abbr>LEGAT</abbr>
-               <expan/>
+               <expan>LEGATO</expan>
             </choice>
             <choice>
                <abbr>LEG</abbr>
-               <expan/>
+               <expan>LEGATUS</expan>
             </choice>
             <num>XV</num>
             <choice>
@@ -146,7 +140,7 @@
             </choice>
             <choice>
                <abbr>CUR</abbr>
-               <expan/>
+               <expan>CURATOR</expan>
             </choice>
             <choice>
                <abbr>REIP</abbr>
@@ -163,7 +157,7 @@
                <abbr>VIAR</abbr>
                <expan>VIARUM</expan>
             </choice> CLODIAE CASSIAE</ab>
-         <ab n="12" type="line">CINNAE <choice>
+         <ab n="12" type="line">CIMINAE <choice>
                <abbr>PRAED</abbr>
                <expan/>
             </choice>
@@ -195,7 +189,7 @@
             </choice>
             <choice>
                <abbr>LEG</abbr>
-               <expan/>
+               <expan>LEGATUS</expan>
             </choice>
             <num>IX</num>
             <choice>
@@ -205,7 +199,7 @@
             <num>III</num> VIR KADIT</ab>
          <ab n="14" type="line"><choice>
                <abbr>PATR</abbr>
-               <expan/>
+               <expan>PATER</expan>
             </choice>
             <choice>
                <abbr>COL</abbr>
@@ -224,7 +218,7 @@
             </choice>
             <choice>
                <abbr>FILIAR</abbr>
-               <expan/>
+               <expan>FILIARUM</expan>
             </choice> EIUS</ab>
          <ab n="16" type="line"><choice>
                <abbr>P P L D D D</abbr>

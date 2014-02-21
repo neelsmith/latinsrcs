@@ -19,11 +19,23 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">DIS MANIB</ab> 
-         <ab n="2" type="line">T FLAVIO</ab> 
-         <ab n="3" type="line">CASTRENSI</ab> 
-         <ab n="4" type="line">DORYPHORUS P</ab> 
-         <ab n="5" type="line">FIL PIISSIMO</ab>
+         <ab n="1" type="line">DIS <choice>
+               <abbr>MANIB</abbr>
+               <expan>MANIBUS</expan>
+            </choice></ab>
+         <ab n="2" type="line"><persName n="pers99"><choice>
+               <abbr>T</abbr>
+               <expan>TITO</expan>
+            </choice> FLAVIO</persName></ab>
+         <ab n="3" type="line"><persName n="pers99">CASTRENSI</persName></ab>
+         <ab n="4" type="line"><persName n="pers100">DORYPHORUS</persName> <choice>
+               <abbr>P</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="5" type="line"><choice>
+               <abbr>FIL</abbr>
+               <expan>FILIO</expan>
+            </choice> PIISSIMO</ab>
       </body>
    </text>
 </TEI>

@@ -19,11 +19,39 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">PATER POSUIT</ab> 
-         <ab n="2" type="line">C FLAVIO POLLIONI</ab> 
-         <ab n="3" type="line">AUGURA LI C N C PRON</ab> 
-         <ab n="4" type="line">IIII VIR I D LOCO DATO</ab> 
-         <ab n="5" type="line">S C PE<gap></gap>BELLAM</ab>
+         <ab n="1" type="line">PATER POSUIT</ab>
+         <ab n="2" type="line"><persName n="pers94"><choice>
+               <abbr>C</abbr>
+               <expan>GAIO</expan>
+            </choice> FLAVIO POLLIONI</persName></ab>
+         <ab n="3" type="line">AUGURA <choice>
+               <abbr>LI</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>C</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>N</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>C</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>PRON</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="4" type="line"><num>IIII</num> VIR <choice>
+               <abbr>I D</abbr>
+               <expan>IURE DICUNDO</expan>
+            </choice> LOCO DATO</ab>
+         <ab n="5" type="line"><choice>
+               <abbr>S C</abbr>
+               <expan>SENATUS CONSULTO</expan>
+            </choice> PE<gap/>BELLAM</ab>
       </body>
    </text>
 </TEI>

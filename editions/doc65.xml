@@ -19,29 +19,31 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">BAEBUAE <choice>
-         	<abbr>P</abbr>
-         	<expan></expan>
-         	</choice> <choice>
-         		<abbr>F</abbr>
-         		<expan></expan>
-         			</choice></ab> 
+         <ab n="1" type="line"><persName n="pers90">BAEBIAE</persName>
+            <persName n="pers91"><choice>
+                  <abbr>P</abbr>
+                  <expan>PUBLII</expan>
+               </choice></persName>
+            <choice>
+               <abbr>F</abbr>
+               <expan>FILIO</expan>
+            </choice></ab>
          <ab n="2" type="line">PRISCAE</ab>
-         <ab n="3" type="line"><choice>
-         	<abbr>P</abbr>
-         	<expan></expan>
-         	</choice> BAEBI</ab> 
-         <ab n="4" type="line">PATROPHILI</ab> 
-         <ab n="5" type="line">NUMISIUS NUMIS <choice>
-         	<abbr>ANN</abbr>
-         	<expan></expan>
-         	</choice></ab> 
-         <ab n="6" type="line">MAECENATIANUS</ab> 
-         <ab n="7" type="line">PONENDAM MANDAVIT</ab> 
+         <ab n="3" type="line"><persName n="pers91"><choice>
+               <abbr>P</abbr>
+               <expan>PUBLII</expan>
+            </choice> BAEBI</persName></ab>
+         <ab n="4" type="line">PATROPHILI</ab>
+         <ab n="5" type="line"><persName n="pers92"><choice>
+               <abbr>T</abbr>
+               <expan>TITUS</expan>
+            </choice>NUMISIUS NUMISIANUS</persName></ab>
+         <ab n="6" type="line"><persName n="pers92">MAECENATIANUS</persName></ab>
+         <ab n="7" type="line">PONENDAM MANDAVIT</ab>
          <ab n="8" type="line"><choice>
-         	<abbr>L D D D</abbr>
-         	<expan></expan>
-         	</choice></ab>
+               <abbr>L D D D</abbr>
+               <expan/>
+            </choice></ab>
       </body>
    </text>
 </TEI>

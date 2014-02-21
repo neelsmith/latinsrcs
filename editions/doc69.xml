@@ -21,11 +21,23 @@
       <body>
          <ab n="1" type="line">OMNIAM AGRO</ab>
          <ab n="2" type="line">VIRTUTE PRAECIPUO</ab>
-         <ab n="3" type="line">DN CONSTANTINO</ab>
-         <ab n="4" type="line">VICTOREA ET RIUM</ab>
+         <ab n="3" type="line"><choice>
+               <abbr>DN</abbr>
+               <expan>DOMINO NOSTRO</expan>
+            </choice>
+            <persName n="pers95">CONSTANTINO</persName>
+            <unclear/></ab>
+         <ab n="4" type="line">VICTOREA ET RIUM<unclear/></ab>
          <ab n="5" type="line">SEMPER AUGUSTO</ab>
-         <ab n="6" type="line">POSTUMIUS ISIDORUS V C</ab>
-         <ab n="7" type="line">PRAEFUIGIE D N M Q</ab>
+         <ab n="6" type="line"><persName n="pers96">POSTUMIUS ISIDORUS</persName>
+            <choice>
+               <abbr>V C</abbr>
+               <expan>VIR CLARISSIMUS</expan>
+            </choice></ab>
+         <ab n="7" type="line">PRAEFUIGIE <choice>
+               <abbr>D N M Q</abbr>
+               <expan>DEVOTUS NUMINI MAIESTATIQUE</expan>
+            </choice></ab>
          <ab n="8" type="line">EIUS</ab>
       </body>
    </text>

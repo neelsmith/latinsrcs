@@ -19,15 +19,21 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">L PONTIUS</ab>
-         <ab n="2" type="line">PHEGEUS</ab>
+         <ab n="1" type="line"><persName n="pers97"><choice>
+                  <abbr>L</abbr>
+                  <expan>LUCIUS</expan>
+               </choice> PONTIUS</persName></ab>
+         <ab n="2" type="line"><persName n="pers97">PHEGEUS</persName></ab>
          <ab n="3" type="line">SIBI ET</ab>
-         <ab n="4" type="line">CASTRICIAE</ab>
-         <ab n="5" type="line">EUTYCHIDI</ab>
+         <ab n="4" type="line"><persName n="pers98">CASTRICIAE</persName></ab>
+         <ab n="5" type="line"><persName n="pers98">EUTYCHIDI</persName></ab>
          <ab n="6" type="line">UXORI OPTIMAE</ab>
-         <ab n="7" type="line">LIBERTIS LIBERTABUSQ</ab>
-         <ab n="8" type="line">MEIS QUO STAPULIS HONO</ab>
-         <ab n="9" type="line">RAVI POSTER ISQUE FORUM</ab>
+         <ab n="7" type="line">LIBERTIS <choice>
+               <abbr>LIBERTABUSQ</abbr>
+               <expan>LIBERTABUSQUE</expan>
+            </choice></ab>
+         <ab n="8" type="line">MEIS QUOS TABULIS <w part="I">HONO</w></ab>
+         <ab n="9" type="line"><w part="F">RAVI</w> POSTER ISQUE FORUM</ab>
       </body>
    </text>
 </TEI>
