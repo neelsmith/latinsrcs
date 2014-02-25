@@ -26,7 +26,7 @@
 
 
     <index verb="cite:hasInIt" inverse="cite:occursIn">
-        <source type="file" value="passageToToken.csv"></source>
+        <source type="file" value="passageToToken.tsv"></source>
     </index>
     
 <!--
