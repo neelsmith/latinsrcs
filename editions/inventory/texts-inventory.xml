@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?oxygen RNGSchema="TextInventory.rng" type="xml"?>
 <TextInventory
-    tiversion="4.0"
-    xmlns="http://chs.harvard.edu/xmlns/cts/ti"
+    tiversion="5.0.rc.1"
+    xmlns="http://chs.harvard.edu/xmlns/cts"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     
     
@@ -10,23 +10,7 @@
         <description xml:lang="eng">Epigraphic sources for teaching Latin</description>
     </ctsnamespace>
     
-    <collection
-        id="latinsources"
-        isdefault="yes">
-        <dc:title
-            xml:lang="eng">Documents in Latin.</dc:title>
-        <dc:creator>Megan Whitacre</dc:creator>
-        <dc:coverage
-            xml:lang="eng">A selection of  documents for teaching Latin.</dc:coverage>
-        <dc:description
-            xml:lang="eng">Selection is based on material with readily available, openly licensed images.</dc:description>
-        <dc:rights
-            xml:lang="eng">Creative Commons Attribution-NonCommercial-ShareAlike License. To view a
-            copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a
-            letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305,
-        USA.</dc:rights>
-    </collection>
-    <!-- **********************************************************************  -->
+     <!-- **********************************************************************  -->
     <!-- BEGIN DATA: 
     -->
     <textgroup
@@ -44,7 +28,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_2314</description>
              
                 <online docname="doc1.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -71,7 +55,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_2496</description>
              
                 <online docname="doc2.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -98,7 +82,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_2501</description>
              
                 <online docname="doc3.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -125,7 +109,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_2717</description>
              
                 <online docname="doc4.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -152,7 +136,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_2719</description>
              
                 <online docname="doc5.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -179,7 +163,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_2721</description>
              
                 <online docname="doc6.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -206,7 +190,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_2723</description>
              
                 <online docname="doc7.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -233,7 +217,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_2725</description>
              
                 <online docname="doc8.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -260,7 +244,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_2727</description>
              
                 <online docname="doc9.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -287,7 +271,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_4579</description>
              
                 <online docname="doc10.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -314,7 +298,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_4580</description>
              
                 <online docname="doc11.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -341,7 +325,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_4596</description>
                 
                 <online docname="doc12.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -368,7 +352,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_4611</description>
                 
                 <online docname="doc13.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -395,7 +379,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_4630</description>
                 
                 <online docname="doc14.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -422,7 +406,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_4785</description>
                 
                 <online docname="doc15.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -449,7 +433,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_4789</description>
                 
                 <online docname="doc16.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -476,7 +460,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_4792</description>
                 
                 <online docname="doc17.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -503,7 +487,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_4798</description>
                 
                 <online docname="doc18.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -530,7 +514,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5211</description>
                 
                 <online docname="doc19.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -557,7 +541,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5212</description>
                 
                 <online docname="doc20.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -584,7 +568,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5213</description>
                 
                 <online docname="doc21.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -611,7 +595,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5215</description>
                 
                 <online docname="doc22.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -638,7 +622,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5214</description>
                 
                 <online docname="doc23.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -665,7 +649,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5216</description>
                 
                 <online docname="doc24.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -692,7 +676,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5216</description>
                 
                 <online docname="doc25.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -719,7 +703,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5218</description>
                 
                 <online docname="doc26.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -746,7 +730,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5219</description>
                 
                 <online docname="doc27.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -773,7 +757,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5220</description>
                 
                 <online docname="doc28.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -800,7 +784,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5239</description>
                 
                 <online docname="doc29.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -827,7 +811,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5304</description>
                 
                 <online docname="doc30.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -854,7 +838,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5305</description>
                 
                 <online docname="doc31.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -881,7 +865,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5309</description>
                 
                 <online docname="doc32.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -908,7 +892,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5311</description>
                 
                 <online docname="doc33.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -935,7 +919,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5312</description>
                 
                 <online docname="doc34.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -962,7 +946,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5314</description>
                 
                 <online docname="doc35.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -989,7 +973,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5359</description>
                 
                 <online docname="doc36.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -1016,7 +1000,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5759</description>
                 
                 <online docname="doc37.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -1043,7 +1027,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5784</description>
                 
                 <online docname="doc38.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -1070,7 +1054,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5785</description>
                 
                 <online docname="doc39.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -1097,7 +1081,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5787</description>
                 
                 <online docname="doc40.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -1124,7 +1108,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5794</description>
                 
                 <online docname="doc41.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
@@ -1151,7 +1135,7 @@
                 <description xml:lang="eng">Inscription pictured on IMG_5795</description>
                 
                 <online docname="doc42.xml">
-                    <validate schema="chstei.rng"></validate>
+                   
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     
                     <citationMapping>
