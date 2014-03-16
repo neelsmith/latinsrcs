@@ -53,16 +53,21 @@
          		<expan>MILITUM</expan>
          		</choice> <choice>
          			<abbr>LEG</abbr>
-         			<expan>LEGATO</expan></choice> <num>III</num> GALLICAE <choice>
+         			<expan>LEGATO</expan></choice> <num>III</num> GALLICAE 
+         	<choice>
          				<abbr>SC</abbr>
          				<expan>SENATUS CONSULTO</expan>
-         				<choice></ab> 
-         <ab n="8" type="line"><choice>
+         				</choice></ab> 
+         <ab n="8" type="line">
+         	<choice>
          	<abbr>Q</abbr>
          	<expan>QUAESTORI</expan>
-         	</choice> <num>VI<num> PRIMO PRINCIPI <choice>
+         	</choice> <num>VI</num> PRIMO PRINCIPI 
+         		<choice>
          		<abbr>PRAET</abbr>
-         		<expan>PRAETORI</expan></choice> <choice>
+         		<expan>PRAETORI</expan>
+         		</choice> 
+         		<choice>
          			<abbr>LAV</abbr>
          			<expan/></choice></ab>
          <ab n="9" type="line"><choice>
