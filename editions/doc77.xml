@@ -19,12 +19,21 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">D M</ab> 
-         <ab n="2" type="line">L MARIO</ab> 
-         <ab n="3" type="line">SYNTROPHO</ab> 
-         <ab n="4" type="line">L MARIUS</ab> 
-         <ab n="5" type="line"><gap></gap>IANUS</ab> 
-         <ab n="6" type="line">TRIP<gap></gap> PIISSIMO</ab>
+         <ab n="1" type="line"><choice>
+               <abbr>D M</abbr>
+               <expan>DIS MANIBUS</expan>
+            </choice></ab>
+         <ab n="2" type="line"><persName n="pers107"><choice>
+                  <abbr>L</abbr>
+                  <expan>LUCIO</expan>
+               </choice> MARIO</persName></ab>
+         <ab n="3" type="line">SYNTROPHO</ab>
+         <ab n="4" type="line"><persName n="pers107"><choice>
+                  <abbr>L</abbr>
+                  <expan>LUCIUS</expan>
+               </choice> MARIUS</persName></ab>
+         <ab n="5" type="line"><gap/>IANUS</ab>
+         <ab n="6" type="line">TRIP<gap/> PIISSIMO</ab>
       </body>
    </text>
 </TEI>

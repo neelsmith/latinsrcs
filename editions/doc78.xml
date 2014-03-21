@@ -19,7 +19,7 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">OPUS TISICRATIS</ab>
+         <ab n="1" type="line">OPUS <persName n="pers108">TISICRATIS</persName></ab>
       </body>
    </text>
 </TEI>

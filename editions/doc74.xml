@@ -19,11 +19,54 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">N EPIDIO PI F FAL</ab>
-         <ab n="2" type="line">VIRO ET</ab> 
-         <ab n="3" type="line">N EPIDION F FAL LUPERC</ab> 
-         <ab n="4" type="line">FILIO SYTIA L F</ab> 
-         <ab n="5" type="line">D S P F C</ab>
+         <ab n="1" type="line"><persName n="pers102"><choice>
+               <abbr>N</abbr>
+               <expan>NONO</expan>
+            </choice> EPIDIO</persName> <choice>
+               <abbr>PI</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>F</abbr>
+               <expan></expan>
+            </choice>
+            <choice>
+               <abbr>FAL</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="2" type="line">VIRO ET</ab>
+         <ab n="3" type="line"><persName n="pers102"><choice>
+               <abbr>N</abbr>
+               <expan>NONI</expan>
+            </choice>
+            <choice>
+               <abbr>EPIDION</abbr>
+               <expan>EPIDIONIS</expan>
+            </choice></persName>
+            <choice>
+               <abbr>F</abbr>
+               <expan></expan>
+            </choice>
+            <choice>
+               <abbr>FAL</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>LUPERC</abbr>
+               <expan>LUPERCI</expan>
+            </choice></ab>
+         <ab n="4" type="line">FILIO SEYTIA <choice>
+               <abbr>L</abbr>
+               <expan>LUCII</expan>
+            </choice>
+            <choice>
+               <abbr>F</abbr>
+               <expan>FILIA</expan>
+            </choice></ab>
+         <ab n="5" type="line"><choice>
+               <abbr>D S P F C</abbr>
+               <expan/>
+            </choice></ab>
       </body>
    </text>
 </TEI>

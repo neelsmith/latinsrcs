@@ -19,14 +19,46 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">D M</ab> 
-         <ab n="2" type="line">C MONNENIUS</ab> 
-         <ab n="3" type="line">SECUNDUS MIL</ab> 
-         <ab n="4" type="line">CHOR XIIII URB</ab> 
-         <ab n="5" type="line">CLAUDI</ab> 
-         <ab n="6" type="line">L MONNENI</ab> 
-         <ab n="7" type="line">SECUNDO FRATRI</ab> 
-         <ab n="8" type="line">SUO MIL CHO IIII VIC</ab> 
+         <ab n="1" type="line"><choice>
+               <abbr>D M</abbr>
+               <expan>DIS MANIBUS</expan>
+            </choice></ab>
+         <ab n="2" type="line"><persName n="pers111"><choice>
+               <abbr>C</abbr>
+               <expan>GAIUS</expan>
+            </choice> MONNENIUS</persName></ab>
+         <ab n="3" type="line">SECUNDUS <choice>
+               <abbr>MIL</abbr>
+               <expan>MILES</expan>
+            </choice></ab>
+         <ab n="4" type="line"><choice>
+               <abbr>CHOR</abbr>
+               <expan/>
+            </choice>
+            <num>XIIII</num>
+            <choice>
+               <abbr>URB</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="5" type="line">CLAUDI</ab>
+         <ab n="6" type="line"><persName n="pers112"><choice>
+               <abbr>L</abbr>
+               <expan>LUCII</expan>
+            </choice> MONNENI</persName></ab>
+         <ab n="7" type="line">SECUNDO FRATRI</ab>
+         <ab n="8" type="line">SUO <choice>
+               <abbr>MIL</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>CHO</abbr>
+               <expan/>
+            </choice>
+            <num>IIII</num>
+            <choice>
+               <abbr>VIC</abbr>
+               <expan/>
+            </choice></ab>
          <ab n="9" type="line">LUCRETI ROMANI</ab>
       </body>
    </text>

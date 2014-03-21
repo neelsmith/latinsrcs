@@ -19,8 +19,11 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">CORNELIA AFRICANI F</ab>
-         <ab n="2" type="line">GRACCHORUM</ab>
+         <ab n="1" type="line"><persName n="pers109">CORNELIA</persName> AFRICANI <choice>
+               <abbr>F</abbr>
+               <expan>FILIA</expan>
+            </choice></ab>
+         <ab n="2" type="line"><persName n="pers110">GRACCHORUM</persName></ab>
       </body>
    </text>
 </TEI>

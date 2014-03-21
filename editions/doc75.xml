@@ -19,16 +19,32 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">D M</ab> 
-         <ab n="2" type="line">SABIDIAE</ab> 
-         <ab n="3" type="line">SECUNDAE</ab> 
-         <ab n="4" type="line">ANNOR XXI</ab> 
-         <ab n="5" type="line">MENS III D X VI</ab>
-         <ab n="6" type="line">P SABIDIUS</ab> 
-         <ab n="7" type="line">TROPHIMUS EI</ab> 
-         <ab n="8" type="line">SABIDIA</ab> 
-         <ab n="9" type="line">PRIMITIVA</ab> 
-         <ab n="10" type="line">FILIAE PIISSIM</ab>
+         <ab n="1" type="line"><choice>
+               <abbr>D M</abbr>
+               <expan>DIS MANIBUS</expan>
+            </choice></ab>
+         <ab n="2" type="line"><persName n="pers103">SABIDIAE</persName></ab>
+         <ab n="3" type="line"><persName n="pers103">SECUNDAE</persName></ab>
+         <ab n="4" type="line"><choice>
+               <abbr>ANNOR</abbr>
+               <expan>ANNORUM</expan>
+            </choice>
+            <num>XXI</num></ab>
+         <ab n="5" type="line">MENS <num>III</num>
+            <num>D</num>
+            <num>X</num>
+            <num>VI</num></ab>
+         <ab n="6" type="line"><persName n="pers104"><choice>
+               <abbr>P</abbr>
+               <expan>PUBLIUS</expan>
+            </choice> SABIDIUS</persName></ab>
+         <ab n="7" type="line"><persName n="pers104">TROPHIMUS</persName> EI</ab>
+         <ab n="8" type="line"><persName n="pers105">SABIDIA</persName></ab>
+         <ab n="9" type="line"><persName n="pers105">PRIMITIVA</persName></ab>
+         <ab n="10" type="line">FILIAE <choice>
+               <abbr>PIISSIM</abbr>
+               <expan>PIISSIMAE</expan>
+            </choice></ab>
       </body>
    </text>
 </TEI>

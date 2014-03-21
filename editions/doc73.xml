@@ -19,20 +19,83 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">T FL AVITO</ab>
-         <ab n="2" type="line">FORENSI II</ab>
-         <ab n="3" type="line">VIR ITER QQ OMNIB</ab>
-         <ab n="4" type="line">MUNERIB FUNCTO HIC</ab>
-         <ab n="5" type="line">IDEM AD LAVACRUM BAL</ab>
-         <ab n="6" type="line">NEAR PUBLICAR LIGNI</ab>
-         <ab n="7" type="line">DURI VEHES N CCCC EN</ab>
-         <ab n="8" type="line">THECAE NOMINE IN PER</ab>
-         <ab n="9" type="line">PETUUM OBTULIT ITA</ab>
+         <ab n="1" type="line"><persName n="pers101"><choice>
+               <abbr>T</abbr>
+               <expan>TITO</expan>
+            </choice>
+            <choice>
+               <abbr>FL</abbr>
+               <expan>FLAVIO</expan>
+            </choice> AVITO</persName></ab>
+         <ab n="2" type="line">FORENSI <num>II</num></ab>
+         <ab n="3" type="line">VIR ITER <choice>
+               <abbr>QQ</abbr>
+               <expan>QUINQUENNALIS</expan>
+            </choice>
+            <choice>
+               <abbr>OMNIB</abbr>
+               <expan>OMNIBUS</expan>
+            </choice></ab>
+         <ab n="4" type="line"><choice>
+               <abbr>MUNERIB</abbr>
+               <expan>MUNERIBUS</expan>
+            </choice> FUNCTO HIC</ab>
+         <ab n="5" type="line">IDEM AD LAVACRUM <choice>
+               <abbr>BAL</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="6" type="line"><choice>
+               <abbr>NEAR</abbr>
+               <expan>NEARUM</expan>
+            </choice>
+            <choice>
+               <abbr>PUBLICAR</abbr>
+               <expan>PUBLICARUM</expan>
+            </choice> LIGNI</ab>
+         <ab n="7" type="line">DURI VEHES <choice>
+               <abbr>N</abbr>
+               <expan/>
+            </choice>
+            <num>CCCC</num>
+            <choice>
+               <abbr>EN</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="8" type="line">THECAE NOMINE IN <w part="I">PER</w></ab>
+         <ab n="9" type="line"><w part="F">PETUUM</w> OBTULIT ITA</ab>
          <ab n="10" type="line">TAMEN UT MAGISTRATUUS</ab>
-         <ab n="11" type="line">QUOD ANNIS SUCCESSORIB</ab>
+         <ab n="11" type="line">QUOD ANNIS <choice>
+               <abbr>SUCCESSORIB</abbr>
+               <expan>SUCCESSORIBUS</expan>
+            </choice></ab>
          <ab n="12" type="line">SUIS TRADANT FILIO</ab>
-         <ab n="13" type="line">T FL AVITI V E PATRON COL</ab>
-         <ab n="14" type="line">ORDO ET POPUL MISENAT</ab>
+         <ab n="13" type="line"><persName n="pers101"><choice>
+               <abbr>T</abbr>
+               <expan>TITI</expan>
+            </choice>
+            <choice>
+               <abbr>FL</abbr>
+               <expan>FLAVII</expan>
+            </choice> AVITI</persName> <choice>
+               <abbr>V</abbr>
+               <expan>VIRI</expan>
+            </choice>
+            <choice>
+               <abbr>E</abbr>
+               <expan></expan>
+            </choice>
+            <choice>
+               <abbr>PATRON</abbr>
+               <expan>PATRONI</expan>
+            </choice>
+            <choice>
+               <abbr>COL</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="14" type="line">ORDO ET <choice>
+               <abbr>POPUL</abbr>
+               <expan>POPULUS</expan>
+            </choice> MISENAT</ab>
       </body>
    </text>
 </TEI>

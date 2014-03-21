@@ -19,15 +19,26 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">D M</ab>
-         <ab n="2" type="line">Q INSTEIO</ab>
-         <ab n="3" type="line">DIADUMENO</ab>
-         <ab n="4" type="line">AUGUSTALI</ab>
+         <ab n="1" type="line"><choice>
+               <abbr>D M</abbr>
+               <expan>DIS MANIBUS</expan>
+            </choice></ab>
+         <ab n="2" type="line"><persName n="pers106"><choice>
+               <abbr>Q</abbr>
+               <expan>QUINTO</expan>
+            </choice> INSTEIO</persName></ab>
+         <ab n="3" type="line"><persName n="pers106">DIADUMENO</persName></ab>
+         <ab n="4" type="line"><persName n="pers106">AUGUSTALI</persName></ab>
          <ab n="5" type="line">COLUIT ANNIS</ab>
-         <ab n="6" type="line">XXXXV</ab>
+         <ab n="6" type="line"><num>XXXXV</num></ab>
          <ab n="7" type="line">VIXIT ANNIS</ab>
-         <ab n="8" type="line">IXXX IIII MENS</ab>
-         <ab n="9" type="line">VI DIEB XV</ab>
+         <ab n="8" type="line"><num>IXXX</num>
+            <num>IIII</num> MENS</ab>
+         <ab n="9" type="line"><num>VI</num>
+            <choice>
+               <abbr>DIEB</abbr>
+               <expan>DIEBUS</expan>
+            </choice> <num>XV</num></ab>
          <ab n="10" type="line">HEREDES</ab>
       </body>
    </text>

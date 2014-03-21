@@ -62,15 +62,15 @@
             </choice>
             <choice>
                <abbr>PRINCIP</abbr>
-               <expan/>
+               <expan>PRINCIPUM</expan>
             </choice>
             <choice>
                <abbr>PRAET</abbr>
-               <expan/>
+               <expan>PRAETORIO</expan>
             </choice></ab>
          <ab n="6" type="line"><choice>
                <abbr>RELIQ</abbr>
-               <expan/>
+               <expan>RELIQUO</expan>
             </choice>
             <choice>
                <abbr>CLASS</abbr>
@@ -78,14 +78,14 @@
             </choice>
             <choice>
                <abbr>PRAET</abbr>
-               <expan/>
+               <expan>PRAETORIO</expan>
             </choice>
             <choice>
                <abbr>T</abbr>
-               <expan/>
+               <expan></expan>
             </choice> MISENI <choice>
                <abbr>T</abbr>
-               <expan/>
+               <expan>TITI</expan>
             </choice></ab>
          <ab n="7" type="line"><choice>
                <abbr>RAVENN</abbr>
@@ -93,7 +93,7 @@
             </choice>
             <choice>
                <abbr>PP</abbr>
-               <expan/>
+               <expan>PATER PATRIAE</expan>
             </choice>
             <choice>
                <abbr>VV</abbr>
@@ -133,7 +133,7 @@
             </choice>
             <choice>
                <abbr>PATRON</abbr>
-               <expan/>
+               <expan>PATRONO</expan>
             </choice>
             <w part="I">QUO</w></ab>
          <ab n="13" type="line"><w part="F">QUE</w> CITITATI CHII HOMINI <w part="I">VERI</w></ab>
@@ -143,7 +143,7 @@
             </choice>
             <choice>
                <abbr>AUGG</abbr>
-               <expan/>
+               <expan>AUGUSTORUM</expan>
             </choice></ab>
          <ab n="15" type="line"><choice>
                <abbr>L</abbr>
