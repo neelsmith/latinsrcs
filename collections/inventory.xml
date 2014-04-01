@@ -24,6 +24,47 @@
 -->
     
     
+    <citeCollection canonicalId="Urn" label="Abbreviation" urn="urn:cite:hclat:abbrOccurrences">
+        <namespaceMapping abbr="hclat" fullValue="http://shot.holycross.edu/datans/hclat/"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Abbreviations in edited texts</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Megan Whitacre</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All edited texts</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/"> Abbreviations in edited texts</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial \
+            3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <source type="file" value="abbrs.tsv"></source>
+        <citeProperty name="Urn" label="Urn" type="citeurn"></citeProperty>
+        <citeProperty name="TextPassage" label="Text passage" type="ctsurn"></citeProperty>
+        <citeProperty name="Abbreviation" label="Abbreviation" type="string"></citeProperty>
+        <citeProperty name="Expansion" label="Expansion" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
+    
+    <citeCollection canonicalId="Urn" label="String" urn="urn:cite:hclat:tokens">
+        <namespaceMapping abbr="hclat" fullValue="http://shot.holycross.edu/datans/hclat/"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Unique lexical tokens</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Megan Whitacre</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All edited texts</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/"> Unique lexical tokens</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial \
+            3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <source type="file" value="tokens.csv"></source>
+        <citeProperty name="Urn" label="Urn" type="citeurn"></citeProperty>
+        <citeProperty name="String" label="Form" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    
     <citeCollection canonicalId="Tag" label="Label" urn="urn:cite:hclat:topic">
         <namespaceMapping abbr="hclat" fullValue="http://shot.holycross.edu/datans/hclat/"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Citable grammatical topics</title>
