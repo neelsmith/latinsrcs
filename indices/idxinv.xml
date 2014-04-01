@@ -7,11 +7,11 @@
     
     <rdfNamespace abbr="hmt" fullValue="http://www.homermultitext.org/hmt/rdf/"/>
 
-    <rdfNamespace abbr="latepig" fullValue="http://shot.holycross.edu/rdf/latepig/"/>
+    <rdfNamespace abbr="hclat" fullValue="http://shot.holycross.edu/rdf/hclat/"/>
     
  <rdfNamespace abbr="rdfs" fullValue="http://www.w3.org/2000/01/rdf-schema#"/>
     
-    <index verb="rdfs:subClassOf" inverse="latepig:hasSubcategory">
+    <index verb="rdfs:subClassOf" inverse="hclat:hasSubcategory">
         <source type="file" value="citableTopicsToCategories.csv"/>
     </index>
     
