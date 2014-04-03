@@ -11,6 +11,18 @@
     
  <rdfNamespace abbr="rdfs" fullValue="http://www.w3.org/2000/01/rdf-schema#"/>
     
+    <index verb="hclat:formOf" inverse="hclat:hasForm">
+        <source type="file" value="tokenToEntity.csv"></source>
+    </index>
+    
+
+    
+    <index verb="cite:hasInIt" inverse="cite:occursIn">
+        <source type="file" value="passageToToken.tsv"></source>
+    </index>
+    
+    
+    
     <index verb="rdfs:subClassOf" inverse="hclat:hasSubcategory">
         <source type="file" value="citableTopicsToCategories.csv"/>
     </index>
@@ -22,19 +34,7 @@
     
     <index verb="cite:illustrates" inverse="cite:illustratedBy">
         <source type="file" value="imgToEdition.csv"></source>
-    </index>
-
-
-    <index verb="cite:hasInIt" inverse="cite:occursIn">
-        <source type="file" value="passageToToken.tsv"></source>
-    </index>
-    
-<!--
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="newTopicsToImage.csv"></source>
-    </index>
--->
-
+    </index> 
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="imgToSite.csv"></source>
     </index>
@@ -47,6 +47,6 @@
     <index verb="hmt:isDefaultImage" inverse="hmt:hasDefaultImage">
     <source type="file" value="preferredImg.csv"/>
     </index>
-    
-    
+
+
 </indexInventory>
