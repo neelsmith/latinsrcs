@@ -22,6 +22,27 @@
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
     </citeCollection>
 -->
+    <citeCollection canonicalId="Analysis" label="Form" urn="urn:cite:hclat:analyses">
+        <namespaceMapping abbr="hclat" fullValue="http://shot.holycross.edu/datans/hclat/"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Analyses of tokens</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Megan Whitacre</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All edited texts</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/"> All tokens in edited texts</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial \
+            3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <source type="file" value="tokenAnalyses.csv"></source>
+        <citeProperty name="Analysis" label="Analysis" type="citeurn"></citeProperty>
+        <citeProperty name="PoS" label="Part of speech" type="string"></citeProperty>
+        <citeProperty name="Form" label="Form" type="string"></citeProperty>
+        <citeProperty name="Lemma" label="Lemma" type="string"></citeProperty>
+        <citeProperty name="LexEntity" label="Lexical entity" type="citeurn"></citeProperty>
+    </citeCollection>
+    
+    
+    
     
     
     <citeCollection canonicalId="Urn" label="Abbreviation" urn="urn:cite:hclat:abbrOccurrences">
