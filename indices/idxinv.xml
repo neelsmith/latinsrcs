@@ -11,6 +11,14 @@
     
  <rdfNamespace abbr="rdfs" fullValue="http://www.w3.org/2000/01/rdf-schema#"/>
     
+    
+    
+    
+    <index verb="hclat:detailsFor" inverse="hclat:hasDetails">
+        <source type="file" value="verbDetails.csv"></source>
+    </index>
+    
+    
     <index verb="hclat:formOf" inverse="hclat:hasForm">
         <source type="file" value="tokenToEntity.csv"></source>
     </index>
