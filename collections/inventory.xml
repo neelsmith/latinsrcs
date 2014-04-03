@@ -22,6 +22,7 @@
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
     </citeCollection>
 -->
+    
     <citeCollection canonicalId="Analysis" label="Form" urn="urn:cite:hclat:analyses">
         <namespaceMapping abbr="hclat" fullValue="http://shot.holycross.edu/datans/hclat/"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Analyses of tokens</title>
@@ -43,6 +44,30 @@
     
     
     
+    
+    <citeCollection canonicalId="VerbAnalysis" label="VerbAnalysis" urn="urn:cite:hclat:verbAnalyses">
+        <namespaceMapping abbr="hclat" fullValue="http://shot.holycross.edu/datans/hclat/"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Detailed analyses of verbal forms</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Megan Whitacre</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All edited texts</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/"> All verbs in edited texts</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial \
+            3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <source type="file" value="verbAnalyses.csv"></source>
+        <citeProperty name="VerbAnalysis" label="Analysis ID" type="citeurn"></citeProperty>
+        <citeProperty name="Analysis" label="General analysis" type="citeurn"></citeProperty>
+        <citeProperty name="Person" label="Person" type="string"></citeProperty>
+        <citeProperty name="Number" label="Number" type="string"></citeProperty>
+        <citeProperty name="Tense" label="Tense" type="string"></citeProperty>
+        <citeProperty name="Mood" label="Mood" type="string"></citeProperty>
+        <citeProperty name="Voice" label="Voice" type="string"></citeProperty>
+        <citeProperty name="Gender" label="Gender" type="string"></citeProperty>
+        <citeProperty name="Case" label="Case" type="string"></citeProperty>
+        <citeProperty name="PerseusType" label="Perseus stem type" type="string"></citeProperty>
+    </citeCollection>
     
     
     <citeCollection canonicalId="Urn" label="Abbreviation" urn="urn:cite:hclat:abbrOccurrences">
