@@ -19,16 +19,41 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">DIS MANIBUS</ab> 
-         <ab n="2" type="line">L NONIO L F</ab> 
-         <ab n="3" type="line">MARTIALI</ab> 
-         <ab n="4" type="line">STATOR AUGUST</ab> 
-         <ab n="5" type="line">PRISCIMI LITAVIT</ab> 
-         <ab n="6" type="line">ANNIS CCII MENS VI</ab> 
-         <ab n="7" type="line">VIXIT ANNIS XLIX</ab> 
-         <ab n="8" type="line">POSUIT NONIA</ab> 
-         <ab n="9" type="line">FORTUNATA LIB</ab> 
-         <ab n="10" type="line">PATRONO</ab> 
+         <ab n="1" type="line">DIS MANIBUS</ab>
+         <ab n="2" type="line"><persName n="pers121"><choice>
+               <abbr>L</abbr>
+               <expan>LUCIO</expan>
+            </choice> NONIO</persName> <persName n="pers122"><choice>
+               <abbr>L</abbr>
+               <expan>LUCI</expan>
+            </choice></persName>
+            <choice>
+               <abbr>F</abbr>
+               <expan>FILIO</expan>
+            </choice></ab>
+         <ab n="3" type="line"><persName n="pers121">MARTIALI</persName></ab>
+         <ab n="4" type="line"><choice>
+               <abbr>STATOR</abbr>
+               <expan>STATORI</expan>
+            </choice>
+            <choice>
+               <abbr>AUGUST</abbr>
+               <expan>AUGUSTI</expan>
+            </choice></ab>
+         <ab n="5" type="line">PRISCI MILITAVIT</ab>
+         <ab n="6" type="line">ANNIS <num>XXII</num>
+            <choice>
+               <abbr>MENS</abbr>
+               <expan>MENSIBUS</expan>
+            </choice>
+            <num>VI</num></ab>
+         <ab n="7" type="line">VIXIT ANNIS <num>XLIX</num></ab>
+         <ab n="8" type="line">POSUIT <persName n="pers123">NONIA</persName></ab>
+         <ab n="9" type="line">FORTUNATA <choice>
+               <abbr>LIB</abbr>
+               <expan>LIBERTA</expan>
+            </choice></ab>
+         <ab n="10" type="line">PATRONO</ab>
          <ab n="11" type="line">BENE MERENTI</ab>
       </body>
    </text>

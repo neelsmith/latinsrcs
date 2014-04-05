@@ -19,11 +19,24 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">DONUM DEDIT</ab> 
-         <ab n="2" type="line">INNICTO APOLLONI</ab> 
-         <ab n="3" type="line">TETES SYRAS AMAR</ab> 
-         <ab n="4" type="line">CIANEPOII FLA</ab> 
-         <ab n="5" type="line">MARCEIIUS V P</ab>
+         <ab n="1" type="line">DONUM DEDIT</ab>
+         <ab n="2" type="line">INNICTO <persName n="pers89">APOLLONI</persName></ab>
+         <ab n="3" type="line">TETES SYRAS <choice>
+               <abbr>AMAR</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="4" type="line">CIANEPOII <choice>
+               <abbr>FLA</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="5" type="line"><persName n="pers113">MARCEIIUS</persName> <choice>
+               <abbr>V</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>P</abbr>
+               <expan/>
+            </choice></ab>
       </body>
    </text>
 </TEI>

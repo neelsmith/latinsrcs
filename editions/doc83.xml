@@ -19,12 +19,15 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">HIC EST LOCUS FOR</ab>
-         <ab n="2" type="line">TUNATI ET LUCIE IN QUO</ab> 
-         <ab n="3" type="line">IACET FILIA EORUM GEM</ab>
-         <ab n="4" type="line">MULA QUI VISIT AN X ET</ab> 
-         <ab n="5" type="line">QUI HUNC LOCUM BIO</ab> 
-         <ab n="6" type="line">LABERITAB ET PARTE CUM IUDA</ab>
+         <ab n="1" type="line">HIC EST LOCUS <persName n="pers119"><w part="I">FOR</w></persName></ab>
+         <ab n="2" type="line"><persName n="pers119"><w part="F">TUNATI</w></persName> ET <persName n="pers118">LUCIE</persName> IN QUO</ab>
+         <ab n="3" type="line">IACET FILIA EORUM <persName n="pers117"><w part="I">GEM</w></persName></ab>
+         <ab n="4" type="line"><persName n="pers117"><w part="F">MULA</w></persName> QUI VISIT <choice>
+               <abbr>AN</abbr>
+               <expan>ANNOS</expan>
+            </choice> <choice><abbr>PLM</abbr><expan>PLUS MINUS</expan></choice> <num>X</num> ET</ab>
+         <ab n="5" type="line">QUI HUNC LOCUM BIO</ab>
+         <ab n="6" type="line">LABERIT ABET PARTE CUM <persName n="pers116">IUDA</persName></ab>
       </body>
    </text>
 </TEI>

@@ -19,12 +19,25 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">TI CLAUDIUS</ab> 
-         <ab n="2" type="line">AUG L AESIUS</ab> 
-         <ab n="3" type="line">AMEMORIA</ab> 
-         <ab n="4" type="line">ACCENSUS ET</ab> 
-         <ab n="5" type="line">PROCURATOR AEDIUM</ab> 
-         <ab n="6" type="line">SACRARUM LOCORUMQ PUBLICORUM</ab>
+         <ab n="1" type="line"><persName n="pers39"><choice>
+               <abbr>TI</abbr>
+               <expan>TIBERIUS</expan>
+            </choice> CLAUDIUS</persName></ab>
+         <ab n="2" type="line"><choice>
+               <abbr>AUG</abbr>
+               <expan>AUGUSTI</expan>
+            </choice>
+            <choice>
+               <abbr>L</abbr>
+               <expan>LIBERTUS</expan>
+            </choice> <persName n="pers120">AESIUS</persName></ab>
+         <ab n="3" type="line">A MEMORIA</ab>
+         <ab n="4" type="line">ACCENSUS ET</ab>
+         <ab n="5" type="line">PROCURATOR AEDIUM</ab>
+         <ab n="6" type="line">SACRARUM <choice>
+               <abbr>LOCORUMQ</abbr>
+               <expan>LOCORUMQUE</expan>
+            </choice> PUBLICORUM</ab>
       </body>
    </text>
 </TEI>

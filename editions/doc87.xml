@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Document 87</title>
@@ -16,15 +16,131 @@
             <p>Directly edited from photograph of artifact</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <ab n="1">CAES L SEPTIMIO EVEROPIO PERTINACI AUG A BIC ADIABENIC PARTH MAX FORTISSIMO  FELICISSIMO</ab>
-         <ab n="2">PONTIF MAX TRIB POTEST XII IMP XI COS III PATRI PATRIAE ET</ab>
-         <ab n="3">IMP CAES M AURELIO ANTONINO PIO FELICI AUG TRIB POTEST VII COS III P P PROCOS FORTISSIMO FELICISSIMOQUE PRINCIPI ET</ab>
-         <ab n="4">IULIAE AUG MATRI AUG N ET CASTRORUM ET SENATUS ET PATRIAE ET IMP CAES M AURELI ANTONINI PII FELICIS AUG</ab>
+         <ab n="1"><supplied resp="MW"><choice>
+                  <abbr>IMP</abbr>
+                  <expan>IMPERATORI</expan>
+               </choice></supplied>
+            <choice>
+               <abbr>CAES</abbr>
+               <expan>CAESARI</expan>
+            </choice>
+            <persName n="pers28"><choice>
+               <abbr>L</abbr>
+               <expan>LUCIO</expan>
+            </choice> SEPTIMIO SEVERO </persName>PIO PERTINACI <choice>
+               <abbr>AUG</abbr>
+               <expan>AUGUSTO</expan>
+            </choice>
+            <choice>
+               <abbr><w>A<supplied resp="MW">RA</supplied>BIC</w></abbr>
+               <expan>ARABICO</expan>
+            </choice>
+            <choice>
+               <abbr>ADIABENIC</abbr>
+               <expan>ADIABENICO</expan>
+            </choice>
+            <choice>
+               <abbr>PARTH</abbr>
+               <expan>PARTHICO</expan>
+            </choice>
+            <choice>
+               <abbr>MAX</abbr>
+               <expan>MAXIMO</expan>
+            </choice> FORTISSIMO FELICISSIMO</ab>
+         <ab n="2"><choice>
+               <abbr>PONTIF</abbr>
+               <expan>PONTIFICI</expan>
+            </choice>
+            <choice>
+               <abbr>MAX</abbr>
+               <expan>MAXIMO</expan>
+            </choice>
+            <choice>
+               <abbr>TRIB</abbr>
+               <expan>TRIBUNICIA</expan>
+            </choice>
+            <choice>
+               <abbr>POTEST</abbr>
+               <expan>POTESTATE</expan>
+            </choice>
+            <num>XII</num>
+            <choice>
+               <abbr>IMP</abbr>
+               <expan>IMPERATORI</expan>
+            </choice>
+            <num>XI</num>
+            <choice>
+               <abbr>COS</abbr>
+               <expan>CONSULI</expan>
+            </choice>
+            <num>III</num> PATRI PATRIAE ET</ab>
+         <ab n="3"><choice>
+               <abbr>IMP</abbr>
+               <expan>IMPERATORI</expan>
+            </choice>
+            <choice>
+               <abbr>CAES</abbr>
+               <expan>CAESARI</expan>
+            </choice>
+            <persName n="pers30"><choice>
+               <abbr>M</abbr>
+               <expan>MARCO</expan>
+            </choice> AURELIO ANTONINO</persName> PIO FELICI <choice>
+               <abbr>AUG</abbr>
+               <expan>AUGUSTO</expan>
+            </choice>
+            <choice>
+               <abbr>TRIB</abbr>
+               <expan>TRIBUNICIA</expan>
+            </choice>
+            <choice>
+               <abbr>POTEST</abbr>
+               <expan>POTESTATE</expan>
+            </choice>
+            <num>VII</num>
+            <choice>
+               <abbr>COS</abbr>
+               <expan>CONSULI</expan>
+            </choice>
+            <num>III</num>
+            <choice>
+               <abbr>P P</abbr>
+               <expan>PATRI PATRIAE</expan>
+            </choice>
+            <choice>
+               <abbr>PROCOS</abbr>
+               <expan>PROCONSULI</expan>
+            </choice> FORTISSIMO FELICISSIMOQUE PRINCIPI ET</ab>
+         <ab n="4"><persName n="pers127">IULIAE</persName> <choice>
+               <abbr>AUG</abbr>
+               <expan>AUGUSTAE</expan>
+            </choice> MATRI <choice>
+               <abbr>AUG</abbr>
+               <expan>AUGUSTI</expan>
+            </choice>
+            <choice>
+               <abbr>N</abbr>
+               <expan>NOSTRI</expan>
+            </choice> ET CASTRORUM ET SENATUS ET PATRIAE ET <choice>
+               <abbr>IMP</abbr>
+               <expan>IMPERATORIS</expan>
+            </choice>
+            <choice>
+               <abbr>CAES</abbr>
+               <expan>CAESARIS</expan>
+            </choice>
+            <persName n="pers30"><choice>
+               <abbr>M</abbr>
+               <expan>MARCI</expan>
+            </choice> AURELI ANTONINI</persName> PII FELICIS <choice>
+               <abbr>AUG</abbr>
+               <expan>AUGUSTI</expan>
+            </choice></ab>
          <ab n="5">PARTHICI MAXIMI BRITTANNICI MAXIMI</ab>
-         <ab n="6">ARGENTARI ET NEGOTIANTES BOARI HUIUS <unclear></unclear> DEVOTI NUMINI EORUM</ab>
+         <ab n="6">ARGENTARI ET NEGOTIANTES BOARI HUIUS <unclear/> DEVOTI NUMINI EORUM</ab>
       </body>
-  </text>
+   </text>
 </TEI>

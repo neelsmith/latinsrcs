@@ -19,12 +19,45 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">CUMCUM VIXIT SEVERA SEI EUCI</ab>
-         <ab n="2" type="line">ANE CUM AURELIO SABUTIO ANNIS</ab>
-         <ab n="3" type="line">DECE ET SEPTE IMP PROBO AUG III ET NONIO</ab>
-         <ab n="4" type="line">PATER NOBIS CONS QUOT VIXIT INSECUTO</ab>
-         <ab n="5" type="line">ANNOR IC INTAET DUO ET MENSES DUO IMP</ab>
-         <ab n="6" type="line">CLAUDIO AUGE PATERN CONES</ab>
+         <ab n="1" type="line">CUM CUMVIXIT <persName n="pers124">SEVERA</persName>
+            <persName n="pers124"><w part="I">SELEUCI</w></persName></ab>
+         <ab n="2" type="line"><persName n="pers124"><w part="F">ANE</w></persName> CUM <persName n="pers125">AURELIO
+            SABUTIO</persName> ANNIS</ab>
+         <ab n="3" type="line"><choice>
+               <abbr>DECE</abbr>
+               <expan>DECEM</expan>
+            </choice> ET <choice>
+               <abbr>SEPTE</abbr>
+               <expan>SEPTEM</expan>
+            </choice>
+            <choice>
+               <abbr>IMP</abbr>
+               <expan>IMPERATORE</expan>
+            </choice> <persName n="pers30">PROBO <choice>
+               <abbr>AUG</abbr>
+               <expan>AUGUSTO</expan>
+            </choice></persName>
+            <num>III</num> ET <persName n="pers126">NONIO</persName></ab>
+         <ab n="4" type="line"><persName n="pers126">PATERNO</persName> BIS <choice>
+               <abbr>CONS</abbr>
+               <expan>CONSULIBUS</expan>
+            </choice> QUOT VIXIT INSECULO</ab>
+         <ab n="5" type="line"><w>ANN<unclear>IS</unclear></w> TRICINTA ET DUO ET MENSES DUO <choice>
+               <abbr>IMP</abbr>
+               <expan>IMPERATORE</expan>
+            </choice></ab>
+         <ab n="6" type="line"><persName n="pers39">CLAUDIO <choice>
+               <abbr>AUG</abbr>
+               <expan>AUGUSTO</expan>
+            </choice></persName>
+            <persName n="pers126"><choice>
+               <abbr>PATERN</abbr>
+               <expan>PATERNO</expan>
+            </choice></persName>
+            <choice>
+               <abbr>CONES</abbr>
+               <expan>CONSULIBUS</expan>
+            </choice></ab>
       </body>
    </text>
 </TEI>

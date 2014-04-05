@@ -1,31 +1,32 @@
 Place Number,PhysicalLocation,PleiadesId
-urn:cite:shot:epigsite.pl1,Athens,
-urn:cite:shot:epigsite.pl2,Pylos,
-urn:cite:shot:epigsite.pl3,Delphi,
-urn:cite:shot:epigsite.pl4,Caerleon,
-urn:cite:shot:epigsite.pl5,St. Peter's Square,
-urn:cite:shot:epigsite.pl6,Bridge of Angels,
-urn:cite:shot:epigsite.pl7,Pantheon,
+urn:cite:shot:epigsite.pl1,Athens,http://pleiades.stoa.org/places/579885
+urn:cite:shot:epigsite.pl2,Pylos,http://pleiades.stoa.org/places/570640
+urn:cite:shot:epigsite.pl3,Delphi,http://pleiades.stoa.org/places/540726
+urn:cite:shot:epigsite.pl4,Caerleon,http://pleiades.stoa.org/places/79532
+urn:cite:shot:epigsite.pl5,St. Peter's Square,http://pleiades.stoa.org/places/423053
+urn:cite:shot:epigsite.pl6,Bridge at Castel Sant'Angelo,http://pleiades.stoa.org/places/919243561
+urn:cite:shot:epigsite.pl7,Pantheon,http://pleiades.stoa.org/places/128044615
 urn:cite:shot:epigsite.pl8,Roman Forum,
-urn:cite:shot:epigsite.pl9,Herculaneum,
-urn:cite:shot:epigsite.pl10,Montecassino,
-urn:cite:shot:epigsite.pl11,Pons Fabricius,
-urn:cite:shot:epigsite.pl12,Vatican Museum,
+urn:cite:shot:epigsite.pl9,Herculaneum,http://pleiades.stoa.org/places/432873
+urn:cite:shot:epigsite.pl10,Montecassino,http://pleiades.stoa.org/places/433082
+urn:cite:shot:epigsite.pl11,Pons Fabricius,http://pleiades.stoa.org/places/68481414
+urn:cite:shot:epigsite.pl12,Vatican Museum,http://pleiades.stoa.org/places/423053
 urn:cite:shot:epigsite.pl13,Piazza del Popolo,
-urn:cite:shot:epigsite.pl14,Ostia Antica,
+urn:cite:shot:epigsite.pl14,Ostia Antica,http://pleiades.stoa.org/places/422995
 urn:cite:shot:epigsite.pl15,Capitoline Museum,
 urn:cite:shot:epigsite.pl16,Piazza di Montecitorio,
-urn:cite:shot:epigsite.pl17,Colosseum,
-urn:cite:shot:epigsite.pl18,Pompeii,
-urn:cite:shot:epigsite.pl19,Naples,
+urn:cite:shot:epigsite.pl17,Colosseum,http://pleiades.stoa.org/places/285857974
+urn:cite:shot:epigsite.pl18,Pompeii,http://pleiades.stoa.org/places/433032
+urn:cite:shot:epigsite.pl19,Naples,http://pleiades.stoa.org/places/433014
 urn:cite:shot:epigsite.pl20,Piazza della Bocca della Verita,
 urn:cite:shot:epigsite.pl21,Chiesa di San Silvestro,
 urn:cite:shot:epigsite.pl22,Methone,
 urn:cite:shot:epigsite.pl23,Persia,
-urn:cite:shot:epigsite.pl24,Macedonia,
-urn:cite:shot:epigsite.pl25,Germania,
-urn:cite:shot:epigsite.pl26,Rome,
-urn:cite:shot:epigsite.pl27,Africa,
-urn:cite:shot:epigsite.pl28,Aria,
-urn:cite:shot:epigsite.pl29,Faesulae,
-urn:cite:shot:epigsite.pl30,Florence,
+urn:cite:shot:epigsite.pl24,Macedonia,http://pleiades.stoa.org/places/981531
+urn:cite:shot:epigsite.pl25,Germania,http://pleiades.stoa.org/places/20468
+urn:cite:shot:epigsite.pl26,Rome,http://pleiades.stoa.org/places/423025
+urn:cite:shot:epigsite.pl27,Africa,http://pleiades.stoa.org/places/775
+urn:cite:shot:epigsite.pl28,Aria,http://pleiades.stoa.org/places/589709
+urn:cite:shot:epigsite.pl29,Faesulae,http://pleiades.stoa.org/places/413124
+urn:cite:shot:epigsite.pl30,Florence,http://pleiades.stoa.org/places/413138
+urn:cite:shot:epigsite.pl31,Via Nomentana,

@@ -19,9 +19,12 @@
    </teiHeader>
    <text>
       <body>
-         <ab n="1" type="line">SILVANO SACRUM</ab> 
-         <ab n="2" type="line">TYCHICUS</ab> 
-         <ab n="3" type="line">GILBRIONIS N SER</ab> 
+         <ab n="1" type="line">SILVANO SACRUM</ab>
+         <ab n="2" type="line"><persName n="pers115">TYCHICUS</persName></ab>
+         <ab n="3" type="line"><persName n="pers114">GLABRIONIS</persName> <choice>
+               <abbr>N</abbr>
+               <expan>NOSTRI</expan>
+            </choice> <choice><abbr>SER</abbr><expan>SERVUS</expan></choice></ab>
          <ab n="4" type="line">VILICUS HORTORUM</ab>
       </body>
    </text>
