@@ -41,7 +41,6 @@ h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p, div + p,
 blockquote, fieldset, form, ul, ol, dl, dir, menu, pre, hr {
   margin: .75em 0;}
 blockquote, dd {margin-left: 1.58em; padding-left: 0;}
-li {margin-left: 3.16em; padding-left: 0;}
 ul ul, ol ol, li address, li dl, li ol, li p, li ul, li dir, 
 li hr, li menu, li pre, li h1, li h2, li h3, li h4, li h5, 
 li h6, dd address, dd dl, dd ol, dd p, dd ul, dd dir, dd hr, 
@@ -49,11 +48,9 @@ dd menu, dd pre, dd h1, dd h2, dd h3, dd h4, dd h5, dd h6,
 form address, form dl, form ol, form p, form ul, form dir, 
 form hr, form menu, form pre, form h1, form h2, form h3, 
 form h4, form h5, form h6 {margin-top: 0; margin-bottom: 0;}
-nav, ul, li, a {float: left; text-align: center; font-variant: small-caps;}
+nav, ul, p, a {padding: 0; float: center; text-align: center; font-variant: small-caps;}
 header {margin: 1em; padding: 1em; border-top: 1px solid silver; border-bottom: 1px solid silver;}
-article, footer { padding: 0.75em;}
-article {margin: 1em; padding: 0.75em;}
-p {display: block;}
+article {margin: 1em;}
 
 body, h2 {font-family: Calibri, Myriad Web, Syntax, sans-serif;
  color: black; background: white; margin-right: 1ex;}
