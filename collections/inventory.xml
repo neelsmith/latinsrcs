@@ -22,6 +22,28 @@
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
     </citeCollection>
 -->
+    <citeCollection canonicalId="LexEntity" label="Lemma" urn="urn:cite:perseus:latlexent">
+        <namespaceMapping abbr="hclat" fullValue="http://shot.holycross.edu/datans/hclat/"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Lexical entities</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Megan Whitacre</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All edited texts</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/"> Lexicial entities in edited texts</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial \
+            3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <source type="file" value="lexent.tsv"></source>
+        <citeProperty name="LexEntity" label="ID" type="citeurn"></citeProperty>
+        <citeProperty name="Lemma" label="Label" type="string"></citeProperty>
+        
+        
+        
+    </citeCollection>
+    
+    
+    
+    
     
     <citeCollection canonicalId="Analysis" label="Form" urn="urn:cite:hclat:analyses">
         <namespaceMapping abbr="hclat" fullValue="http://shot.holycross.edu/datans/hclat/"></namespaceMapping>
