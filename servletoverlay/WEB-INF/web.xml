@@ -89,6 +89,6 @@
 
 
     <welcome-file-list>
-        <welcome-file>home</welcome-file>
+        <welcome-file>home.html</welcome-file>
     </welcome-file-list>
 </web-app>
