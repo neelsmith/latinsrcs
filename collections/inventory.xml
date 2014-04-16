@@ -33,7 +33,7 @@
             3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         
-        <source type="file" value="lexent.tsv"></source>
+        <source type="file" value="lexent.csv"></source>
         <citeProperty name="LexEntity" label="ID" type="citeurn"></citeProperty>
         <citeProperty name="Lemma" label="Label" type="string"></citeProperty>
         
@@ -41,8 +41,7 @@
         
     </citeCollection>
     
-    
-    
+
     
     
     <citeCollection canonicalId="Analysis" label="Form" urn="urn:cite:hclat:analyses">
