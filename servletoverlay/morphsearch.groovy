@@ -6,6 +6,7 @@ import static groovyx.net.http.Method.*
 
 import edu.harvard.chs.cite.CtsUrn
 
+import java.net.URLDecoder
 
 String sparql = "@sparqls@"
 
@@ -84,7 +85,7 @@ html.html {
 		CtsUrn urn = new CtsUrn(b.psg.value)
 		li {
 		  strong(b.formstr.value)
-		  mkp.yield ": line ${urn.getPassageNode()} of ${urn.getUrnWithoutPassage()}"
+		  mkp.yield ": line ${URLDecoder.decode(urn.getPassageNode())} of ${urn.getUrnWithoutPassage()}"
 		}
 
 	      } catch (Exception e) {
