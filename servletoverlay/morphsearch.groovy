@@ -67,13 +67,11 @@ html.html {
     head {
       title("Morphological search: ${lemmaStr}")
         link(type : "text/css", rel : "stylesheet", href : "css/normalize.css", title : "CSS stylesheet")
-        link(type : "text/css", rel : "stylesheet", href : "css/steely.css", title : "CSS stylesheet")
+        link(type : "text/css", rel : "stylesheet", href : "css/latin.css", title : "CSS stylesheet")
     }
     
     body {
     	header {
-            link(href : "http://folio.furman.edu/images/swiss.css", rel : "stylesheet", type : "text/css")
-    	
             nav (role : "navigation") {
                 a(href : '@homeUrl@', "Home")
             }
@@ -87,7 +85,9 @@ html.html {
 		CtsUrn urn = new CtsUrn(b.psg.value)
 		li {
 		  strong(b.formstr.value)
-		  mkp.yield "from ${b.lex.value}: line ${URLDecoder.decode(urn.getPassageNode())} of ${urn.getUrnWithoutPassage()}"
+		  mkp.yield " (from ${b.lex.value}): occurs in line ${URLDecoder.decode(urn.getPassageNode())} of ${urn.getUrnWithoutPassage()}.  "
+		  a(href:"facsimile.groovy?urn=${urn}", "Read passage")
+		  mkp.yield "."
 		}
 
 	      } catch (Exception e) {
