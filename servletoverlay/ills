@@ -59,12 +59,11 @@ html.html {
     head {
         title("Latin sources")
         link(type : "text/css", rel : "stylesheet", href : "css/normalize.css", title : "CSS stylesheet")
-        link(type : "text/css", rel : "stylesheet", href : "css/steely.css", title : "CSS stylesheet")
+	link(href : "css/latin.css", rel : "stylesheet", type : "text/css")
     }
     
     body {
     	header {
-            link(href : "http://folio.furman.edu/images/swiss.css", rel : "stylesheet", type : "text/css")
     	
             nav (role : "navigation") {
                 a(href : '@homeUrl@', "Home")
