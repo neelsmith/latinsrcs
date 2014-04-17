@@ -1,25 +1,46 @@
-/* URLs for CITE services, Image Citation Tool, and CITEKit.
+/* Configuration for citeservlet
 */
-
 
 project.ext {
 
-    // Where you want to provide query forms for the services
-    queryforms = "http://localhost:8080/citeservlet/svcforms"
+    /* *****************************************  */		    
+    /* Two essential system configuration values  */
+    /* *****************************************  */		    
+    // 1. Sparql endpoint (used by all services)
+    sparqls  = "http://localhost:3333/latepig/"
 
-    // The four CITE services	    
-    texts  = "http://localhost:8080/citeservlet/texts"
-    indices =  "http://localhost:8080/citeservlet/indices"
-    collections = "http://localhost:8080/citeservlet/collections"
-    images = "http://beta.hpcc.uh.edu/tomcat/latepig/images"
+    // 2. Absolute or relative URL of IIPSrv fast cgi (used by image service)
+    iipsrv = "http://beta.hpcc.uh.edu/fcgi-bin/iipsrv.fcgi"
+	
+    inventoryDir = "localconf/inventories"
 
 
-    // XSLT to use for constructing IIPMooViewer replies
-    mooxslt = "xslt/citeimg_getiipmooviewer.xsl"
+    /* *****************************************  */		    
+    /* Project-specific values                    */
+    /* *****************************************  */		    
+    // Where you will install or run citeservlet
+    homeUrl = "http://beta.hpcc.uh.edu/tomcat/lattest/"
 
-    // The image citation tool
-    ict = "http://beta.hpcc.uh.edu/tomcat/latepig/ict.html"
+    // Strings for labelling web pages
+    projectlabel = "Sources for teaching Latin"
 
-    // CiteKit javascript package
-    citekit = "http://beta.hpcc.uh.edu/tomcat/latepig/citekit/js/cite-jq.js"
+    // Text to inject into header, footer and nav elements
+     htmlnav = "Sources for teaching Latin:<a href='home'>Home</a>"
+    htmlheader = ""
+    htmlfooter = "citeservlet is free software developed by Christopher Blackwell and Neel Smith."
+
+    // Default URNs to populate query forms 
+    demoImage = ""
+    demoObject = ""
+    demoText = ""
+
+    // pixel width (as a String) of source image to use in
+    // cutting ICT details. You almost certianly don't care
+    // about this: 9000 is a good default.
+    detailWidth = "9000"
+
+    coreCss = "css/latin.css"
+
+    ckImgSize = "1000"
+    defaultContext = "3"
 }
