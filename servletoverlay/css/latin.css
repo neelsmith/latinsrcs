@@ -32,6 +32,38 @@ thead{
     background:white;
 }
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    line-height:1.33em;
+    margin-bottom:.33em;
+}
+h1{
+    font-size:2em;
+    margin-top:1.33em;
+    text-align:center;
+}
+h3{
+    font-size:1.58em;
+    margin-top:1.58em;
+}
+h4{
+    font-size:1.33em;
+    margin-top:1.33em;
+}
+h5{
+    font-size:1.17em;
+    margin-top:1.17em;
+}
+h6{
+    font-size:1em;
+    margin-top:1em;
+}
+
 h1,
 h2{
     font-weight:500;
@@ -126,35 +158,6 @@ ol ol li{
 }
 ol ol ol li{
     list-style-type:lower-roman;
-}
-h1,
-h3,
-h4,
-h5,
-h6{
-    line-height:1.33em;
-    margin-bottom:.33em;
-}
-h1{
-    font-size:2em;
-    margin-top:1.33em;
-    text-align:center;
-}
-h3{
-    font-size:1.58em;
-    margin-top:1.58em;
-}
-h4{
-    font-size:1.33em;
-    margin-top:1.33em;
-}
-h5{
-    font-size:1.17em;
-    margin-top:1.17em;
-}
-h6{
-    font-size:1em;
-    margin-top:1em;
 }
 hr{
     height:.1em;

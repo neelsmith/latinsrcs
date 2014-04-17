@@ -39,7 +39,7 @@ String getQuery(String lemma) {
 String reply = """
 select ?lex ?form ?lemma ?formstr ?psg where {
 ?lex <http://www.homermultitext.org/hmt/citedata/latlexent_Lemma> "${lemma}" .
-
+?lex <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?lemma .
 ?lex  <http://shot.holycross.edu/rdf/hclat/hasForm> ?form .
 ?form   <http://www.homermultitext.org/cite/rdf/occursIn>  ?psg .
 ?form <http://www.homermultitext.org/hmt/citedata/tokens_String> ?formstr .
@@ -53,15 +53,19 @@ return reply
 
 
 def slurper = new groovy.json.JsonSlurper()
+
+
 // ADD ERROR CHECK ON PARAMS...
 String queryString = getQuery(params.lemma)
 def parsedReply = slurper.parseText(getSparqlReply("application/json", queryString))
 
+def firstReply = parsedReply.results.bindings[0]
+String lemmaStr = firstReply.lemma.value
 
 
 html.html {
     head {
-        title("Morphological search")
+      title("Morphological search: ${lemmaStr}")
         link(type : "text/css", rel : "stylesheet", href : "css/normalize.css", title : "CSS stylesheet")
         link(type : "text/css", rel : "stylesheet", href : "css/steely.css", title : "CSS stylesheet")
     }
@@ -73,43 +77,23 @@ html.html {
             nav (role : "navigation") {
                 a(href : '@homeUrl@', "Home")
             }
-            h1("Occurrences")
+            h1('Morphological search matching lemma form "' + lemmaStr + '"')
     	}
     	
     	article {
-	  //pre(queryString)
 	  ul {
 	    parsedReply.results.bindings.each { b ->
-	      
 	      try {
 		CtsUrn urn = new CtsUrn(b.psg.value)
 		li {
 		  strong(b.formstr.value)
-		  mkp.yield ": line ${URLDecoder.decode(urn.getPassageNode())} of ${urn.getUrnWithoutPassage()}"
+		  mkp.yield "from ${b.lex.value}: line ${URLDecoder.decode(urn.getPassageNode())} of ${urn.getUrnWithoutPassage()}"
 		}
 
 	      } catch (Exception e) {
 	      }
 	    }
-	      /*
-
-  String 
-    categoryLabels[b.category.value] =  b.catlabel.value
-
-    topicLabels[b.topic.value] =  b.topiclabel.value
-    imageCount[b.topic.value] = b.images.value
-    def topicsList 
-    if (categoryTopicMap[b.category.value]) {
-        topicsList = categoryTopicMap[b.category.value]
-        topicsList.add(b.topic.value)
-    } else {
-        topicsList = [b.topic.value]
-    }
-    categoryTopicMap[b.category.value] = topicsList
-    }*/
-
-
-	    }
+	  }
 	}
 
         footer("")
