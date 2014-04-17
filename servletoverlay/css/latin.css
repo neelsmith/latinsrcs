@@ -250,6 +250,12 @@ form h6{
     margin-bottom:0;
 }
 
+nav {
+
+clear : both;
+}
+
+
 nav/*
 ul,
 p,
