@@ -88,7 +88,7 @@ html.html {
     
     body {
     	header {
-            link(href : "http://folio.furman.edu/images/swiss.css", rel : "stylesheet", type : "text/css")
+            link(href : "css/latin.css", rel : "stylesheet", type : "text/css")
     	
             nav (role : "navigation") {
                 a(href : '@homeUrl@', "Home")
