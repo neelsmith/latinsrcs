@@ -4,10 +4,13 @@
     <meta charset="utf-8">
     <title>Dimensional Charting</title>
     <link rel="stylesheet" type="text/css" href="../../css/dc.css"/>
-    <link rel="stylesheet" type="text/css" href="../../css/styles.css"/>
-    <script type="text/javascript" src="../../lib/d3.js"></script>
-    <script type="text/javascript" src="../../lib/crossfilter.js"></script>
-    <script type="text/javascript" src="../../lib/dc.js"></script>
+    <link rel="stylesheet" type="text/css"
+href="../../css/styles.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/latin.css"/>
+    <script type="text/javascript" src="js/d3.js"></script>
+    <script type="text/javascript" src="js/crossfilter.js"></script>
+    <script type="text/javascript" src="js/dc.js"></script>
     <style type="text/css"> 
     div.graphdiv {  
 	border : 1px solid gray;
@@ -53,7 +56,7 @@
 
 
 <script type="text/javascript">
-    d3.csv('verbmorph.csv', function(csv){
+    d3.csv('data/verbmorph.csv', function(csv){
         var data = crossfilter(csv);
 
 	var persons = data.dimension(function(d){return d.person;});
