@@ -32,7 +32,7 @@ project.ext {
     // Default URNs to populate query forms 
     demoImage = ""
     demoObject = ""
-    demoText = "urn:cts:hclat:inscriptions.doc2:"
+    demoText = "urn:cts:latepig:inscriptions.doc2:1"
 
     // pixel width (as a String) of source image to use in
     // cutting ICT details. You almost certianly don't care
