@@ -49,6 +49,7 @@ queue()
 
 var inscrs;
 function ready(error, topology, csv){
+    console.log(topology.objects);
     borders.selectAll("path")
 	.data(topojson.object(topology, topology.objects.world50m).geometries)
 	.enter()

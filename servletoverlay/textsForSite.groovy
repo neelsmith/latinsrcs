@@ -9,6 +9,7 @@ import java.net.URLDecoder
 
 String sparql = "@sparqls@"
 
+
 /**
 * Submits an encoded query to the configured SPARQL endpoint,
 * and returns the reply.
@@ -92,7 +93,7 @@ html.html {
 	  ul {
 	    parsedReply.results.bindings.each { b ->
 	      li {
-		mkp.yield "${b.label.value} (${b.txt.value})"
+		a (href: "facsimile.groovy?urn=${b.txt.value}", b.label.value)
 	      }
 	    }
 	  }

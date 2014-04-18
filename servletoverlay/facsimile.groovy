@@ -10,6 +10,20 @@ import java.net.URLDecoder
 
 String sparql = "@sparqls@"
 
+
+// cheat for now: implement real GFU request
+// in cite lib asap.
+String getFirstUrn(String urnStr) {
+  try {
+    CtsUrn urn = new CtsUrn(urnStr)
+    return "${urn.getUrnWithoutPassage()}:1"
+  } catch (Exception e) {
+    return "Could not make URN from string ${urnStr}"
+  }
+}
+
+
+
 /**
 * Submits an encoded query to the configured SPARQL endpoint,
 * and returns the reply.
@@ -35,19 +49,18 @@ String getSparqlReply(String acceptType, String query) {
     return replyString
 }
 
-String getQuery(String lemma) {
+String getQuery(String txtUrn) {
+  try {
+    CtsUrn urn = new CtsUrn(txtUrn)  
 String reply = """
-select ?lex ?form ?lemma ?formstr ?psg where {
-?lex <http://www.homermultitext.org/hmt/citedata/latlexent_Lemma> "${lemma}" .
-?lex <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?lemma .
-?lex  <http://shot.holycross.edu/rdf/hclat/hasForm> ?form .
-?form   <http://www.homermultitext.org/cite/rdf/occursIn>  ?psg .
-?form <http://www.homermultitext.org/hmt/citedata/tokens_String> ?formstr .
+SELECT ?img WHERE {
+<${urn.getUrnWithoutPassage()}> <http://www.homermultitext.org/cite/rdf/hasDefaultImage> ?img .
 }
-ORDER BY ?lex ?formstr 
 """
-
 return reply
+  } catch (Exception e) {
+    
+  }
 }
 
 
@@ -58,7 +71,8 @@ def slurper = new groovy.json.JsonSlurper()
 // ADD ERROR CHECK ON PARAMS...
 String queryString = getQuery(params.urn)
 def parsedReply = slurper.parseText(getSparqlReply("application/json", queryString))
-
+def firstReply = parsedReply.results.bindings[0]
+String imgUrn = firstReply.img.value
 
 html.html {
     head {
@@ -80,14 +94,15 @@ html.html {
     	
     	article {
 	  p("${params.urn}")
-	  /*
+
   div (class: "citekit-compare") {
             blockquote(class: "cite-image", cite : "${imgUrn}", "${imgUrn}")
-            blockquote(class: "cite-text", cite : "${rng}", "${rng}")
-          }
-	  */
+	  blockquote(class: "cite-text", cite : "${getFirstUrn(params.urn)}", "${getFirstUrn(params.urn)}")
 
-	  blockquote(class: "cite-text", cite : "${params.urn}", "${params.urn}")
+          }
+
+
+
 
 	  ul (id: "citekit-sources") {
 	    li (class : "citekit-source cite-text citekit-default", id : "defaulttext", "@texts@")
