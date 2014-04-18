@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite">
+    <citeCollection canonicalId="Site" label="Label" urn="urn:cite:shot:epigsite">
+        <namespaceMapping abbr="hclat" fullValue="http://shot.holycross.edu/datans/hclat/"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Sites</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Megan Whitacre</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Sites with edited inscriptions</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Sites with edited inscriptions</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial \
+            3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <source type="file" value="sites.csv"></source>
+        <citeProperty name="Site" label="Site URN"  type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="Name" type="string"></citeProperty>
+        <citeProperty name="PleiadesId" label="Pleiades URL" type="string"></citeProperty>
+    </citeCollection>
 
 <!--
     <citeCollection canonicalId="ImageUrn" label="Label" urn="urn:cite:shot:epigimg">
