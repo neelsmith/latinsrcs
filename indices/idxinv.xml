@@ -44,6 +44,12 @@
         <source type="file" value="imgToEdition.csv"></source>
     </index> 
 
+
+    <index verb="cite:illustrates" inverse="cite:illustratedBy">
+        <source type="file" value="wholeImgToText.csv"></source>
+    </index> 
+
+
     <index verb="cite:illustrates" inverse="cite:illustratedBy">
         <source type="file" value="imgToSite.csv"></source>
     </index>
