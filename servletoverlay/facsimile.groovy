@@ -63,8 +63,11 @@ def parsedReply = slurper.parseText(getSparqlReply("application/json", queryStri
 html.html {
     head {
       title("Read passage: ${params.urn}")
-        link(type : "text/css", rel : "stylesheet", href : "css/normalize.css", title : "CSS stylesheet")
-        link(type : "text/css", rel : "stylesheet", href : "css/latin.css", title : "CSS stylesheet")
+
+      link(type : "text/css", rel : "stylesheet", href : "css/browsers.css", title : "CSS stylesheet")
+      link(type : "text/css", rel : "stylesheet", href : "@coreCss@", title : "CSS stylesheet")
+      script(type: "text/javascript", src : "js/jquery.min.js", "  ")
+      script(type: "text/javascript", src : "@citekit@", "  ")
     }
     
     body {
@@ -77,6 +80,20 @@ html.html {
     	
     	article {
 	  p("${params.urn}")
+	  /*
+  div (class: "citekit-compare") {
+            blockquote(class: "cite-image", cite : "${imgUrn}", "${imgUrn}")
+            blockquote(class: "cite-text", cite : "${rng}", "${rng}")
+          }
+	  */
+
+	  blockquote(class: "cite-text", cite : "${params.urn}", "${params.urn}")
+
+	  ul (id: "citekit-sources") {
+	    li (class : "citekit-source cite-text citekit-default", id : "defaulttext", "@texts@")
+	    li (class : "citekit-source cite-image citekit-default", id : "defaultimage", "data-image-w" : "@ckImgSize@",  "@images@" )
+	    li (class : "citekit-source cite-collection citekit-default", id : "defaultcollection", "@collections@" )
+	  }
 	}
 
         footer("")
