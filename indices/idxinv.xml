@@ -45,8 +45,8 @@
     </index> 
 
 
-    <index verb="cite:illustrates" inverse="cite:illustratedBy">
-        <source type="file" value="wholeImgToText.csv"></source>
+    <index verb="cite:isDefaultImage" inverse="cite:hasDefaultImage">
+        <source type="file" value="preferredImgForText.csv"></source>
     </index> 
 
 
