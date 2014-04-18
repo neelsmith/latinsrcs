@@ -54,7 +54,7 @@
         <source type="file" value="imgToSite.csv"></source>
     </index>
 
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+    <index verb="cite:illustrates" inverse="cite:illustratedBy">
         <source type="file" value="imgToObject.csv"></source>
     </index>
     

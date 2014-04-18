@@ -1,3 +1,5 @@
+var linkBase = "textsForSite.groovy?site="
+
 var width = 800,
     height = 600;
 
@@ -65,7 +67,7 @@ function ready(error, topology, csv){
     circles = inscriptions.selectAll("circle")
 	.data(inscrs).enter()
 	.append("svg:a")
-	.attr("xlink:href", function(d) { return d.urn; })
+	.attr("xlink:href", function(d) { return linkBase + d.urn; })
 	.attr("xlink:show", "new")
 	.append("circle")
 	.attr("cx", function(d){
