@@ -72,8 +72,10 @@ def slurper = new groovy.json.JsonSlurper()
 String queryString = getQuery(params.urn)
 def parsedReply = slurper.parseText(getSparqlReply("application/json", queryString))
 def firstReply = parsedReply.results.bindings[0]
-String imgUrn = firstReply.img.value
-
+String imgUrn 
+if ((firstReply) && (firstReply.img?.value)) {
+  imgUrn = firstReply.img.value
+}
 html.html {
     head {
       title("Read passage: ${params.urn}")
@@ -94,8 +96,7 @@ html.html {
     	
     	article {
 	  p("${params.urn}")
-
-  div (class: "citekit-compare") {
+	  div (class: "citekit-compare") {
             blockquote(class: "cite-image", cite : "${imgUrn}", "${imgUrn}")
 	  blockquote(class: "cite-text", cite : "${getFirstUrn(params.urn)}", "${getFirstUrn(params.urn)}")
 

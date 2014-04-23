@@ -59,7 +59,7 @@
     </index>
     
     
-    <index verb="hmt:isDefaultImage" inverse="hmt:hasDefaultImage">
+    <index verb="cite:isDefaultImage" inverse="cite:hasDefaultImage">
     <source type="file" value="preferredImg.csv"/>
     </index>
 
