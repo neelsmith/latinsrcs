@@ -39,13 +39,12 @@ String getQuery(String siteUrn) {
 String reply = """
 SELECT ?site ?txt ?label  WHERE {
 <${siteUrn}> <http://www.homermultitext.org/cite/rdf/illustratedBy> ?img .
- ?img    <http://www.homermultitext.org/cite/rdf/illustrates>  ?txt .
+ ?img    <http://www.homermultitext.org/cite/rdf/isDefaultImage>  ?txt .
 
 ?txt  <http://www.homermultitext.org/cts/rdf/belongsTo> <urn:cts:latepig:inscriptions>  .
 ?txt <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?label .
 
 <${siteUrn}> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?site .
-
 }
 """
 
@@ -59,7 +58,11 @@ String queryString = getQuery(params.site)
 def parsedReply = slurper.parseText(getSparqlReply("application/json", queryString))
 
 def firstMatch = parsedReply.results.bindings[0]
-String siteName = firstMatch.site.value
+
+String siteName 
+if ((firstMatch) && (firstMatch.site?.value)) {
+  siteName = firstMatch.site.value
+}
 
 
 html.html {
@@ -88,7 +91,6 @@ html.html {
     	}
     	
     	article {
-
 	  p("${siteName} (${params.site})")
 	  ul {
 	    parsedReply.results.bindings.each { b ->
