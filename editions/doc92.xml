@@ -19,9 +19,9 @@
   </teiHeader>
   <text>
       <body>
-         <ab n="1">INGENUO ET CLAUDI</ab>
-         <ab n="2">AE CARISSIMIS POSUIT</ab> 
-         <ab n="3">DIONYSIUS</ab>
+         <ab n="1"><persName n="pers130">INGENUO</persName> ET <persName n="pers131"><w part="I">CLAUDI</w></persName></ab>
+         <ab n="2"><w part="F">AE</w> CARISSIMIS POSUIT</ab> 
+         <ab n="3"><persName n="pers129">DIONYSIUS</persName></ab>
       </body>
   </text>
 </TEI>

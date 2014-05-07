@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Document 99</title>
@@ -16,17 +16,50 @@
             <p>Directly edited from photograph of artifact</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <ab n="1">D M</ab>
-         <ab n="2">M ULPIO EUHELLISTO</ab>
-         <ab n="3">FEC M ULPIUS COMMU</ab>
-         <ab n="4">NIS PATRONO BENE MER</ab>
-         <ab n="5">L T STRATIA CONIUNX</ab>
-         <ab n="6">ET SIBI ET SUIS LIB LIBER</ab>
-         <ab n="7">TABUSQ POSTERIS Q</ab>
+         <ab n="1"><choice>
+               <abbr>D M</abbr>
+               <expan>DIS MANIBUS</expan>
+            </choice></ab>
+         <ab n="2"><persName n="pers140"><choice>
+               <abbr>M</abbr>
+               <expan>MARCO</expan>
+            </choice> ULPIO EUHELLISTO</persName></ab>
+         <ab n="3"><choice>
+               <abbr>FEC</abbr>
+               <expan>FECIT</expan>
+            </choice>
+            <persName n="pers140"><choice>
+               <abbr>M</abbr>
+               <expan>MARCUS</expan>
+            </choice> ULPIUS</persName> <w part="I">COMMU</w></ab>
+         <ab n="4"><w part="F">NIS</w> PATRONO BENE <choice>
+               <abbr>MER</abbr>
+               <expan>MERENTI</expan>
+            </choice></ab>
+         <ab n="5"><choice>
+               <abbr>L</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>T</abbr>
+               <expan/>
+            </choice> STRATIA CONIUNX</ab>
+         <ab n="6">ET SIBI ET SUIS <choice>
+               <abbr>LIB</abbr>
+               <expan>LIBERTIS</expan>
+            </choice>
+            <w part="I">LIBER</w></ab>
+         <ab n="7"><w part="F"><choice>
+                  <abbr>TABUSQ</abbr>
+                  <expan>LIBERTABUSQUE</expan>
+               </choice></w> POSTERIS <choice>
+               <abbr>Q</abbr>
+               <expan/>
+            </choice></ab>
          <ab n="8">EORUM</ab>
       </body>
-  </text>
+   </text>
 </TEI>

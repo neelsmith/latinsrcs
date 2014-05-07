@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Document 100</title>
@@ -16,14 +16,20 @@
             <p>Directly edited from photograph of artifact</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <ab n="1">D M</ab> 
-         <ab n="2">LUCIO IULIO</ab> 
-         <ab n="3">EUDOXO</ab> 
-         <ab n="4">L IULIUS EUBULUS</ab> 
+         <ab n="1"><choice>
+               <abbr>D M</abbr>
+               <expan>DIS MANIBUS</expan>
+            </choice></ab>
+         <ab n="2"><persName n="pers141">LUCIO IULIO</persName></ab>
+         <ab n="3">EUDOXO</ab>
+         <ab n="4"><persName n="pers142"><choice>
+                  <abbr>L</abbr>
+                  <expan>LUCIUS</expan>
+               </choice> IULIUS EUBULUS</persName></ab>
          <ab n="5">FILIO SUO PARISSIMO</ab>
       </body>
-  </text>
+   </text>
 </TEI>

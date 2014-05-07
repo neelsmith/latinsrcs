@@ -19,14 +19,14 @@
   </teiHeader>
   <text>
       <body>
-         <ab n="1">D M</ab>
-         <ab n="2">CASSIO MAR</ab>
-         <ab n="3">CIANO FILIO</ab>
-         <ab n="4">MANILIA PRI</ab>
-         <ab n="5">MA FECIT</ab> 
-         <ab n="6">VIX AN VI</ab> 
-         <ab n="7">MES II DIE</ab>
-         <ab n="8">IIII</ab>
+         <ab n="1"><choice><abbr>D M</abbr><expan>DIS MANIBUS</expan></choice></ab>
+         <ab n="2"><persName n="pers132">CASSIO</persName> <w part="I">MAR</w></ab>
+         <ab n="3"><w part="F">CIANO</w> FILIO</ab>
+         <ab n="4"><persName n="pers133">MANILIA</persName> <w part="I">PRI</w></ab>
+         <ab n="5"><w part="F">MA</w> FECIT</ab> 
+         <ab n="6">VIX AN <w part="I">VI</w></ab> 
+         <ab n="7"><w part="F">MES</w> <num>II</num> DIE</ab>
+         <ab n="8"><num>IIII</num></ab>
       </body>
   </text>
 </TEI>

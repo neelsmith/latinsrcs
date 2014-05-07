@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Document 91</title>
@@ -16,17 +16,26 @@
             <p>Directly edited from photograph of artifact</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <ab n="1">D M</ab> 
-         <ab n="2">CHARIS</ab> 
-         <ab n="3">MAMMA</ab> 
-         <ab n="4">FECIT ZO</ab> 
-         <ab n="5">SIMENI BE</ab>
-         <ab n="6">NE MEREN</ab>
-         <ab n="7">TI VIXIT</ab> 
-         <ab n="8">ANNU D XX</ab>
+         <ab n="1"><choice>
+               <abbr>D M</abbr>
+               <expan>DIS MANIBUS</expan>
+            </choice></ab>
+         <ab n="2">CHARIS</ab>
+         <ab n="3">MAMMA</ab>
+         <ab n="4">FECIT <w part="I">ZO</w></ab>
+         <ab n="5"><w part="F">SIMENI</w>
+            <w part="I">BE</w></ab>
+         <ab n="6"><w part="F">NE</w>
+            <w part="I">MEREN</w></ab>
+         <ab n="7"><w part="F">TI</w> VIXIT</ab>
+         <ab n="8"><choice>
+               <abbr>ANNU</abbr>
+               <expan>ANNUM</expan>
+            </choice>
+            <num>DXX</num></ab>
       </body>
-  </text>
+   </text>
 </TEI>

@@ -19,9 +19,9 @@
   </teiHeader>
   <text>
       <body>
-         <ab n="1">ANTONIA</ab> 
-         <ab n="2">ATHENAEIS</ab> 
-         <ab n="3">ANTONIA</ab> 
+         <ab n="1"><persName n="pers137">ANTONIA</persName></ab> 
+         <ab n="2"><placeName type="ethnic" n="pl1">ATHENAEIS</placeName></ab> 
+         <ab n="3"><persName n="pers137">ANTONIA</persName></ab> 
          <ab n="4">PRIVATA</ab>
       </body>
   </text>

@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Document 97</title>
@@ -16,17 +16,32 @@
             <p>Directly edited from photograph of artifact</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <ab n="1">DIS MANIB</ab>
+         <ab n="1"><choice>
+               <abbr>DIS MANIB</abbr>
+               <expan>DIS MANIBUS</expan>
+            </choice></ab>
          <ab n="2">UNGONIAE HYGIAE</ab>
          <ab n="3">MIULIUS SYNETUS FECIT</ab>
-         <ab n="4">CONIUGI SUAE KAP SIMAE ET</ab>
+         <ab n="4">CONIUGI SUAE <choice>
+               <abbr>KAP</abbr>
+               <expan/>
+            </choice> SIMAE ET</ab>
          <ab n="5">PIISSIMAE BENE METENTI DESI</ab>
          <ab n="6">QUI CUM VIXIT SINE QUAERELLA</ab>
-         <ab n="7">ANNO IIII MENSIB VIII DIEB XXIII</ab>
-         <ab n="8">II VIII HIC SITA EST</ab>
+         <ab n="7">ANNO <num>IIII</num>
+            <choice>
+               <abbr>MENSIB</abbr>
+               <expan>MENSIBUS</expan>
+            </choice>
+            <num>VIII</num>
+            <choice>
+               <abbr>DIEB</abbr>
+               <expan>DIEBUS</expan>
+            </choice> <num>XXIII</num></ab>
+         <ab n="8"><num>II</num> <num>VIII</num> HIC SITA EST</ab>
       </body>
-  </text>
+   </text>
 </TEI>

@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Document 94</title>
@@ -16,17 +16,29 @@
             <p>Directly edited from photograph of artifact</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <ab n="1">D M</ab> 
-         <ab n="2">FECIT BENIAISIAS ET</ab> 
-         <ab n="3">FLAVIA FELIX TI CLAUDIO</ab> 
-         <ab n="4">HERACLIDAE COIUGISU</ab> 
-         <ab n="5">O BENE MERENTI QUI VI</ab>
-         <ab n="6">XIT ANNIS XXXX LIBERT</ab>
-         <ab n="7">IIS LIBERTABUSQUE EO</ab>
-         <ab n="8">RUM</ab>
+         <ab n="1"><choice>
+               <abbr>D M</abbr>
+               <expan>DIS MANIBUS</expan>
+            </choice></ab>
+         <ab n="2">FECIT <persName n="pers134">BENIAISIAS</persName> ET</ab>
+         <ab n="3"><persName n="pers135">FLAVIA FELIX</persName>
+            <choice>
+               <abbr>TI</abbr>
+               <expan/>
+            </choice>
+            <persName n="pers136">CLAUDIO</persName></ab>
+         <ab n="4"><persName n="pers136">HERACLIDAE</persName>
+            <choice>
+               <abbr>COIUGISU</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="5">O BENE MERENTI QUI <w part="I">VI</w></ab>
+         <ab n="6"><w part="F">XIT</w> ANNIS <num>XXXX</num> <w part="I">LIBERT</w></ab>
+         <ab n="7"><w part="F">IIS</w> LIBERTABUSQUE <w part="I">EO</w></ab>
+         <ab n="8"><w part="F">RUM</w></ab>
       </body>
-  </text>
+   </text>
 </TEI>

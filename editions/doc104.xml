@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Document 104</title>
@@ -16,17 +16,35 @@
             <p>Directly edited from photograph of artifact</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <ab n="1">IMP CAES FL CONSTANTINO MAXIMO</ab>
-         <ab n="2">P F AUGUSTO S P Q R</ab>
-         <ab n="3">QUOD INSTINCTU DIVINITATIS MENTIS</ab> 
-         <ab n="4">MAGNITUDINE CUM EXERCITU SUO</ab> 
-         <ab n="5">TAM DE TYRANNO QUAM DE OMNI EIUS</ab> 
-         <ab n="6">FACTIONE UNO TEMPORE IUSTIS</ab> 
-         <ab n="7">REM PUBLICAM ULTUS EST ARMIS</ab> 
+         <ab n="1"><choice>
+               <abbr>IMP</abbr>
+               <expan>IMPERATORI</expan>
+            </choice>
+            <choice>
+               <abbr>CAES</abbr>
+               <expan>CAESARI</expan>
+            </choice>
+            <persName n="pers95"><choice>
+               <abbr>FL</abbr>
+               <expan>FLAVIO</expan>
+            </choice> CONSTANTINO</persName> MAXIMO</ab>
+         <ab n="2"><choice>
+               <abbr>P</abbr>
+               <expan>PIO</expan>
+            </choice>
+            <choice>
+               <abbr>F</abbr>
+               <expan>FELICI</expan>
+            </choice> AUGUSTO <choice><abbr>S P Q R</abbr><expan>SENATUS POPULUSQUE ROMANUS</expan></choice></ab>
+         <ab n="3">QUOD INSTINCTU DIVINITATIS MENTIS</ab>
+         <ab n="4">MAGNITUDINE CUM EXERCITU SUO</ab>
+         <ab n="5">TAM DE TYRANNO QUAM DE OMNI EIUS</ab>
+         <ab n="6">FACTIONE UNO TEMPORE IUSTIS</ab>
+         <ab n="7">REM PUBLICAM ULTUS EST ARMIS</ab>
          <ab n="8">ARCUM TRIUMPHIS INSIGNEM DICAVIT</ab>
       </body>
-  </text>
+   </text>
 </TEI>

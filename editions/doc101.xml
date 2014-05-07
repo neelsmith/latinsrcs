@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Document 101</title>
@@ -16,14 +16,60 @@
             <p>Directly edited from photograph of artifact</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <ab n="1">D M</ab>
-         <ab n="2">M ULPIO ANTHO VIX ANNUM</ab>
-         <ab n="3">M U D XX ET M ULPIO VALENTI</ab>
-         <ab n="4">NO QU AN V FILIS FEC M ULPIUS</ab>
+         <ab n="1"><choice>
+               <abbr>D M</abbr>
+               <expan>DIS MANIBUS</expan>
+            </choice></ab>
+         <ab n="2"><persName n="pers143"><choice>
+               <abbr>M</abbr>
+               <expan>MARCO</expan>
+            </choice> ULPIO <choice>
+               <abbr>ANTHO</abbr>
+               <expan/>
+            </choice></persName> VIX ANNUM</ab>
+         <ab n="3"><choice>
+               <abbr>M</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>U</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>D</abbr>
+               <expan/>
+            </choice>
+            <num>XX</num> ET <persName n="pers144"><choice>
+               <abbr>M</abbr>
+               <expan>MARCO</expan>
+            </choice> ULPIO VALENTI</persName></ab>
+         <ab n="4"><choice>
+               <abbr>NO</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>QU</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>AN</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>V</abbr>
+               <expan/>
+            </choice> FILIS <choice>
+               <abbr>FEC</abbr>
+               <expan/>
+            </choice>
+            <persName n="pers143"><choice>
+               <abbr>M</abbr>
+               <expan/>
+            </choice> ULPIUS</persName></ab>
          <ab n="5">NILUS ET SIBI ET CONIUGI ET SUIS</ab>
       </body>
-  </text>
+   </text>
 </TEI>

@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Document 103</title>
@@ -16,13 +16,18 @@
             <p>Directly edited from photograph of artifact</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <ab n="1">SENATUS</ab>
          <ab n="2">POPULUSQUE ROMANUS</ab>
-         <ab n="3">DIVO TITO DIVI VESPASIANI F</ab>
+         <ab n="3">DIVO <persName n="pers145">TITO</persName> DIVI <persName n="pers1"
+               >VESPASIANI</persName>
+            <choice>
+               <abbr>F</abbr>
+               <expan>FILIO</expan>
+            </choice></ab>
          <ab n="4">VESPASIANO AUGUSTO</ab>
       </body>
-  </text>
+   </text>
 </TEI>

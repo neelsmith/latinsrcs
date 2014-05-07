@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Document 89</title>
@@ -16,43 +16,171 @@
             <p>Directly edited from photograph of artifact</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <ab n="1">OM COLUPNA ANTONIN</ab>
+         <ab n="1"><choice>
+               <abbr>OM</abbr>
+               <expan/>
+            </choice> COLUPNA <choice>
+               <abbr>ANTONIN</abbr>
+               <expan/>
+            </choice></ab>
          <ab n="2">IURIS</ab>
-         <ab n="3">MON SCI SILURIET</ab>
-         <ab n="4">ECCTA SANDREE Q CIRCAEA</ab>
-         <ab n="5">SITAE CU OBLATIONIBUS Q</ab>
-         <ab n="6">INSUPERIORI ALTARI ET INF</ab>
-         <ab n="7">RIORIA PEREGRINIS TRIBUUN</ab>
-         <ab n="8">TUR LONGOIA TPR LOCATIOE</ab>
-         <ab n="9">ANRO FUIT ALIENTA MON NE</ab>
+         <ab n="3"><choice>
+               <abbr>MON</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>SCI</abbr>
+               <expan/>
+            </choice> SILURIET</ab>
+         <ab n="4">ECCTA SANDREE <choice>
+               <abbr>Q</abbr>
+               <expan/>
+            </choice> CIRCAEA</ab>
+         <ab n="5">SITAE <choice>
+               <abbr>CU</abbr>
+               <expan>CUM</expan>
+            </choice> OBLATIONIBUS <choice>
+               <abbr>Q</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="6">INSUPERIORI ALTARI ET <w part="I">INF</w></ab>
+         <ab n="7"><w part="F">RIORIA</w> PEREGRINIS <w part="I">TRIBUUN</w></ab>
+         <ab n="8"><w part="F">TUR</w> LONGOIA <choice>
+               <abbr>TPR</abbr>
+               <expan/>
+            </choice> LOCATIOE</ab>
+         <ab n="9"><choice>
+               <abbr>ANRO</abbr>
+               <expan/>
+            </choice> FUIT ALIENTA <choice>
+               <abbr>MON</abbr>
+               <expan/>
+            </choice> NE</ab>
          <ab n="10">IDE CONTINGAT ACTORITATE</ab>
-         <ab n="11">PETRIAPLO PRINCIPIS ET STE</ab>
-         <ab n="12">PHANI ET DIONISII ET CONFES</ab>
-         <ab n="13">SORIS SILURI MALEDICIMUS ET</ab>
-         <ab n="14">VINCULO LIGAMUS ANATHEMA</ab>
-         <ab n="15">TIS ABBA TE ET MONACHOS O</ab>
-         <ab n="16">CUQ COLUPNA ET ECCLAM LO</ab>
-         <ab n="17">CARE UL BENEFICIO DARE PSU</ab>
-         <ab n="18">SERIT SIQ SEX HOMINIB CO</ab>
-         <ab n="19">LUPNA P VIOLENTIAM ANRO</ab>
-         <ab n="20">MON SUBTRAXERIT P PETVE</ab>
-         <ab n="21">MALEDICTIONI SICUTI SACRI</ab>
-         <ab n="22">LEGUS ET RAPTOR ET SCARUM</ab>
-         <ab n="23">RERU INVASOR SUBIACEAT ET</ab>
-         <ab n="24">ANATHEMATIS VINCULO PPE</ab>
+         <ab n="11">PETRIAPLO PRINCIPIS ET <w part="I">STE</w></ab>
+         <ab n="12"><w part="F">PHANI</w> ET DIONISII ET <w part="I">CONFES</w></ab>
+         <ab n="13"><w part="F">SORIS</w> SILURI MALEDICIMUS ET</ab>
+         <ab n="14">VINCULO LIGAMUS <w part="I">ANATHEMA</w></ab>
+         <ab n="15"><w part="F">TIS</w> ABBA TE ET MONACHOS O</ab>
+         <ab n="16"><choice>
+               <abbr>CUQ</abbr>
+               <expan/>
+            </choice> COLUPNA ET <choice>
+               <abbr>ECCLAM</abbr>
+               <expan/>
+            </choice>
+            <w part="I">LO</w></ab>
+         <ab n="17"><w part="F">CARE</w>
+            <choice>
+               <abbr>UL</abbr>
+               <expan/>
+            </choice> BENEFICIO DARE <choice>
+               <abbr>P</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>SU</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="18">SERIT <choice>
+               <abbr>SIQ</abbr>
+               <expan/>
+            </choice> SEX <choice>
+               <abbr>HOMINIB</abbr>
+               <expan>HOMINIBUS</expan>
+            </choice>
+            <w part="I">CO</w></ab>
+         <ab n="19"><w part="F">LUPNA</w>
+            <choice>
+               <abbr>P</abbr>
+               <expan/>
+            </choice> VIOLENTIAM <choice>
+               <abbr>ANRO</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="20"><choice>
+               <abbr>MON</abbr>
+               <expan/>
+            </choice> SUBTRAXERIT <choice>
+               <abbr>P</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>PETVE</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="21">MALEDICTIONI SICUTI <w part="I">SACRI</w></ab>
+         <ab n="22"><w part="F">LEGUS</w> ET RAPTOR ET SCARUM</ab>
+         <ab n="23"><choice>
+               <abbr>RERU</abbr>
+               <expan>RERUM</expan>
+            </choice> INVASOR SUBIACEAT ET</ab>
+         <ab n="24">ANATHEMATIS VINCULO <choice>
+               <abbr>PPE</abbr>
+               <expan/>
+            </choice></ab>
          <ab n="25">TUO TENEATUR FIAT</ab>
-         <ab n="26">HOCACTU E ACTORITATE OPO</ab>
-         <ab n="27">RU ET CARDINALIUM ET MUI</ab>
-         <ab n="28">TO CLERICO ATO LAICO</ab>
-         <ab n="29">RUM QUI INTER FUERUNT</ab>
-         <ab n="30">PETRUS DI GRA HUMILIS ABBAS</ab>
-         <ab n="31">HUIUS SCI CENOBII CU FRIB</ab>
-         <ab n="32">SUIS FECIT ET CONFIRMAV</ab>
-         <ab n="33">ANN DNI MIL C XVIIII</ab>
-         <ab n="34">INDIC XII</ab>
+         <ab n="26">HOC ACTU E ACTORITATE <choice>
+               <abbr>OPO</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="27"><choice>
+               <abbr>RU</abbr>
+               <expan/>
+            </choice> ET CARDINALIUM ET <choice>
+               <abbr>MUI</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="28"><choice>
+               <abbr>TO</abbr>
+               <expan/>
+            </choice> CLERICO <choice>
+               <abbr>ATO</abbr>
+               <expan/>
+            </choice>
+            <w part="I">LAICO</w></ab>
+         <ab n="29"><w part="F">RUM</w> QUI INTER FUERUNT</ab>
+         <ab n="30">PETRUS DI <choice>
+               <abbr>GRA</abbr>
+               <expan/>
+            </choice> HUMILIS ABBAS</ab>
+         <ab n="31">HUIUS <choice>
+               <abbr>SCI</abbr>
+               <expan/>
+            </choice> CENOBII <choice>
+               <abbr>CU</abbr>
+               <expan>CUM</expan>
+            </choice>
+            <choice>
+               <abbr>FRIB</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="32">SUIS FECIT ET <choice>
+               <abbr>CONFIRMAV</abbr>
+               <expan/>
+            </choice></ab>
+         <ab n="33"><choice>
+               <abbr>ANN</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>DNI</abbr>
+               <expan/>
+            </choice>
+            <choice>
+               <abbr>MIL</abbr>
+               <expan/>
+            </choice>
+            <num>C</num>
+            <num>XVIIII</num></ab>
+         <ab n="34"><choice>
+               <abbr>INDIC</abbr>
+               <expan/>
+            </choice>
+            <num>XII</num></ab>
       </body>
-  </text>
+   </text>
 </TEI>
