@@ -1,9 +1,9 @@
 
 @charset "iso-8859-1";
 /*
-Name: practice
+Name: latin_index.css
 Author: Megan Whitacre
-Description: Practice with stylesheets
+Description: Stylesheet for index page of latin sources project
 */
 
 body {margin: 1.58em; padding: 0; line-height: 1.58;}
@@ -27,6 +27,7 @@ pre {font-family: 'Monotype.com', Courier New, monospace;
 ol li {list-style-type: decimal;}
 ol ol li {list-style-type: lower-alpha;}
 ol ol ol li {list-style-type: lower-roman;}
+ul li {list-style-type: none;}
 h1, h3, h4, h5, h6 {line-height: 1.33em; margin-bottom: .33em;}
 h1 {font-size: 2em; margin-top: 1.33em; text-align: center;}
 h3 {font-size: 1.58em; margin-top: 1.58em;}

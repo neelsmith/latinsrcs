@@ -1,9 +1,9 @@
 
 @charset "iso-8859-1";
 /*
-Name: practice
+Name: latin.cc
 Author: Megan Whitacre
-Description: Practice with stylesheets
+Description: Stylesheet for latinsources project
 */
 
 body {margin: 1.58em; padding: 0; line-height: 1.58;}
@@ -48,7 +48,7 @@ dd menu, dd pre, dd h1, dd h2, dd h3, dd h4, dd h5, dd h6,
 form address, form dl, form ol, form p, form ul, form dir, 
 form hr, form menu, form pre, form h1, form h2, form h3, 
 form h4, form h5, form h6 {margin-top: 0; margin-bottom: 0;}
-nav, ul, a {padding: 0; float: center; text-align: center; font-variant: small-caps;}
+nav, a {padding: 0; float: center; text-align: center; font-variant: small-caps;}
 header {margin: 1em; padding: 1em; border-top: 1px solid silver; border-bottom: 1px solid silver;}
 article {margin: 1em;}
 
