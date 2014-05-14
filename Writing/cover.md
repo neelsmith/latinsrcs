@@ -1,4 +1,21 @@
-# Installing a Virtual Machine
+#Latin Epigraphy and Pedagogy
+
+####Megan Whitacre
+
+####Professor Neel Smith
+
+####College of the Holy Cross
+
+This is a digital project which is comprised of an archive of material and a virtual machine.  The virtual machine enables the viewer to run and interact with the material.
+
+##Requirements
+
+Download the following in order to see the full scope of the project:
+
+- Virtual Box: [https://virtualbox.org/wiki/Downloads][download]
+- Vagrant: [https://vagrantup.com/downloads.html][vagrant]
+
+# Install the Virtual Machine
 
 All the tools that are used in this project can be run on a virtual machine, which is located in a GitHub repository.  To run this project or create a similar project with different material, download and install the virtual machine.  This is a combination of two pieces of software and then the [project-specific configuration][cite] from GitHub.
 

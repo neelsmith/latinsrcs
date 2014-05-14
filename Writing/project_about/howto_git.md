@@ -1,5 +1,9 @@
 # Using GitHub
 
+To work with the most current version of this project, check out the GitHub repository.  Download Git to your own system here: [http://git-scm.com/downloads][git]
+
+[git]: http://git-scm.com/downloads
+
 ### Install Git
 
 There are a few options for installing Git.  For basic instructions, see [this article][setup] on GitHub.  There is a Windows-native user interface for Git available [here][windows], but it is just as easy to use the command line.
