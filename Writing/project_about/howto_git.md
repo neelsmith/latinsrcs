@@ -27,7 +27,7 @@ Now that Git is installed, you can clone or create a repository.  To clone into 
 
 In order to clone into the repository for this project, for example, open Git Bash and run the following command:
 
-	git clone https://github.com/neelsmith/latinsrcs
+	git clone https://github.com/neelsmith/latinsrcs.git
 
 This checks out all the most current data in the repository.  Once the repository is cloned, it does not need to be cloned again.  To get the most current data, enter the repository by running a "change directory" command:
 
